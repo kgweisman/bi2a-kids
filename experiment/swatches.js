@@ -62,18 +62,3 @@ function makeSwatchSets(setNum) {
 }
 
 makeSwatchSets();
-
-// choose condition randomly
-var chosenCondition = randomElementNR(swatchSets);
-
-
-// display random swatch on stage slide
-
-$('.slide#stage img').attr("src", randomElementNR(chosenCondition.swatchOrder).imageSource);
-
-// create experiment object
-var experiment = {
-	condition: chosenCondition.condition.slice(),
-	data: []
-};
-console.log(experiment);
