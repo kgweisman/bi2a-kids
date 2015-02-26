@@ -26,8 +26,6 @@ for (i in swatchNameList) {
 }
 swatches.sort(function(a, b) {return a.animalRatingAdultUS - b.animalRatingAdultUS});
 
-
-
 // make 4 sets of 16 swatches, evenly spaced
 var swatchSets;
 
@@ -60,13 +58,22 @@ function makeSwatchSets(setNum) {
 	};
 
 	// combine sets into one array
-	swatchSets = [swatchSet1, swatchSet2, swatchSet3, swatchSet4];
-
+	swatchSets = [{condition: "set1", swatchOrder: swatchSet1}, {condition: "set2",swatchOrder: swatchSet2}, {condition: "set3", swatchOrder: swatchSet3}, {condition: "set4", swatchOrder: swatchSet4}];
 }
+
 makeSwatchSets();
+
+// choose condition randomly
+var chosenCondition = randomElementNR(swatchSets);
+
 
 // display random swatch on stage slide
 
-$('.slide#stage img').attr("src", randomElementNR(randomElementNR(swatchSets)).imageSource);
+$('.slide#stage img').attr("src", randomElementNR(chosenCondition.swatchOrder).imageSource);
 
-
+// create experiment object
+var experiment = {
+	condition: chosenCondition.condition.slice(),
+	data: []
+};
+console.log(experiment);
