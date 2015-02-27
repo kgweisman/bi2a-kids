@@ -1,9 +1,6 @@
 // choose condition randomly
 var chosenCondition = randomElementNR(swatchSets);
 
-// display random swatch on stage slide
-// $('.slide#stage img').attr("src", randomElementNR(chosenCondition.swatchOrder).imageSource);
-
 // create experiment object
 var experiment = {
 	subid: "",
@@ -121,14 +118,14 @@ var experiment = {
 				experiment.trialData.push(data);
 			};
 
-			$('.slide#stage button').click(function() {
+			$('.slide#stage button[type="submit"]').click(function() {
 				// record response
 				data.response = $(this).attr('id');
 				data.responseCoded = parseFloat($(this).attr('value'));
 
 				// end trial
 				clickHandler();
-				$('.slide#stage button').unbind().blur();
+				$('.slide#stage button[type="submit"]').unbind().blur();
 				window.scrollTo(0, 0);
 				experiment.next();
 			});
@@ -199,14 +196,14 @@ var experiment = {
 				experiment.trialData.push(data);
 			};
 
-			$('.slide#stage button').click(function() {
+			$('.slide#stage button[type="submit"]').click(function() {
 				// record response
 				data.response = $(this).attr('id');
 				data.responseCoded = parseFloat($(this).attr('value'));
 
 				// end trial
 				clickHandler();
-				$('.slide#stage button').unbind().blur();
+				$('.slide#stage button[type="submit"]').unbind().blur();
 				window.scrollTo(0, 0);
 				experiment.next();
 			});
@@ -215,7 +212,6 @@ var experiment = {
 };
 
 // start!
-
 showSlide("start");
 
 $('.slide#start button').click(function() { 
@@ -224,4 +220,10 @@ $('.slide#start button').click(function() {
 
 	// advance to first trial
 	experiment.next();
+});
+
+// bail out if needed
+$('.slide#stage button[type="end"]').click(function() { 
+	// go to end
+	experiment.end();
 });

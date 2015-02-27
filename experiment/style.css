@@ -77,12 +77,20 @@ input:focus {
 	outline:0 !important;
 }
 
-/*to get buttons to stay at the bottom of the window*/
+/*stick question and bail button at top of the window - hacky... */
+#top {
+    height:50px;
+    width:100%;
+    top:0;
+    position: absolute;
+    padding-right: 20px;
+    /*text-align: center;*/
+}
+
+/*stick response buttons at the bottom of the window*/
 #bottom {
     height:50px;
     width:100%;
-    /*margin-left: auto !important;*/
-    /*margin-right: auto !important;*/
     bottom:0;
     position: absolute;
     text-align: center;
