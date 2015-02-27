@@ -17,44 +17,8 @@ var experiment = {
 
 		// show ending slide	
 		showSlide("finished");
-	
+
 		// export data to csv
-		// var data = [experiment];
-		// var csvContent = "data:text/csv;charset=utf-8,";
-		// data.forEach(function(infoArray, index){
-
-		//    dataString = infoArray.join(",");
-		//    csvContent += index < data.length ? dataString+ "\n" : dataString;
-
-		// }); 
-
-		// var encodedUri = encodeURI(csvContent);
-		// window.open(encodedUri);
-
-		// function csv(experiment) {
-		// 	var str = 'dateOfTest,condition,trialData' + '\n'; // column headers
-		// 	$.each(experiment, function() {
-		// 	str = str + experiment.dateOfTest + "," + experiment.condition + "," + experiment.trialData + "\n"
-		// 	});
-		// 	return str;
-		// };
-
-		// $("#download_1").click(function() {
-		// var json_pre = '[{"Id":1,"UserName":"Sam Smith"},{"Id":2,"UserName":"Fred Frankly"},{"Id":1,"UserName":"Zachary Zupers"}]';
-		// var json = $.parseJSON(json_pre);
-
-		// var csv = JSON2CSV(json);
-		// var downloadLink = document.createElement("a");
-		// var blob = new Blob(["\ufeff", csv]);
-		// var url = URL.createObjectURL(blob);
-		// downloadLink.href = url;
-		// downloadLink.download = "data.csv";
-
-		// document.body.appendChild(downloadLink);
-		// downloadLink.click();
-		// document.body.removeChild(downloadLink);
-		// });
-
 		var data = experiment.trialData;
  
 		function DownloadJSON2CSV(objArray) { // code source: http://www.zachhunter.com/2010/11/download-json-to-csv-using-javascript/
@@ -162,6 +126,8 @@ var experiment = {
 			experiment.end();
 
 		} else if (experiment.bonusTrials.length === 3) {
+
+			$(".slide").hide();
 
 			// give option of bonus round
 			var chooseBonus = window.confirm("Do you want to play a bonus round?");
