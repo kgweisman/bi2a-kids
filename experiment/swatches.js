@@ -10,10 +10,10 @@ function addSwatch(swatchName) {
 }
 
 var swatchNameList = [];
-for (i = 0; i < 10; i++) {
+for (i = 0; i < 9; i++) {
 	swatchNameList[i] = "BI2A0000"+(i+1);
 }
-for (i = 10; i < 48; i++) {
+for (i = 9; i < 48; i++) {
 	swatchNameList[i] = "BI2A000"+(i+1);
 }
 

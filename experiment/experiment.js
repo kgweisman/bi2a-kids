@@ -27,7 +27,7 @@ var experiment = {
 				trialNum: (chosenCondition.swatchOrder.length + 1) - this.trials.length,
 				swatch: "",
 				response: "",
-				responseCoded: "",
+				responseCoded: NaN,
 				rt: NaN
 			};
 
@@ -53,7 +53,7 @@ var experiment = {
 			$('.slide#stage button').click(function() {
 				// record response
 				data.response = $(this).attr('id');
-				data.responseCoded = $(this).attr('value');
+				data.responseCoded = parseFloat($(this).attr('value'));
 
 				// end trial
 				clickHandler();
