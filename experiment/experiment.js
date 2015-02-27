@@ -90,7 +90,7 @@ var experiment = {
 			var data = {
 				phase: "bonus",
 				question: "",
-				trialNum: 18 - experiment.bonusTrials.length,
+				trialNum: 19 - experiment.bonusTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
