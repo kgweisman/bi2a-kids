@@ -57,10 +57,9 @@ var experiment = {
 
 		var data = experiment.trialData;
  
-		function DownloadJSON2CSV(objArray) {
+		function DownloadJSON2CSV(objArray) { // code source: http://www.zachhunter.com/2010/11/download-json-to-csv-using-javascript/
 		    // get trial-level info
 		    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-		    console.log(objArray);
 
 		    // add subject-level info
 		    for (trial in objArray) {
@@ -71,6 +70,7 @@ var experiment = {
 		    // add headers in a hacky way
 		    objArray.unshift({
 		    	phase: "phase",
+		    	question: "question",
 		    	trialNum: "trialNum",
 		    	swatch: "swatch",
 		    	response: "response",
@@ -104,14 +104,7 @@ var experiment = {
 		        popup.document.body.innerHTML = '<pre>' + str + '</pre>';
 		    }          
 		}
-
 		DownloadJSON2CSV(data);
-
-
-
-
-
-
 	},
 
 	// what happens when participant plays bonus rounds
@@ -123,7 +116,8 @@ var experiment = {
 			// create place to store data for this bonus trial
 			var data = {
 				phase: "bonus",
-				trialNum: 4 - experiment.bonusTrials.length,
+				question: "",
+				trialNum: 15 - experiment.bonusTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
@@ -197,7 +191,8 @@ var experiment = {
 
 			// create place to store data for this trial
 			var data = {
-				phase: "animal",
+				phase: "study",
+				question: "animal",
 				trialNum: (chosenCondition.swatchOrder.length + 1) - this.trials.length,
 				swatch: "",
 				response: "",
