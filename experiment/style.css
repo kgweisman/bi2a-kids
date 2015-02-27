@@ -10,7 +10,7 @@
 	/*all elements in a slide will be centered by default*/
     text-align: center;
     /*border: 5px solid;*/
-    width: 800px;
+    /*width: 800px;*/
 
     /*could explicitly set the following, but these are the defaults for me (chrome, linux)*/
     font-size: 14px;
@@ -22,8 +22,21 @@ body {
 
 img {
 	border: 2px solid black;
+	width: 600px;
 	margin-top: 100px;
 	margin-bottom: 60px;
+}
+
+#ending {
+	border: none;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(250, 90, 0);
 }
 
 .btn {
