@@ -207,4 +207,4 @@ var experiment = {
 };
 
 // start!
-experiment.next();
+showSlide("start");
