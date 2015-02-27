@@ -1,14 +1,17 @@
-// choose condition randomly
-var chosenCondition = randomElementNR(swatchSets);
+// set up condition variable
+var chosenCondition;
 
 // create experiment object
 var experiment = {
 	subid: "",
-	trials: chosenCondition.swatchOrder.slice(),
-	bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
+	// trials: chosenCondition.swatchOrder.slice(),
+	trials: [],
+	// bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
+	bonusTrials: [],
 	questionTypes: ["do you think this one can think?", "do you think this one has feelings?", "do you think this one can sense things nearby?", "do you think this can feel happy?", "do you think this one can feel hungry?", "do you think this one can feel pain?"],
 	dateOfTest: new Date(),
-	condition: chosenCondition.condition.slice(),
+	// condition: chosenCondition.condition.slice(),
+	condition: "",
 	trialData: [],
 
 	// what happens after completing all trials
@@ -217,6 +220,34 @@ showSlide("start");
 $('.slide#start button').click(function() { 
 	// record subid
 	experiment.subid = $('input#subid').val();
+
+	// record condition selection
+	switch($('input#condition').val()) {
+		case "1":
+			chosenCondition = swatchSets[0];
+			break;
+		case "2":
+			chosenCondition = swatchSets[1];
+			break;
+		case "3":
+			chosenCondition = swatchSets[2];
+			break;
+		case "4":
+			chosenCondition = swatchSets[3];
+			break;
+		// case "random":
+		// 	chosenCondition = randomElementNR(swatchSets);
+		// 	break;
+		// default:
+		// 	window.alert("Type 1, 2, 3, 4, or random in the sequence field.")
+		// 	break;			
+		default:
+			chosenCondition = randomElementNR(swatchSets);
+			break;
+	};
+	experiment.trials = chosenCondition.swatchOrder.slice();
+	experiment.bonusTrials = [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]];
+	experiment.condition = chosenCondition.condition.slice();
 
 	// advance to first trial
 	experiment.next();
