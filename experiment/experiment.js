@@ -7,7 +7,8 @@ var chosenCondition = randomElementNR(swatchSets);
 // create experiment object
 var experiment = {
 	trials: chosenCondition.swatchOrder.slice(),
-	bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[11]],
+	bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
+	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
 	dateOfTest: new Date(),
 	condition: chosenCondition.condition.slice(),
 	trialData: [],
@@ -81,7 +82,7 @@ var experiment = {
 			var data = {
 				phase: "bonus",
 				question: "",
-				trialNum: 15 - experiment.bonusTrials.length,
+				trialNum: 18 - experiment.bonusTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
@@ -94,6 +95,11 @@ var experiment = {
 
 			// display chosen image
 			$('.slide#stage img').attr("src", chosenSwatch.imageSource);
+
+			// display randomly selected question
+			var chosenQuestion = randomElementNR(experiment.questionTypes);
+			data.question = chosenQuestion.slice();
+			$('.slide#stage #question').text(chosenQuestion);
 
 			// show trial
 			showSlide("stage");
@@ -125,7 +131,7 @@ var experiment = {
 			// end study session
 			experiment.end();
 
-		} else if (experiment.bonusTrials.length === 3) {
+		} else if (experiment.bonusTrials.length === 6) {
 
 			$(".slide").hide();
 
@@ -158,7 +164,7 @@ var experiment = {
 			// create place to store data for this trial
 			var data = {
 				phase: "study",
-				question: "animal",
+				question: "Do you think this one is an animal?",
 				trialNum: (chosenCondition.swatchOrder.length + 1) - this.trials.length,
 				swatch: "",
 				response: "",

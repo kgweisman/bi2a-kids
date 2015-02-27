@@ -17,6 +17,11 @@
     font-size: 14px;
 }
 
+p {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(250,230,250);
+}
+
 img {
 	border: 2px solid black;
 	width: 600px;
