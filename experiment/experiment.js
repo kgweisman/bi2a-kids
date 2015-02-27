@@ -6,6 +6,7 @@ var chosenCondition = randomElementNR(swatchSets);
 
 // create experiment object
 var experiment = {
+	subid: "",
 	trials: chosenCondition.swatchOrder.slice(),
 	bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
 	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
@@ -28,7 +29,8 @@ var experiment = {
 
 		    // add subject-level info
 		    for (trial in objArray) {
-		    	objArray[trial].dateOfTest = experiment.dateOfTest
+		    	objArray[trial].subid = experiment.subid;
+		    	objArray[trial].dateOfTest = experiment.dateOfTest;
 		    	objArray[trial].condition = experiment.condition;
 		    };
 
@@ -41,6 +43,7 @@ var experiment = {
 		    	response: "response",
 		    	responseCoded: "responseCoded",
 		    	rt: "rt",
+		    	subid: "subid",
 		    	dateOfTest: "dateOfTest",
 		    	condition: "condition"
 		    });
@@ -207,4 +210,13 @@ var experiment = {
 };
 
 // start!
+
 showSlide("start");
+
+$('.slide#start button').click(function() { 
+	// record subid
+	experiment.subid = $('input#subid').val();
+
+	// advance to first trial
+	experiment.next();
+});
