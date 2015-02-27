@@ -14,7 +14,104 @@ var experiment = {
 
 	// what happens after completing all trials
 	end: function() {
+
+		// show ending slide	
 		showSlide("finished");
+	
+		// export data to csv
+		// var data = [experiment];
+		// var csvContent = "data:text/csv;charset=utf-8,";
+		// data.forEach(function(infoArray, index){
+
+		//    dataString = infoArray.join(",");
+		//    csvContent += index < data.length ? dataString+ "\n" : dataString;
+
+		// }); 
+
+		// var encodedUri = encodeURI(csvContent);
+		// window.open(encodedUri);
+
+		// function csv(experiment) {
+		// 	var str = 'dateOfTest,condition,trialData' + '\n'; // column headers
+		// 	$.each(experiment, function() {
+		// 	str = str + experiment.dateOfTest + "," + experiment.condition + "," + experiment.trialData + "\n"
+		// 	});
+		// 	return str;
+		// };
+
+		// $("#download_1").click(function() {
+		// var json_pre = '[{"Id":1,"UserName":"Sam Smith"},{"Id":2,"UserName":"Fred Frankly"},{"Id":1,"UserName":"Zachary Zupers"}]';
+		// var json = $.parseJSON(json_pre);
+
+		// var csv = JSON2CSV(json);
+		// var downloadLink = document.createElement("a");
+		// var blob = new Blob(["\ufeff", csv]);
+		// var url = URL.createObjectURL(blob);
+		// downloadLink.href = url;
+		// downloadLink.download = "data.csv";
+
+		// document.body.appendChild(downloadLink);
+		// downloadLink.click();
+		// document.body.removeChild(downloadLink);
+		// });
+
+		var data = experiment.trialData;
+ 
+		function DownloadJSON2CSV(objArray) {
+		    // get trial-level info
+		    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+		    console.log(objArray);
+
+		    // add subject-level info
+		    for (trial in objArray) {
+		    	objArray[trial].dateOfTest = experiment.dateOfTest
+		    	objArray[trial].condition = experiment.condition;
+		    };
+
+		    // add headers in a hacky way
+		    objArray.unshift({
+		    	phase: "phase",
+		    	trialNum: "trialNum",
+		    	swatch: "swatch",
+		    	response: "response",
+		    	responseCoded: "responseCoded",
+		    	rt: "rt",
+		    	dateOfTest: "dateOfTest",
+		    	condition: "condition"
+		    });
+
+		    // convert to csv
+		    var str = '';
+		     
+		    for (var i = 0; i < array.length; i++) {
+		        var line = '';
+		        for (var index in array[i]) {
+		            if(line != '') line += ','
+		         
+		            line += array[i][index];
+		        }
+		 
+		        str += line + '\r\n';
+		    }
+		 
+		    if (navigator.appName != 'Microsoft Internet Explorer')
+		    {
+		        window.open('data:text/csv;charset=utf-8,' + escape(str));
+		    }
+		    else
+		    {
+		        var popup = window.open('','csv','');
+		        popup.document.body.innerHTML = '<pre>' + str + '</pre>';
+		    }          
+		}
+
+		DownloadJSON2CSV(data);
+
+
+
+
+
+
 	},
 
 	// what happens when participant plays bonus rounds

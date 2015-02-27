@@ -1,4 +1,5 @@
-/*general styling for slides*/
+/*general styling*/
+
 .slide {
 	/*pad the inside of the slide*/
 	padding: 20px;
@@ -14,10 +15,6 @@
 
     /*could explicitly set the following, but these are the defaults for me (chrome, linux)*/
     font-size: 14px;
-}
-
-body {
-	/*background-color: rgb(50,50,50);*/
 }
 
 img {
