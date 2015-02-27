@@ -30,9 +30,37 @@
 <!-- study: present images one by one -->
 
 	<div class="slide" id="stage">
-		<p align="left" id="question"></p>
+		<p align="left" id="question">do you think this one is an animal?</p>
 		<img />
-		<p align="center">
+
+		<table id="bottom">
+			<colgroup>
+				<col sylte="width:40%">
+				<col sylte="width:20%">
+				<col sylte="width:40%">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td>
+						<button type="submit" class="btn btn-default" id="maybe NO" value="-0.5">maybe NO</button>
+						<button type="submit" class="btn btn-default" id="probably NO" value="-1.5">probably NO</button>
+						<button type="submit" class="btn btn-default" id="definitely NO" value="-2.5">definitely NO</button>					
+					</td>
+					<td>
+						<button type="submit" class="btn btn-default" id="skip" value="NA">--------------------</button>			
+					</td>
+					<td>
+						<button type="submit" class="btn btn-default" id="maybe YES" value="0.5">maybe YES</button>
+						<button type="submit" class="btn btn-default" id="probably YES" value="1.5">probably YES</button>
+						<button type="submit" class="btn btn-default" id="definitely YES" value="2.5">definitely YES</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+<!-- 		<p align="center" id="bottom">
 			<button type="submit" class="btn btn-default" id="maybe NO" value="-0.5">maybe NO</button>
 			<button type="submit" class="btn btn-default" id="probably NO" value="-1.5">probably NO</button>
 			<button type="submit" class="btn btn-default" id="definitely NO" value="-2.5">definitely NO</button>
@@ -40,7 +68,7 @@
 			<button type="submit" class="btn btn-default" id="maybe YES" value="0.5">maybe YES</button>
 			<button type="submit" class="btn btn-default" id="probably YES" value="1.5">probably YES</button>
 			<button type="submit" class="btn btn-default" id="definitely YES" value="2.5">definitely YES</button>
-		</p>
+		</p> -->
    	</div>
 
 <!-- post-study: present end of study sesion -->

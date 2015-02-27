@@ -9,7 +9,7 @@ var experiment = {
 	subid: "",
 	trials: chosenCondition.swatchOrder.slice(),
 	bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
-	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
+	questionTypes: ["do you think this one can think?", "do you think this one has feelings?", "do you think this one can sense things nearby?", "do you think this can feel happy?", "do you think this one can feel hungry?", "do you think this one can feel pain?"],
 	dateOfTest: new Date(),
 	condition: chosenCondition.condition.slice(),
 	trialData: [],
@@ -172,7 +172,7 @@ var experiment = {
 			// create place to store data for this trial
 			var data = {
 				phase: "study",
-				question: "Do you think this one is an animal?",
+				question: "do you think this one is an animal?",
 				trialNum: (chosenCondition.swatchOrder.length + 1) - this.trials.length,
 				swatch: "",
 				response: "",

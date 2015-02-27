@@ -2,7 +2,7 @@
 
 .slide {
 	/*pad the inside of the slide*/
-	padding: 20px;
+	padding: 10px;
 
     /*center slide within window*/
 	margin-left: auto;
@@ -16,6 +16,7 @@
 }
 
 p {
+	margin-top: 0px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(250,230,250);
 }
@@ -23,7 +24,7 @@ p {
 img {
 	border: 2px solid black;
 	width: 600px;
-	margin-top: 80px;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
 
@@ -45,7 +46,7 @@ img {
 
 #ending {
 	border: none;
-	width: 500px;
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
@@ -74,4 +75,15 @@ button:focus {
 
 input:focus {
 	outline:0 !important;
+}
+
+/*to get buttons to stay at the bottom of the window*/
+#bottom {
+    height:50px;
+    width:100%;
+    /*margin-left: auto !important;*/
+    /*margin-right: auto !important;*/
+    bottom:0;
+    position: absolute;
+    text-align: center;
 }
