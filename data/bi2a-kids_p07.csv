@@ -1,0 +1,5 @@
+phase,question,trialNum,swatch,response,responseCoded,rt,subid,dateOfTest,condition
+study,do you think this one is an animal?,1,BI2A00006,skip,NaN,17843,p07,Fri Feb 27 2015 15:57:13 GMT-0800 (PST),set2
+study,do you think this one is an animal?,2,BI2A00045,skip,NaN,7673,p07,Fri Feb 27 2015 15:57:13 GMT-0800 (PST),set2
+study,do you think this one is an animal?,3,BI2A00032,skip,NaN,9039,p07,Fri Feb 27 2015 15:57:13 GMT-0800 (PST),set2
+study,do you think this one is an animal?,4,BI2A00013,skip,NaN,7869,p07,Fri Feb 27 2015 15:57:13 GMT-0800 (PST),set2

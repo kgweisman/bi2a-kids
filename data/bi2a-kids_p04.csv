@@ -1,0 +1,13 @@
+phase,question,trialNum,swatch,response,responseCoded,rt,subid,dateOfTest,condition
+study,do you think this one is an animal?,1,BI2A00029,maybe NO,-0.5,17443,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,2,BI2A00011,maybe NO,-0.5,22317,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,3,BI2A00021,maybe NO,-0.5,10965,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,4,BI2A00024,skip,NaN,45856,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,5,BI2A00042,maybe NO,-0.5,42111,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,6,BI2A00012,maybe NO,-0.5,15506,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,7,BI2A00001,skip,NaN,44761,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,8,BI2A00022,maybe NO,-0.5,7083,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,9,BI2A00039,maybe NO,-0.5,5312,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,10,BI2A00009,maybe NO,-0.5,11327,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,11,BI2A00023,skip,NaN,17803,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
+study,do you think this one is an animal?,12,BI2A00048,skip,NaN,569,p04,Fri Feb 27 2015 14:20:25 GMT-0800 (PST),set4
