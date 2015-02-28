@@ -1,16 +1,21 @@
+// get date
+var date = new Date();
+
 // set up condition variable
 var chosenCondition;
 
 // create experiment object
 var experiment = {
 	subid: "",
+	dateOfBirth: "",
 	// trials: chosenCondition.swatchOrder.slice(),
 	trials: [],
 	// bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
 	bonusTrials: [],
 	practiceTrials: [],
 	questionTypes: ["do you think this one can think?", "do you think this one has feelings?", "do you think this one can sense things nearby?", "do you think this can feel happy?", "do you think this one can feel hungry?", "do you think this one can feel pain?"],
-	dateOfTest: new Date(),
+	dateOfTest: date.getMonth()+1+"/"+date.getDate()+"/"+date.getFullYear(),
+	timeOfTest: date.getHours()+":"+date.getMinutes(),
 	// condition: chosenCondition.condition.slice(),
 	condition: "",
 	trialData: [],
@@ -36,7 +41,9 @@ var experiment = {
 		    // add subject-level info
 		    for (trial in objArray) {
 		    	objArray[trial].subid = experiment.subid;
+		    	objArray[trial].dateOfBirth = experiment.dateOfBirth;
 		    	objArray[trial].dateOfTest = experiment.dateOfTest;
+		    	objArray[trial].timeOfTest = experiment.timeOfTest;	    	
 		    	objArray[trial].condition = experiment.condition;
 		    };
 
@@ -50,7 +57,9 @@ var experiment = {
 		    	responseCoded: "responseCoded",
 		    	rt: "rt",
 		    	subid: "subid",
+		    	dateOfBirth: "dateOfBirth",
 		    	dateOfTest: "dateOfTest",
+		    	timeOfTest: "timeOfTest",
 		    	condition: "condition"
 		    });
 
@@ -299,8 +308,6 @@ var experiment = {
 showSlide("start");
 
 $('.slide#start button').click(function() { 
-	console.log($('input#subid').val());
-	console.log(typeof($('input#subid').val()));
 
 	// if no subid, prevent progress
 	if($('input#subid').val() === "") {
@@ -345,6 +352,9 @@ $('.slide#start button').click(function() {
 	experiment.trials = chosenCondition.swatchOrder.slice();
 	experiment.bonusTrials = [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]];
 	experiment.condition = chosenCondition.condition.slice();
+
+	// record dob if entered
+	experiment.dateOfBirth = $('input#dob').val();
 
 	// advance to instructions
 	showSlide("instructions");
