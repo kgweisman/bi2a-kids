@@ -218,8 +218,14 @@ var experiment = {
 showSlide("start");
 
 $('.slide#start button').click(function() { 
+	// if no subid, prevent progress
+
+	if($('input#subid').val() === "") {
+		window.alert("Please enter a subid!");
+	} else {
+
 	// record subid
-	experiment.subid = $('input#subid').val();
+		experiment.subid = $('input#subid').val();
 
 	// record condition selection
 	switch($('input#condition').val()) {
@@ -235,12 +241,6 @@ $('.slide#start button').click(function() {
 		case "4":
 			chosenCondition = swatchSets[3];
 			break;
-		// case "random":
-		// 	chosenCondition = randomElementNR(swatchSets);
-		// 	break;
-		// default:
-		// 	window.alert("Type 1, 2, 3, 4, or random in the sequence field.")
-		// 	break;			
 		default:
 			chosenCondition = randomElementNR(swatchSets);
 			break;
@@ -251,6 +251,7 @@ $('.slide#start button').click(function() {
 
 	// advance to first trial
 	experiment.next();
+	}
 });
 
 // bail out if needed
