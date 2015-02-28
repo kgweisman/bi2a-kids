@@ -97,6 +97,15 @@ var experiment = {
 				rt: NaN
 			}
 
+			// display progress bar
+			var percentComplete = (data.trialNum-13)/6 * 100;
+			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
+			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
+
+			// restyle progress bar
+			$('#stage .progress').css("background-color", "rgba(170, 120, 240, .1)");
+			$('#stage .progress-bar').css("background-color", "rgba(170, 120, 240, 1)");
+
 			// choose random image to display
 			var chosenSwatch = randomElementNR(experiment.bonusTrials);
 			data.swatch = chosenSwatch.swatchName;
@@ -179,6 +188,11 @@ var experiment = {
 				responseCoded: NaN,
 				rt: NaN
 			};
+
+			// display progress bar
+			var percentComplete = (data.trialNum-1)/12 * 100;
+			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
+			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
 
 			// choose random image to display
 			var chosenSwatch = randomElementNR(this.trials);

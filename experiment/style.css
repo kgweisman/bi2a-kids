@@ -98,10 +98,30 @@ input:focus {
 }
 
 .header {
-	margin: 0 auto 70px auto;
+	margin: 0 auto 60px auto;
 }
 
 .footer {
-	margin: 90px auto 20px auto;
+	margin: 80px auto 20px auto;
 }
 
+
+/*progress bar stuff from bootstrap css*/
+.progress{
+	height: 10px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	background-color: rgba(250, 90, 0, .1);
+	border-radius: 4px;
+}
+
+.progress-bar{
+	float: left;
+	width: 0;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+	background-color: rgba(250, 90, 0, 1);
+	-webkit-transition: width .6s ease;-o-transition:width .6s ease;
+	transition: width .6s ease
+}
