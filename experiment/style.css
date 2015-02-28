@@ -41,13 +41,13 @@ p.fun-text {
 
 p.instructions1 {
 	width: 30%;
-	margin: 170px auto 10px auto;
+	margin: 150px auto 10px auto;
 	text-align: justify;
 }
 
 p.instructions2 {
 	width: 35%;
-	margin: 10px auto 170px auto;
+	margin: 10px auto 150px auto;
 	text-align: center;
 	font-size: 40px;
 }
