@@ -80,11 +80,23 @@ button:focus {
 	outline:0 !important;
 }
 
+.session-info {
+	width: 400px;
+	margin: auto;
+}
+
+.controls {
+	text-align: right;
+	font-size: 12px;
+	width: 260px;
+	margin: auto;
+}
+
 input {
 	background-color: rgb(250,250,250);
 	font-family: "Bookman Old Style", Bookman, serif;
 	color: rgb(250, 90, 0);
-	font-size: 16px;
+	font-size: 12px;
 	padding: 6px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -104,7 +116,6 @@ input:focus {
 .footer {
 	margin: 80px auto 20px auto;
 }
-
 
 /*progress bar stuff from bootstrap css*/
 .progress{

@@ -332,8 +332,11 @@ $('.slide#start button').click(function() {
 			case "4":
 				chosenCondition = swatchSets[3];
 				break;
-			default:
+			case "":
 				chosenCondition = randomElementNR(swatchSets);
+				break;
+			default:
+				window.alert("Enter a valid condition number (1, 2, 3, or 4), or leave blank for random assignment.");
 				break;
 	};
 
