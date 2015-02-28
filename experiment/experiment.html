@@ -15,7 +15,7 @@
 <!-- pre-study: start slide -->
 
 	<div class="slide" id="start">
-		<p id="beginning">are you ready?</p>
+		<p class="fun-text">are you ready?</p>
         <p>press command + shift + f to go fullscreen</p>
 
         <div class="control-group">
@@ -39,56 +39,74 @@
 <!-- study: present images one by one -->
 
 	<div class="slide" id="stage">
-		<table id="top" style="width:100%">
-			<colgroup>
-				<col style="width:50%">
-				<col style="width:50%">				
-			</colgroup>
-			<tbody>
-				<tr>
-					<td>
-						<p align="left" id="question">do you think this one is an animal?</p>
-					</td>
-					<td>
-						<p align="right"><button type="end" class="btn btn-default" id="bail" align="right">end</button></p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+
+		<div class="header">
+			<table>
+				<colgroup>
+					<col style="width:10%">
+					<col style="width:80%">
+					<col style="width:10%">									
+				</colgroup>
+				<tbody>
+					<tr>
+						<td>
+							<p id="trialnum"></p>
+						</td>
+						<td>
+							<p id="question">do you think this one is an animal?</p>
+						</td>
+						<td>
+							<p align="right"><button type="end" class="btn btn-default" id="bail" align="right">end</button></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
 		<img />
 
-		<table id="bottom">
-			<colgroup>
-				<col style="width:40%">
-				<col style="width:20%">
-				<col style="width:40%">
-			</colgroup>
-			<tbody>
-				<tr>
-					<td>
-						<button type="submit" class="btn btn-default" id="maybe NO" value="-0.5">maybe NO</button>
-						<button type="submit" class="btn btn-default" id="probably NO" value="-1.5">probably NO</button>
-						<button type="submit" class="btn btn-default" id="definitely NO" value="-2.5">definitely NO</button>					
-					</td>
-					<td>
-						<button type="submit" class="btn btn-default" id="skip" value="NA">--------------------</button>			
-					</td>
-					<td>
-						<button type="submit" class="btn btn-default" id="maybe YES" value="0.5">maybe YES</button>
-						<button type="submit" class="btn btn-default" id="probably YES" value="1.5">probably YES</button>
-						<button type="submit" class="btn btn-default" id="definitely YES" value="2.5">definitely YES</button>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="footer">
+			<table>
+				<colgroup>
+					<col style="width:35%">
+					<col style="width:5%">
+					<col style="width:20%">
+					<col style="width:5%">
+					<col style="width:35%">
+				</colgroup>
+				<tbody>
+					<tr>
+						<td>
+							<button type="submit" class="btn btn-default" id="maybe NO" value="-0.5">maybe N</button>
+							<button type="submit" class="btn btn-default" id="probably NO" value="-1.5">probably N</button>
+							<button type="submit" class="btn btn-default" id="definitely NO" value="-2.5">definitely N</button>
+						</td>
+						<td>
+							<button type="submit" class="btn btn-default" id="NO" value="NA">N</button>
+						</td>
+						<td>
+							<button type="submit" class="btn btn-default" id="skip" value="NA">skip</button>			
+						</td>
+						<td>
+							<button type="submit" class="btn btn-default" id="YES" value="NA">Y</button>
+						</td>
+						<td>
+							<button type="submit" class="btn btn-default" id="maybe YES" value="0.5">maybe Y</button>
+							<button type="submit" class="btn btn-default" id="probably YES" value="1.5">probably Y</button>
+							<button type="submit" class="btn btn-default" id="definitely YES" value="2.5">definitely Y</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
    	</div>
 
 <!-- post-study: present end of study sesion -->
 
 	<div class="slide" id="finished">
-		<p id="ending">the end!</p>
-		<img id="ending" src="ending/zoo_pic2.jpg"/>
+		<p class="fun-text">the end!</p>
+		<img src="ending/zoo_pic2.jpg"/>
 		<p>press command + shift + f to exit fullscreen</p>
 		<button type="submit" class="btn btn-default" id="start-over">start over</button>
 	</div>
