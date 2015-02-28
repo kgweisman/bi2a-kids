@@ -18,18 +18,20 @@
 		<p class="fun-text">animal game</p>
         <p>press command + shift + f to go fullscreen</p>
 
-        <div class="control-group">
-	        <div class="controls">
-		        <label for="subid">subid:</label>
-		        <input type="text" class="form-control" id="subid" name="subid" placeholder="e.g., p01, c27" size="12"> 
-    	    </div>
-        </div>
+        <div class="session-info">
+	        <div class="control-group">
+		        <div class="controls">
+			        <label for="subid">subid:</label>
+			        <input type="text" class="form-control" id="subid" name="subid" placeholder="e.g., p01, c27" size="12"> 
+	    	    </div>
+	        </div>
 
-        <div class="control-group">
-	        <div class="controls">
-		        <label for="condition">sequence:</label>
-		        <input type="text" class="form-control" id="condition" name="condition" placeholder="1, 2, 3, or 4; leave blank for random" size="31"> 
-    	    </div>
+	        <div class="control-group">
+		        <div class="controls">
+			        <label for="condition">sequence:</label>
+			        <input type="text" class="form-control" id="condition" name="condition" placeholder="1, 2, 3, or 4; leave blank for random" size="31"> 
+	    	    </div>
+	        </div>
         </div>
 
 		<button type="submit" class="btn btn-default";>next</button>
@@ -118,7 +120,7 @@
 
 	<div class="slide" id="finished">
 		<p class="fun-text">the end!</p>
-		<img src="ending/zoo_pic2.jpg"/>
+		<img src="ending/zoo_pic2.jpg" id="endingpic"/>
 		<p>press command + shift + f to exit fullscreen</p>
 		<button type="submit" class="btn btn-default" id="start-over">start over</button>
 	</div>
