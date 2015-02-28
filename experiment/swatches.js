@@ -62,3 +62,14 @@ function makeSwatchSets(setNum) {
 }
 
 makeSwatchSets();
+
+// make practice swatch set
+var swatchSetPractice = [];
+swatchSetPractice[0] = {
+	swatchName: "practice_n", 
+	imageSource: "practice/practice_n.png"
+}
+swatchSetPractice[01] = {
+	swatchName: "practice_y", 
+	imageSource: "practice/practice_y.png"
+}

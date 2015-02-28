@@ -8,6 +8,7 @@ var experiment = {
 	trials: [],
 	// bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
 	bonusTrials: [],
+	practiceTrials: [],
 	questionTypes: ["do you think this one can think?", "do you think this one has feelings?", "do you think this one can sense things nearby?", "do you think this can feel happy?", "do you think this one can feel hungry?", "do you think this one can feel pain?"],
 	dateOfTest: new Date(),
 	// condition: chosenCondition.condition.slice(),
@@ -169,6 +170,72 @@ var experiment = {
 		}
 	},
 
+	// what happens when participant does practice trials
+	practice: function() {
+
+		// set up how to play a bonus trial
+		function playPractice() {
+
+			// create place to store data for this bonus trial
+			var data = {
+				phase: "practice",
+				question: "do you think this one is an animal?",
+				trialNum: 3 - experiment.practiceTrials.length,
+				swatch: "",
+				response: "",
+				responseCoded: "",
+				rt: NaN
+			}
+
+			// display progress bar
+			var percentComplete = (data.trialNum-1)/15 * 100;
+			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
+			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
+
+			// choose random image to display
+			var chosenSwatch = randomElementNR(experiment.practiceTrials);
+			data.swatch = chosenSwatch.swatchName;
+
+			// display chosen image
+			$('.slide#stage img').attr("src", chosenSwatch.imageSource);
+
+			// show trial
+			showSlide("stage");
+
+			// record response and rt
+			var startTime = (new Date()).getTime();
+
+			var clickHandler = function(event) {
+				var endTime = (new Date()).getTime();
+				data.rt = endTime - startTime;
+				experiment.trialData.push(data);
+			};
+
+			$('.slide#stage button[type="submit"]').click(function() {
+				// record response
+				data.response = $(this).attr('id');
+				data.responseCoded = parseFloat($(this).attr('value'));
+
+				// end trial
+				clickHandler();
+				$('.slide#stage button[type="submit"]').unbind().blur();
+				window.scrollTo(0, 0);
+				experiment.practice();
+			});
+		};
+
+		if (experiment.practiceTrials.length === 0) {
+
+			// advance to real trials
+			experiment.next();
+
+		} else {
+
+			// do practice trials
+			playPractice();
+		}
+	},
+
 	// what happens when participant sees a new trial
 	next: function() {
 		if (this.trials.length === 0) {
@@ -182,7 +249,7 @@ var experiment = {
 			var data = {
 				phase: "study",
 				question: "do you think this one is an animal?",
-				trialNum: (chosenCondition.swatchOrder.length + 1) - this.trials.length,
+				trialNum: 15 - this.trials.length,
 				swatch: "",
 				response: "",
 				responseCoded: NaN,
@@ -190,7 +257,7 @@ var experiment = {
 			};
 
 			// display progress bar
-			var percentComplete = (data.trialNum-1)/12 * 100;
+			var percentComplete = (data.trialNum-1)/15 * 100;
 			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
 			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
 
@@ -271,6 +338,7 @@ $('.slide#start button').click(function() {
 	};
 
 	// set parameters of this session
+	experiment.practiceTrials = swatchSetPractice.slice();
 	experiment.trials = chosenCondition.swatchOrder.slice();
 	experiment.bonusTrials = [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]];
 	experiment.condition = chosenCondition.condition.slice();
@@ -283,7 +351,7 @@ $('.slide#start button').click(function() {
 // bail out if needed
 $('.slide#instructions button').click(function() { 
 	// go to end
-	experiment.next();
+	experiment.practice();
 });
 
 // bail out if needed
