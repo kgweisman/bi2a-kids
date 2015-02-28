@@ -30,6 +30,19 @@ p.fun-text {
 	-webkit-margin-after: 0;
 }
 
+p.instructions1 {
+	width: 30%;
+	margin: 180px auto 10px auto;
+	text-align: justify;
+}
+
+p.instructions2 {
+	width: 35%;
+	margin: 0px auto 180px auto;
+	text-align: center;
+	font-size: 40px;
+}
+
 img {
 	border: 2px solid black;
 	width: 600px;

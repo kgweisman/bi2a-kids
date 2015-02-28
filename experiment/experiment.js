@@ -261,9 +261,15 @@ $('.slide#start button').click(function() {
 	experiment.bonusTrials = [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]];
 	experiment.condition = chosenCondition.condition.slice();
 
-	// advance to first trial
-	experiment.next();
+	// advance to instructions
+	showSlide("instructions");
 	}
+});
+
+// bail out if needed
+$('.slide#instructions button').click(function() { 
+	// go to end
+	experiment.next();
 });
 
 // bail out if needed
