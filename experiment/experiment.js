@@ -13,7 +13,7 @@ var experiment = {
 	// bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
 	bonusTrials: [],
 	practiceTrials: [],
-	questionTypes: ["do you think this one can think?", "do you think this one has feelings?", "do you think this one can sense things nearby?", "do you think this can feel happy?", "do you think this one can feel hungry?", "do you think this one can feel pain?"],
+	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
 	dateOfTest: date.getMonth()+1+"/"+date.getDate()+"/"+date.getFullYear(),
 	timeOfTest: date.getHours()+":"+date.getMinutes(),
 	// condition: chosenCondition.condition.slice(),
