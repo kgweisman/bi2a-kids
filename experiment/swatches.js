@@ -66,7 +66,7 @@ makeSwatchSets();
 var swatchSetPractice = [{
 	swatchName: "apple_1",
 	imageSource: "practice/apple_1.png",
-	questionText: "So here's one of the pictures taken by the special camera. This picture only shows a little part of what's in it, so you might not know what it is yet. Let me zoom out a little..." 
+	questionText: "So here's one of the pictures taken by the special camera. This picture only shows a little part of something, so you might not know what it is yet. Let me zoom out a little..." 
 },
 {
 	swatchName: "apple_2",
