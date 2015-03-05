@@ -100,7 +100,7 @@ var experiment = {
 			var data = {
 				phase: "bonus",
 				question: "",
-				trialNum: 19 - experiment.bonusTrials.length,
+				trialNum: 23 - experiment.bonusTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
@@ -108,7 +108,7 @@ var experiment = {
 			}
 
 			// display progress bar
-			var percentComplete = (data.trialNum-13)/6 * 100;
+			var percentComplete = (data.trialNum-17)/6 * 100;
 			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
 			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
 
@@ -189,7 +189,7 @@ var experiment = {
 			var data = {
 				phase: "practice",
 				question: "NA",
-				trialNum: 3 - experiment.practiceTrials.length,
+				trialNum: 5 - experiment.practiceTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
@@ -263,7 +263,7 @@ var experiment = {
 			var data = {
 				phase: "study",
 				question: "do you think this one is an animal?",
-				trialNum: 15 - this.trials.length,
+				trialNum: 17 - this.trials.length,
 				swatch: "",
 				response: "",
 				responseCoded: NaN,
@@ -271,7 +271,7 @@ var experiment = {
 			};
 
 			// display progress bar
-			var percentComplete = (data.trialNum-1)/15 * 100;
+			var percentComplete = (data.trialNum-5)/12 * 100;
 			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
 			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
 
