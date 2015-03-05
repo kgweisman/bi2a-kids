@@ -19,7 +19,8 @@
 
 table {
 	width: 100%;
-	margin: 0 auto 0 auto;
+	margin: 0px auto 0px auto;
+	height: 100px;
 /*	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
@@ -27,7 +28,7 @@ table {
 */}
 
 tr {
-	margin: 0;
+	margin: 0px;
 }
 
 p.fun-text {
@@ -41,22 +42,26 @@ p.fun-text {
 
 p.instructions1 {
 	width: 30%;
-	margin: 150px auto 10px auto;
+	margin: 130px auto 10px auto;
 	text-align: justify;
 }
 
 p.instructions2 {
 	width: 35%;
-	margin: 10px auto 150px auto;
+	margin: 10px auto 130px auto;
 	text-align: center;
 	font-size: 40px;
 }
 
 img {
 	border: 2px solid black;
-	width: 600px;
-	margin-top: 10px;
-	margin-bottom: 10px
+	width: 450px;
+	margin-top: 80px;
+	margin-bottom: 110px
+}
+
+#practice img {
+	border: none;
 }
 
 img#endingpic {
@@ -106,15 +111,15 @@ input {
 }
 
 input:focus {
-	outline:0 !important;
+	outline: 0 !important;
 }
 
 .header {
-	margin: 0 auto 60px auto;
+	margin: 0px auto 0px auto;
 }
 
 .footer {
-	margin: 80px auto 20px auto;
+	margin: 0px auto 0px auto;
 }
 
 /*progress bar stuff from bootstrap css*/

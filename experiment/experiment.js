@@ -188,7 +188,7 @@ var experiment = {
 			// create place to store data for this bonus trial
 			var data = {
 				phase: "practice",
-				question: "do you think this one is an animal?",
+				question: "NA",
 				trialNum: 3 - experiment.practiceTrials.length,
 				swatch: "",
 				response: "",
@@ -196,20 +196,25 @@ var experiment = {
 				rt: NaN
 			}
 
-			// display progress bar
-			var percentComplete = (data.trialNum-1)/15 * 100;
-			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
-			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
+			// // display progress bar
+			// var percentComplete = (data.trialNum-1)/15 * 100;
+			// $('#practice .progress-bar').attr("aria-valuenow", percentComplete.toString());
+			// $('#practice .progress-bar').css("width", percentComplete.toString()+"%");
 
-			// choose random image to display
-			var chosenSwatch = randomElementNR(experiment.practiceTrials);
+			// display next image
+			var chosenSwatch = experiment.practiceTrials.shift();
 			data.swatch = chosenSwatch.swatchName;
+			$('.slide#practice img').attr("src", chosenSwatch.imageSource);
 
-			// display chosen image
-			$('.slide#stage img').attr("src", chosenSwatch.imageSource);
+			// display text
+			$('.slide#practice #question').text(chosenSwatch.questionText);
 
 			// show trial
-			showSlide("stage");
+			showSlide("practice");
+
+			// hide all buttons except for "next"
+			$('.slide#practice button[type="submit"]').hide();
+			$('.slide#practice button#skip').show().text("next");
 
 			// record response and rt
 			var startTime = (new Date()).getTime();
@@ -220,14 +225,14 @@ var experiment = {
 				experiment.trialData.push(data);
 			};
 
-			$('.slide#stage button[type="submit"]').click(function() {
+			$('.slide#practice button[type="submit"]').click(function() {
 				// record response
 				data.response = $(this).attr('id');
 				data.responseCoded = parseFloat($(this).attr('value'));
 
 				// end trial
 				clickHandler();
-				$('.slide#stage button[type="submit"]').unbind().blur();
+				$('.slide#practice button[type="submit"]').unbind().blur();
 				window.scrollTo(0, 0);
 				experiment.practice();
 			});
@@ -235,8 +240,8 @@ var experiment = {
 
 		if (experiment.practiceTrials.length === 0) {
 
-			// advance to real trials
-			experiment.next();
+			// advance to study instructions
+			showSlide("instructions");
 
 		} else {
 
@@ -356,19 +361,25 @@ $('.slide#start button').click(function() {
 	// record dob if entered
 	experiment.dateOfBirth = $('input#dob').val();
 
-	// advance to instructions
-	showSlide("instructions");
+	// advance to practice slides
+	showSlide("camera");
 	}
 });
 
-// bail out if needed
-$('.slide#instructions button').click(function() { 
+// advance to study from instructions
+$('.slide#camera button').click(function() { 
 	// go to end
 	experiment.practice();
 });
 
+// advance to study from instructions
+$('.slide#instructions button').click(function() { 
+	// go to end
+	experiment.next();
+});
+
 // bail out if needed
-$('.slide#stage button[type="end"]').click(function() { 
+$('button[type="end"]').click(function() { 
 	// go to end
 	experiment.end();
 });

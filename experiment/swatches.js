@@ -64,12 +64,33 @@ function makeSwatchSets(setNum) {
 makeSwatchSets();
 
 // make practice swatch set
-var swatchSetPractice = [];
-swatchSetPractice[0] = {
-	swatchName: "practice_n", 
-	imageSource: "practice/practice_n.png"
-}
-swatchSetPractice[01] = {
-	swatchName: "practice_y", 
-	imageSource: "practice/practice_y.png"
-}
+// var swatchSetPractice = [];
+// swatchSetPractice[0] = {
+// 	swatchName: "practice_n", 
+// 	imageSource: "practice/practice_n.png"
+// }
+// swatchSetPractice[01] = {
+// 	swatchName: "practice_y", 
+// 	imageSource: "practice/practice_y.png"
+// }
+
+var swatchSetPractice = [{
+	swatchName: "apple_1",
+	imageSource: "practice/apple_1.png",
+	questionText: "So here's one of the pictures taken by the special camera. It's really, really zoomed in, so you might not know what this one is yet. Let me zoom out a little..." 
+},
+{
+	swatchName: "apple_2",
+	imageSource: "practice/apple_2.png",
+	questionText: "Can you tell what it is now? Let me zoom out a little more..." 	
+},
+{
+	swatchName: "apple_3",
+	imageSource: "practice/apple_3.png",
+	questionText: "Now do you know what's in the picture? An apple! So remember, the special camera took..." 
+},
+{
+	swatchName: "apple_1",
+	imageSource: "practice/apple_1.png",
+	questionText: "...this picture. So this picture is a little bit of an apple. That's how the special camera works! The pictures always show just a little bit of something." 
+}]
