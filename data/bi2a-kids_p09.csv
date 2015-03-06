@@ -1,0 +1,23 @@
+phase,question,trialNum,swatch,response,responseCoded,rt,subid,dateOfBirth,dateOfTest,timeOfTest,condition
+practice,NA,1,apple_1,skip,NaN,12140,p09,,3/5/2015,14:42,set4
+practice,NA,2,apple_2,skip,NaN,4135,p09,,3/5/2015,14:42,set4
+practice,NA,3,apple_3,skip,NaN,3763,p09,,3/5/2015,14:42,set4
+practice,NA,4,apple_1,skip,NaN,19523,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,5,BI2A00024,definitely YES,2.5,13629,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,6,BI2A00022,skip,NaN,43900,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,7,BI2A00001,probably YES,1.5,15461,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,8,BI2A00042,probably YES,1.5,15693,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,9,BI2A00029,definitely YES,2.5,25634,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,10,BI2A00011,definitely YES,2.5,20660,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,11,BI2A00048,definitely YES,2.5,11089,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,12,BI2A00012,probably NO,-1.5,32815,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,13,BI2A00039,definitely NO,-2.5,14817,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,14,BI2A00021,definitely NO,-2.5,23544,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,15,BI2A00009,maybe YES,0.5,28263,p09,,3/5/2015,14:42,set4
+study,do you think this one is an animal?,16,BI2A00023,maybe NO,-0.5,28520,p09,,3/5/2015,14:42,set4
+bonus,Do you think this one has feelings?,17,BI2A00048,skip,NaN,17745,p09,,3/5/2015,14:42,set4
+bonus,Do you think this one can feel hungry?,18,BI2A00011,definitely YES,2.5,11896,p09,,3/5/2015,14:42,set4
+bonus,Do you think this one can sense things nearby?,19,BI2A00022,definitely NO,-2.5,12330,p09,,3/5/2015,14:42,set4
+bonus,Do you think this one can think?,20,BI2A00009,maybe YES,0.5,13267,p09,,3/5/2015,14:42,set4
+bonus,Do you think this one can feel pain?,21,BI2A00023,skip,NaN,14201,p09,,3/5/2015,14:42,set4
+bonus,Do you think this can feel happy?,22,BI2A00039,definitely NO,-2.5,18446,p09,,3/5/2015,14:42,set4
