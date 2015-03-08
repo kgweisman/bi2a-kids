@@ -1,0 +1,23 @@
+phase,question,trialNum,swatch,response,responseCoded,rt,subid,dateOfBirth,dateOfTest,timeOfTest,condition
+practice,NA,1,apple_1,skip,NaN,11144,p15,,3/6/2015,14:56,set1
+practice,NA,2,apple_2,skip,NaN,3383,p15,,3/6/2015,14:56,set1
+practice,NA,3,apple_3,skip,NaN,3255,p15,,3/6/2015,14:56,set1
+practice,NA,4,apple_1,skip,NaN,11251,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,5,BI2A00028,maybe YES,0.5,12521,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,6,BI2A00043,maybe NO,-0.5,10852,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,7,BI2A00030,maybe NO,-0.5,9439,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,8,BI2A00046,maybe NO,-0.5,6304,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,9,BI2A00015,maybe YES,0.5,8341,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,10,BI2A00014,maybe YES,0.5,6268,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,11,BI2A00020,definitely YES,2.5,6236,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,12,BI2A00003,definitely YES,2.5,9303,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,13,BI2A00033,maybe NO,-0.5,6378,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,14,BI2A00008,definitely YES,2.5,5984,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,15,BI2A00031,definitely NO,-2.5,7611,p15,,3/6/2015,14:56,set1
+study,do you think this one is an animal?,16,BI2A00047,maybe YES,0.5,7237,p15,,3/6/2015,14:56,set1
+bonus,Do you think this one can feel hungry?,17,BI2A00003,maybe YES,0.5,28062,p15,,3/6/2015,14:56,set1
+bonus,Do you think this one can think?,18,BI2A00020,maybe NO,-0.5,14461,p15,,3/6/2015,14:56,set1
+bonus,Do you think this one can feel pain?,19,BI2A00043,YES,NaN,6771,p15,,3/6/2015,14:56,set1
+bonus,Do you think this one has feelings?,20,BI2A00008,NO,NaN,10545,p15,,3/6/2015,14:56,set1
+bonus,Do you think this can feel happy?,21,BI2A00031,YES,NaN,8488,p15,,3/6/2015,14:56,set1
+bonus,Do you think this one can sense things nearby?,22,BI2A00046,YES,NaN,7436,p15,,3/6/2015,14:56,set1

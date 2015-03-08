@@ -1,0 +1,23 @@
+phase,question,trialNum,swatch,response,responseCoded,rt,subid,dateOfBirth,dateOfTest,timeOfTest,condition
+practice,NA,1,apple_1,skip,NaN,16860,p14,,3/6/2015,14:43,set1
+practice,NA,2,apple_2,skip,NaN,3402,p14,,3/6/2015,14:43,set1
+practice,NA,3,apple_3,skip,NaN,2253,p14,,3/6/2015,14:43,set1
+practice,NA,4,apple_1,skip,NaN,10515,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,5,BI2A00003,definitely YES,2.5,29663,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,6,BI2A00014,probably NO,-1.5,32607,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,7,BI2A00043,definitely NO,-2.5,17671,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,8,BI2A00020,probably YES,1.5,43087,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,9,BI2A00028,definitely NO,-2.5,31884,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,10,BI2A00033,maybe NO,-0.5,30022,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,11,BI2A00031,definitely NO,-2.5,33192,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,12,BI2A00047,maybe NO,-0.5,26689,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,13,BI2A00030,maybe NO,-0.5,27103,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,14,BI2A00008,definitely YES,2.5,19490,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,15,BI2A00046,definitely NO,-2.5,15285,p14,,3/6/2015,14:43,set1
+study,do you think this one is an animal?,16,BI2A00015,probably YES,1.5,20356,p14,,3/6/2015,14:43,set1
+bonus,Do you think this one can sense things nearby?,17,BI2A00043,NO,NaN,12054,p14,,3/6/2015,14:43,set1
+bonus,Do you think this one can feel pain?,18,BI2A00031,skip,NaN,11573,p14,,3/6/2015,14:43,set1
+bonus,Do you think this one can think?,19,BI2A00046,NO,NaN,8024,p14,,3/6/2015,14:43,set1
+bonus,Do you think this can feel happy?,20,BI2A00020,NO,NaN,9140,p14,,3/6/2015,14:43,set1
+bonus,Do you think this one can feel hungry?,21,BI2A00008,YES,NaN,14944,p14,,3/6/2015,14:43,set1
+bonus,Do you think this one has feelings?,22,BI2A00003,NO,NaN,14849,p14,,3/6/2015,14:43,set1
