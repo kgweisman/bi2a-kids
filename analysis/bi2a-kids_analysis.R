@@ -29,7 +29,7 @@ rat_india = read.csv("/Users/kweisman/Documents/Research (Stanford)/Projects/BI2
 
 # --- MEAN RATINGS ------------------------------------------------------------
 
-# -------------> BINARY RESPONSES ---------------------------------------------
+# -------------> BINARY ANIMAL RESPONSES --------------------------------------
 
 # summarize by swatch and condition
 swatch_summary_binary = d1 %>%
@@ -60,7 +60,7 @@ d3_binary = swatch_summary_binary %>%
   rename(usMean = animal_rating_us,
          indiaMean = animal_rating_ind)
 
-# -------------> SCALED RESPONSES ---------------------------------------------
+# -------------> SCALED ANIMAL RESPONSES --------------------------------------
 
 # summarize by swatch and condition
 swatch_summary_scaled = d1 %>%
@@ -94,7 +94,7 @@ d3_scaled = swatch_summary_scaled %>%
 
 # --- PLOTS -------------------------------------------------------------------
 
-# -------------> BINARY RESPONSES ---------------------------------------------
+# -------------> BINARY ANIMAL RESPONSES --------------------------------------
 
 # plot, sorted by child ratings
 ratings1_binary = d3_binary %>%
@@ -130,7 +130,7 @@ ratings2_binary = d3_binary %>%
        x = "Pictures (sorted by mean US adult response)")
 ratings2_binary
 
-# -------------> SCALED RESPONSES ---------------------------------------------
+# -------------> SCALED ANIMAL RESPONSES --------------------------------------
 
 # plot, sorted by child ratings
 ratings1_scaled = d3_scaled %>%
@@ -165,4 +165,5 @@ ratings2_scaled = d3_scaled %>%
   labs(title = "Mean scaled responses by picture: Children\n",
        x = "Pictures (sorted by mean US adult response)")
 ratings2_scaled
+
 
