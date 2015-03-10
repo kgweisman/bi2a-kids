@@ -41,5 +41,12 @@ d_tidy = d_raw %>%
          ageCalc = as.period(dateOfTest - dateOfBirth, unit = "years"),
          condition = factor(condition),
          gender = factor(gender),
-         englishExposure = factor(englishExposure))
+         englishExposure = factor(englishExposure)) %>%
+  select(-dateOfBirth, -dateOfTest)
 
+# --- WRITING ANONYMIZED CSV --------------------------------------------------
+
+# write to de-identified csv file
+write.csv(d_tidy, "./pilot_data_anonymized.csv")
+
+d = read.csv("./pilot_data_anonymized.csv")[-1] # get rid of column of obs numbers
