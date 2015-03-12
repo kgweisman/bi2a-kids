@@ -1,12 +1,12 @@
 // compile swatches with image sources and adult ratings
 
-function addSwatch(swatchName) {
+function addSwatch(swatchName, swatchStorage) {
 	function Swatch(swatchName) {
 		this.swatchName = swatchName;
 		this.imageSource = "images/"+swatchName+".png";
 	};
 	newSwatch = new Swatch(swatchName);
-	swatches.push(newSwatch);
+	swatchStorage.push(newSwatch);
 }
 
 var swatchNameList = [];
@@ -21,7 +21,7 @@ var animalRatingAdultUSList = [6.300000, 6.466667, 6.600000, 6.166667, 6.666667,
 
 var swatches = [];
 for (i in swatchNameList) {
-	addSwatch(swatchNameList[i]);
+	addSwatch(swatchNameList[i], swatches);
 	swatches[i].animalRatingAdultUS = animalRatingAdultUSList[i];
 }
 swatches.sort(function(a, b) {return a.animalRatingAdultUS - b.animalRatingAdultUS});
