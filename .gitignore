@@ -1,2 +1,4 @@
 auth.json
 data/individual_sessions/
+.RData
+.Rhistory
