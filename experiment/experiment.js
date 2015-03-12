@@ -13,7 +13,7 @@ var experiment = {
 	// bonusTrials: [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]],
 	bonusTrials: [],
 	practiceTrials: [],
-	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this one can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
+	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things close by?", "Do you think this one can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?", "Do you think this one can remember things?", "Do you think this one can hear?"],
 	dateOfTest: date.getMonth()+1+"/"+date.getDate()+"/"+date.getFullYear(),
 	age: "",
 	timeOfTest: date.getHours()+":"+date.getMinutes(),
@@ -115,7 +115,7 @@ var experiment = {
 			var data = {
 				phase: "bonus",
 				question: "",
-				trialNum: 19 - experiment.bonusTrials.length,
+				trialNum: 21 - experiment.bonusTrials.length,
 				swatch: "",
 				response: "",
 				responseCoded: "",
@@ -123,7 +123,7 @@ var experiment = {
 			}
 
 			// display progress bar
-			var percentComplete = (data.trialNum-13)/6 * 100;
+			var percentComplete = (data.trialNum-13)/8 * 100;
 			$('#stage .progress-bar').attr("aria-valuenow", percentComplete.toString());
 			$('#stage .progress-bar').css("width", percentComplete.toString()+"%");
 
@@ -173,7 +173,7 @@ var experiment = {
 			// end study session
 			experiment.end();
 
-		} else if (experiment.bonusTrials.length === 6) {
+		} else if (experiment.bonusTrials.length === 8) {
 
 			$(".slide").hide();
 
@@ -370,7 +370,7 @@ $('.slide#start button').click(function() {
 	// set parameters of this session
 	experiment.practiceTrials = swatchSetPractice.slice();
 	experiment.trials = chosenCondition.swatchOrder.slice();
-	experiment.bonusTrials = [chosenCondition.swatchOrder[0], chosenCondition.swatchOrder[1],chosenCondition.swatchOrder[5], chosenCondition.swatchOrder[6], chosenCondition.swatchOrder[10], chosenCondition.swatchOrder[11]];
+	experiment.bonusTrials = swatchSetBonus;
 	experiment.condition = chosenCondition.condition.slice();
 
 	// record dob if entered
