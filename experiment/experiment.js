@@ -15,9 +15,14 @@ var experiment = {
 	practiceTrials: [],
 	questionTypes: ["Do you think this one can think?", "Do you think this one has feelings?", "Do you think this one can sense things nearby?", "Do you think this can feel happy?", "Do you think this one can feel hungry?", "Do you think this one can feel pain?"],
 	dateOfTest: date.getMonth()+1+"/"+date.getDate()+"/"+date.getFullYear(),
+	age: "",
 	timeOfTest: date.getHours()+":"+date.getMinutes(),
 	// condition: chosenCondition.condition.slice(),
 	condition: "",
+	englishExposure: "",
+	gender: "",
+	trialComments: "",
+	sessionComments: "",
 	trialData: [],
 
 	// what happens after completing all trials
@@ -43,8 +48,13 @@ var experiment = {
 		    	objArray[trial].subid = experiment.subid;
 		    	objArray[trial].dateOfBirth = experiment.dateOfBirth;
 		    	objArray[trial].dateOfTest = experiment.dateOfTest;
+		    	objArray[trial].age = experiment.age;
 		    	objArray[trial].timeOfTest = experiment.timeOfTest;	    	
 		    	objArray[trial].condition = experiment.condition;
+		    	objArray[trial].englishExposure = experiment.englishExposure;
+		    	objArray[trial].gender = experiment.gender;
+		    	objArray[trial].trialComments = experiment.trialComments;
+		    	objArray[trial].sessionComments = experiment.sessionComments;
 		    };
 
 		    // add headers in a hacky way
@@ -59,8 +69,13 @@ var experiment = {
 		    	subid: "subid",
 		    	dateOfBirth: "dateOfBirth",
 		    	dateOfTest: "dateOfTest",
+		    	age: "age",
 		    	timeOfTest: "timeOfTest",
-		    	condition: "condition"
+		    	condition: "condition",
+		    	englishExposure: "englishExposure",
+		    	gender: "gender",
+		    	trialComments: "trialComments",
+		    	sessionComments: "sessionComments"
 		    });
 
 		    // convert to csv
