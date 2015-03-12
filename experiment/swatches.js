@@ -83,3 +83,5 @@ var swatchSetPractice = [{
 	imageSource: "practice/apple_1.png",
 	questionText: "...took this picture. So this picture shows a little part of an apple. That's how the special camera works! The pictures always show just a little part of something." 
 }]
+
+var swatchSetBonus = [swatchSets[0].swatchOrder[0], swatchSets[2].swatchOrder[0], swatchSets[1].swatchOrder[4], swatchSets[3].swatchOrder[4], swatchSets[0].swatchOrder[7], swatchSets[2].swatchOrder[7], swatchSets[1].swatchOrder[11], swatchSets[3].swatchOrder[11]]
