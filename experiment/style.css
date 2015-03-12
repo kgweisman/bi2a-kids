@@ -55,17 +55,20 @@ p.instructions2 {
 
 img {
 	border: 2px solid black;
-	width: 450px;
-	margin-top: 80px;
-	margin-bottom: 110px
+	width: 305.37848606px;
+	margin-top: 130px;
+	margin-bottom: 185px
 }
 
 #practice img {
+	width: 730px;
 	border: none;
+	margin: auto 0 auto 0;
 }
 
 img#endingpic {
 	width: 500px;
+	margin: auto 0 auto 0;
 }
 
 .btn {
@@ -83,6 +86,14 @@ img#endingpic {
 
 button:focus {
 	outline:0 !important;
+}
+
+#camera button {
+	margin-top: 145px;
+}
+
+#instructions button {
+	margin-top: 50px;
 }
 
 .session-info {
