@@ -262,7 +262,7 @@ var experiment = {
 			// create place to store data for this trial
 			var data = {
 				phase: "study",
-				question: "do you think this one is an animal?",
+				question: "Do you think this one is an animal?",
 				trialNum: 17 - this.trials.length,
 				swatch: "",
 				response: "",
