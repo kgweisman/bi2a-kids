@@ -47,6 +47,6 @@ d_tidy = d_raw %>%
 # --- WRITING ANONYMIZED CSV --------------------------------------------------
 
 # write to de-identified csv file
-write.csv(d_tidy, "./pilot_data_anonymized.csv")
+write.csv(d_tidy, "./pilot&day1_data_anonymized.csv")
 
-d = read.csv("./pilot_data_anonymized.csv")[-1] # get rid of column of obs numbers
+d = read.csv("./pilot&day1_data_anonymized.csv")[-1] # get rid of column of obs numbers
