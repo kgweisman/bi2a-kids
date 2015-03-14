@@ -1,577 +1,577 @@
 "","phase","question","trialNum","swatch","response","responseCoded","rt","subid","age","timeOfTest","condition","gender","englishExposure","trialComments","sessionComments","ageCalc"
-"1","practice",NA,1,"apple_1","skip",NA,12813,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"2","practice",NA,2,"apple_2","skip",NA,4114,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"3","practice",NA,3,"apple_3","skip",NA,3110,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"4","practice",NA,4,"apple_1","skip",NA,11865,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"5","study","do you think this one is an animal?",5,"BI2A00001","YES",NA,11588,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"6","study","do you think this one is an animal?",6,"BI2A00039","maybe NO",-0.5,41065,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"7","study","do you think this one is an animal?",7,"BI2A00048","maybe YES",0.5,34409,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"8","study","do you think this one is an animal?",8,"BI2A00029","maybe NO",-0.5,18231,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"9","study","do you think this one is an animal?",9,"BI2A00023","skip",NA,22794,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"10","study","do you think this one is an animal?",10,"BI2A00021","NO",NA,15953,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"11","study","do you think this one is an animal?",11,"BI2A00024","definitely YES",2.5,23170,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"12","study","do you think this one is an animal?",12,"BI2A00011","definitely YES",2.5,7751,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"13","study","do you think this one is an animal?",13,"BI2A00009","maybe YES",0.5,12075,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"14","study","do you think this one is an animal?",14,"BI2A00022","maybe YES",0.5,42225,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"15","study","do you think this one is an animal?",15,"BI2A00042","skip",NA,21574,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"16","study","do you think this one is an animal?",16,"BI2A00012","skip",NA,9107,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT",NA
-"17","practice",NA,-3,"apple_1","skip",NA,792,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"18","practice",NA,-2,"apple_2","skip",NA,5031,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"19","practice",NA,-1,"apple_3","skip",NA,2842,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"20","practice",NA,0,"apple_1","skip",NA,622,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"21","study","Do you think this one is an animal?",1,"BI2A00003","skip",NA,9606,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"22","study","Do you think this one is an animal?",2,"BI2A00014","skip",NA,10562,"test",NA,"11:51","set1",NA,NA,NA,NA,NA
-"23","practice",NA,-3,"apple_1","skip",NA,13621,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"24","practice",NA,-2,"apple_2","skip",NA,2822,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"25","practice",NA,-1,"apple_3","skip",NA,2609,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"26","practice",NA,0,"apple_1","skip",NA,11441,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"27","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,16425,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"28","study","Do you think this one is an animal?",2,"BI2A00004","maybe YES",0.5,14951,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"29","study","Do you think this one is an animal?",3,"BI2A00032","definitely NO",-1.5,12966,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"30","study","Do you think this one is an animal?",4,"BI2A00041","maybe NO",-0.5,11479,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"31","study","Do you think this one is an animal?",5,"BI2A00002","definitely YES",1.5,8954,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"32","study","Do you think this one is an animal?",6,"BI2A00038","maybe NO",-0.5,15333,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"33","study","Do you think this one is an animal?",7,"BI2A00006","definitely YES",1.5,21458,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"34","study","Do you think this one is an animal?",8,"BI2A00016","maybe YES",0.5,9503,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"35","study","Do you think this one is an animal?",9,"BI2A00034","definitely NO",-1.5,10350,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"36","study","Do you think this one is an animal?",10,"BI2A00037","definitely NO",-1.5,11851,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"37","study","Do you think this one is an animal?",11,"BI2A00013","definitely YES",1.5,15111,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"38","study","Do you think this one is an animal?",12,"BI2A00040","definitely NO",-1.5,7435,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"39","bonus","Do you think this one can feel hungry?",13,"BI2A00028","maybe YES",0.5,13682,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"40","bonus","Do you think this one can remember things?",14,"BI2A00006","maybe YES",0.5,11505,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"41","bonus","Do you think this one can sense things close by?",15,"BI2A00011","maybe NO",-0.5,12967,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"42","bonus","Do you think this one can think?",16,"BI2A00026","definitely YES",1.5,12815,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"43","bonus","Do you think this one can feel happy?",17,"BI2A00046","maybe YES",0.5,8851,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"44","bonus","Do you think this one can hear?",18,"BI2A00044","definitely NO",-1.5,9418,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"45","bonus","Do you think this one can feel pain?",19,"BI2A00021","maybe YES",0.5,12050,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"46","bonus","Do you think this one has feelings?",20,"BI2A00037","definitely YES",1.5,11473,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",-1995y 0m -222d -6H 0M 0S
-"47","practice",NA,-3,"apple_1","skip",NA,11122,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"48","practice",NA,-2,"apple_2","skip",NA,3405,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"49","practice",NA,-1,"apple_3","skip",NA,3085,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"50","practice",NA,0,"apple_1","skip",NA,10506,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"51","study","Do you think this one is an animal?",1,"BI2A00041","definitely NO",-1.5,15140,"k02",5.868493151,"11:03","set2","female",NA,"bag",NA,-1994y 0m -34d -12H 0M 0S
-"52","study","Do you think this one is an animal?",2,"BI2A00013","definitely YES",1.5,15637,"k02",5.868493151,"11:03","set2","female",NA,"I could tell - fur",NA,-1994y 0m -34d -12H 0M 0S
-"53","study","Do you think this one is an animal?",3,"BI2A00045","definitely NO",-1.5,15805,"k02",5.868493151,"11:03","set2","female",NA,"bag",NA,-1994y 0m -34d -12H 0M 0S
-"54","study","Do you think this one is an animal?",4,"BI2A00016","maybe YES",0.5,17124,"k02",5.868493151,"11:03","set2","female",NA,"more like wool",NA,-1994y 0m -34d -12H 0M 0S
-"55","study","Do you think this one is an animal?",5,"BI2A00004","definitely YES",1.5,8131,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"56","study","Do you think this one is an animal?",6,"BI2A00032","maybe YES",0.5,19816,"k02",5.868493151,"11:03","set2","female",NA,"kind of looks…",NA,-1994y 0m -34d -12H 0M 0S
-"57","study","Do you think this one is an animal?",7,"BI2A00006","definitely YES",1.5,10161,"k02",5.868493151,"11:03","set2","female",NA,"cat fur, I could tell",NA,-1994y 0m -34d -12H 0M 0S
-"58","study","Do you think this one is an animal?",8,"BI2A00038","definitely NO",-1.5,10228,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"59","study","Do you think this one is an animal?",9,"BI2A00037","maybe YES",0.5,15929,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"60","study","Do you think this one is an animal?",10,"BI2A00040","definitely NO",-1.5,11786,"k02",5.868493151,"11:03","set2","female",NA,"rug",NA,-1994y 0m -34d -12H 0M 0S
-"61","study","Do you think this one is an animal?",11,"BI2A00002","definitely YES",1.5,20500,"k02",5.868493151,"11:03","set2","female",NA,"cat fur",NA,-1994y 0m -34d -12H 0M 0S
-"62","study","Do you think this one is an animal?",12,"BI2A00034","definitely NO",-1.5,10485,"k02",5.868493151,"11:03","set2","female",NA,"rug",NA,-1994y 0m -34d -12H 0M 0S
-"63","bonus","Do you think this one can feel hungry?",13,"BI2A00044","definitely NO",-1.5,10437,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"64","bonus","Do you think this one can feel pain?",14,"BI2A00006","definitely YES",1.5,8332,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"65","bonus","Do you think this one can hear?",15,"BI2A00046","definitely NO",-1.5,7722,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"66","bonus","Do you think this one can feel happy?",16,"BI2A00021","maybe YES",0.5,6859,"k02",5.868493151,"11:03","set2","female",NA,"maybe",NA,-1994y 0m -34d -12H 0M 0S
-"67","bonus","Do you think this one can think?",17,"BI2A00026","maybe YES",0.5,6583,"k02",5.868493151,"11:03","set2","female",NA,"maybe",NA,-1994y 0m -34d -12H 0M 0S
-"68","bonus","Do you think this one can remember things?",18,"BI2A00037","definitely NO",-1.5,8091,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"69","bonus","Do you think this one has feelings?",19,"BI2A00011","definitely YES",1.5,8735,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"70","bonus","Do you think this one can sense things close by?",20,"BI2A00028","maybe YES",0.5,8262,"k02",5.868493151,"11:03","set2","female",NA,"",NA,-1994y 0m -34d -12H 0M 0S
-"71","practice",NA,-3,"apple_1","skip",NA,11656,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"72","practice",NA,-2,"apple_2","skip",NA,5104,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"73","practice",NA,-1,"apple_3","skip",NA,3394,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"74","practice",NA,0,"apple_1","skip",NA,11077,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"75","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,13915,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"76","study","Do you think this one is an animal?",2,"BI2A00006","definitely YES",1.5,13854,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"77","study","Do you think this one is an animal?",3,"BI2A00040","maybe YES",0.5,16399,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"78","study","Do you think this one is an animal?",4,"BI2A00004","definitely YES",1.5,14758,"k03",6.605479452,"11:30","set2","female","often","real",NA,-1993y 0m -130d -18H 0M 0S
-"79","study","Do you think this one is an animal?",5,"BI2A00041","maybe NO",-0.5,11782,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"80","study","Do you think this one is an animal?",6,"BI2A00038","maybe YES",0.5,14258,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"81","study","Do you think this one is an animal?",7,"BI2A00032","definitely NO",-1.5,10885,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"82","study","Do you think this one is an animal?",8,"BI2A00002","maybe YES",0.5,9027,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"83","study","Do you think this one is an animal?",9,"BI2A00013","maybe NO",-0.5,16869,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"84","study","Do you think this one is an animal?",10,"BI2A00037","maybe NO",-0.5,12556,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"85","study","Do you think this one is an animal?",11,"BI2A00034","definitely NO",-1.5,14883,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"86","study","Do you think this one is an animal?",12,"BI2A00016","maybe YES",0.5,10260,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"87","bonus","Do you think this one can feel hungry?",13,"BI2A00026","maybe NO",-0.5,19874,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"88","bonus","Do you think this one can hear?",14,"BI2A00046","definitely NO",-1.5,10961,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"89","bonus","Do you think this one has feelings?",15,"BI2A00037","definitely YES",1.5,17082,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"90","bonus","Do you think this one can remember things?",16,"BI2A00011","maybe YES",0.5,10602,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"91","bonus","Do you think this one can feel happy?",17,"BI2A00028","maybe NO",-0.5,13269,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"92","bonus","Do you think this one can think?",18,"BI2A00006","maybe YES",0.5,10475,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"93","bonus","Do you think this one can sense things close by?",19,"BI2A00044","maybe NO",-0.5,14913,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"94","bonus","Do you think this one can feel pain?",20,"BI2A00021","maybe NO",-0.5,12174,"k03",6.605479452,"11:30","set2","female","often","",NA,-1993y 0m -130d -18H 0M 0S
-"95","practice",NA,-3,"apple_1","skip",NA,23645,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"96","practice",NA,-2,"apple_2","skip",NA,3304,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"97","practice",NA,-1,"apple_3","skip",NA,6759,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"98","practice",NA,0,"apple_1","skip",NA,20936,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"99","study","Do you think this one is an animal?",1,"BI2A00033","maybe YES",0.5,17855,"k04",5.350684932,"11:55","set1","male","always","it might be",NA,-1994y 0m -223d -12H 0M 0S
-"100","study","Do you think this one is an animal?",2,"BI2A00047","maybe NO",-0.5,25612,"k04",5.350684932,"11:55","set1","male","always","it might be a carpet",NA,-1994y 0m -223d -12H 0M 0S
-"101","study","Do you think this one is an animal?",3,"BI2A00031","maybe NO",-0.5,32104,"k04",5.350684932,"11:55","set1","male","always","another carpet",NA,-1994y 0m -223d -12H 0M 0S
-"102","study","Do you think this one is an animal?",4,"BI2A00030","maybe NO",-0.5,46248,"k04",5.350684932,"11:55","set1","male","always","could be an animal but maybe not",NA,-1994y 0m -223d -12H 0M 0S
-"103","study","Do you think this one is an animal?",5,"BI2A00003","definitely YES",1.5,17777,"k04",5.350684932,"11:55","set1","male","always","raccooon",NA,-1994y 0m -223d -12H 0M 0S
-"104","study","Do you think this one is an animal?",6,"BI2A00046","definitely NO",-1.5,16986,"k04",5.350684932,"11:55","set1","male","always","just a basket",NA,-1994y 0m -223d -12H 0M 0S
-"105","study","Do you think this one is an animal?",7,"BI2A00014","maybe NO",-0.5,25490,"k04",5.350684932,"11:55","set1","male","always","I can't tell - it's maybe",NA,-1994y 0m -223d -12H 0M 0S
-"106","study","Do you think this one is an animal?",8,"BI2A00020","maybe NO",-0.5,14203,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"107","study","Do you think this one is an animal?",9,"BI2A00015","maybe YES",0.5,13564,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"108","study","Do you think this one is an animal?",10,"BI2A00028","maybe YES",0.5,50585,"k04",5.350684932,"11:55","set1","male","always","I have no idea, I'm really not sure",NA,-1994y 0m -223d -12H 0M 0S
-"109","study","Do you think this one is an animal?",11,"BI2A00043","definitely NO",-1.5,23962,"k04",5.350684932,"11:55","set1","male","always","ocean",NA,-1994y 0m -223d -12H 0M 0S
-"110","study","Do you think this one is an animal?",12,"BI2A00008","definitely YES",1.5,11931,"k04",5.350684932,"11:55","set1","male","always","really",NA,-1994y 0m -223d -12H 0M 0S
-"111","bonus","Do you think this one can feel hungry?",13,"BI2A00026","maybe NO",-0.5,41857,"k04",5.350684932,"11:55","set1","male","always","yeah, then no",NA,-1994y 0m -223d -12H 0M 0S
-"112","bonus","Do you think this one has feelings?",14,"BI2A00046","definitely NO",-1.5,21659,"k04",5.350684932,"11:55","set1","male","always","because it's a wooden",NA,-1994y 0m -223d -12H 0M 0S
-"113","bonus","Do you think this one can sense things close by?",15,"BI2A00011","maybe NO",-0.5,29050,"k04",5.350684932,"11:55","set1","male","always","because it has no eyes and it has no sense of things",NA,-1994y 0m -223d -12H 0M 0S
-"114","bonus","Do you think this one can think?",16,"BI2A00037","maybe NO",-0.5,15087,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"115","bonus","Do you think this one can remember things?",17,"BI2A00044","definitely NO",-1.5,10797,"k04",5.350684932,"11:55","set1","male","always","",NA,-1994y 0m -223d -12H 0M 0S
-"116","bonus","Do you think this one can feel happy?",18,"BI2A00006","maybe NO",-0.5,12103,"k04",5.350684932,"11:55","set1","male","always","[wanted to stop]",NA,-1994y 0m -223d -12H 0M 0S
-"117","practice",NA,-3,"apple_1","skip",NA,15211,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"118","practice",NA,-2,"apple_2","skip",NA,4887,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"119","practice",NA,-1,"apple_3","skip",NA,6398,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"120","practice",NA,0,"apple_1","skip",NA,12063,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"121","study","Do you think this one is an animal?",1,"BI2A00037","maybe NO",-0.5,28038,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","hay",NA,-1995y 0m -316d -6H 0M 0S
-"122","study","Do you think this one is an animal?",2,"BI2A00038","NO",NA,28202,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","wood to build a house",NA,-1995y 0m -316d -6H 0M 0S
-"123","study","Do you think this one is an animal?",3,"BI2A00004","maybe YES",0.5,27898,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","goat",NA,-1995y 0m -316d -6H 0M 0S
-"124","study","Do you think this one is an animal?",4,"BI2A00041","NO",NA,14905,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's a bag",NA,-1995y 0m -316d -6H 0M 0S
-"125","study","Do you think this one is an animal?",5,"BI2A00045","NO",NA,25086,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","fans are not animals; build a carpet",NA,-1995y 0m -316d -6H 0M 0S
-"126","study","Do you think this one is an animal?",6,"BI2A00040","NO",NA,8064,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","different",NA,-1995y 0m -316d -6H 0M 0S
-"127","study","Do you think this one is an animal?",7,"BI2A00032","NO",NA,21220,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","carpets always",NA,-1995y 0m -316d -6H 0M 0S
-"128","study","Do you think this one is an animal?",8,"BI2A00013","YES",NA,16401,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's because… another goat",NA,-1995y 0m -316d -6H 0M 0S
-"129","study","Do you think this one is an animal?",9,"BI2A00002","YES",NA,16765,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","porcupine",NA,-1995y 0m -316d -6H 0M 0S
-"130","study","Do you think this one is an animal?",10,"BI2A00016","YES",NA,38883,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"131","study","Do you think this one is an animal?",11,"BI2A00006","YES",NA,21967,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","from an eagle",NA,-1995y 0m -316d -6H 0M 0S
-"132","study","Do you think this one is an animal?",12,"BI2A00034","NO",NA,6940,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"133","bonus","Do you think this one has feelings?",13,"BI2A00046","NO",NA,8819,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"134","bonus","Do you think this one can feel pain?",14,"BI2A00044","YES",NA,19872,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's a robot [explained what ""hurt"" means]",NA,-1995y 0m -316d -6H 0M 0S
-"135","bonus","Do you think this one can feel hungry?",15,"BI2A00026","YES",NA,17381,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","its' a giraffe and giraffes eat apples, and leaves",NA,-1995y 0m -316d -6H 0M 0S
-"136","bonus","Do you think this one can hear?",16,"BI2A00011","YES",NA,15770,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","cow",NA,-1995y 0m -316d -6H 0M 0S
-"137","bonus","Do you think this one can sense things close by?",17,"BI2A00021","skip",NA,32883,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","turtle, no, turtles are shy",NA,-1995y 0m -316d -6H 0M 0S
-"138","bonus","Do you think this one can think?",18,"BI2A00037","YES",NA,7063,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"139","bonus","Do you think this one can feel happy?",19,"BI2A00006","NO",NA,18284,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","no it feels mad (first said yes, then no)",NA,-1995y 0m -316d -6H 0M 0S
-"140","bonus","Do you think this one can remember things?",20,"BI2A00028","NO",NA,10470,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,-1995y 0m -316d -6H 0M 0S
-"141","practice",NA,-3,"apple_1","skip",NA,13592,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"142","practice",NA,-2,"apple_2","skip",NA,3023,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"143","practice",NA,-1,"apple_3","skip",NA,3370,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"144","practice",NA,0,"apple_1","skip",NA,11078,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"145","study","Do you think this one is an animal?",1,"BI2A00044","definitely NO",-1.5,13720,"k06",5.961643836,"13:18","set3","female","always","not. I can tell",NA,-1994y 0m 0d -12H 0M 0S
-"146","study","Do you think this one is an animal?",2,"BI2A00010","maybe YES",0.5,15401,"k06",5.961643836,"13:18","set3","female","always","animal fur",NA,-1994y 0m 0d -12H 0M 0S
-"147","study","Do you think this one is an animal?",3,"BI2A00017","maybe YES",0.5,8210,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"148","study","Do you think this one is an animal?",4,"BI2A00018","definitely YES",1.5,10992,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"149","study","Do you think this one is an animal?",5,"BI2A00007","definitely YES",1.5,15874,"k06",5.961643836,"13:18","set3","female","always","animal, cuz I see fur",NA,-1994y 0m 0d -12H 0M 0S
-"150","study","Do you think this one is an animal?",6,"BI2A00025","definitely NO",-1.5,13299,"k06",5.961643836,"13:18","set3","female","always","carpet",NA,-1994y 0m 0d -12H 0M 0S
-"151","study","Do you think this one is an animal?",7,"BI2A00019","definitely YES",1.5,7829,"k06",5.961643836,"13:18","set3","female","always","animal",NA,-1994y 0m 0d -12H 0M 0S
-"152","study","Do you think this one is an animal?",8,"BI2A00035","definitely NO",-1.5,9203,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"153","study","Do you think this one is an animal?",9,"BI2A00036","maybe NO",-0.5,37219,"k06",5.961643836,"13:18","set3","female","always","animals don't have those little fuzzes, rugs are square",NA,-1994y 0m 0d -12H 0M 0S
-"154","study","Do you think this one is an animal?",10,"BI2A00005","definitely YES",1.5,7827,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"155","study","Do you think this one is an animal?",11,"BI2A00026","maybe NO",-0.5,6248,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"156","study","Do you think this one is an animal?",12,"BI2A00027","definitely NO",-1.5,9624,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"157","bonus","Do you think this one can remember things?",13,"BI2A00011","maybe NO",-0.5,47134,"k06",5.961643836,"13:18","set3","female","always","I cannot",NA,-1994y 0m 0d -12H 0M 0S
-"158","bonus","Do you think this one can feel hungry?",14,"BI2A00006","maybe YES",0.5,11728,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"159","bonus","Do you think this one can feel pain?",15,"BI2A00044","maybe NO",-0.5,25126,"k06",5.961643836,"13:18","set3","female","always","cuz it's not an animal",NA,-1994y 0m 0d -12H 0M 0S
-"160","bonus","Do you think this one can sense things close by?",16,"BI2A00028","maybe NO",-0.5,10113,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"161","bonus","Do you think this one can hear?",17,"BI2A00026","NO",NA,9951,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"162","bonus","Do you think this one has feelings?",18,"BI2A00046","maybe NO",-0.5,8220,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"163","bonus","Do you think this one can feel happy?",19,"BI2A00021","definitely NO",-1.5,8645,"k06",5.961643836,"13:18","set3","female","always","",NA,-1994y 0m 0d -12H 0M 0S
-"164","bonus","Do you think this one can think?",20,"BI2A00037","definitely NO",-1.5,16878,"k06",5.961643836,"13:18","set3","female","always","because it looks",NA,-1994y 0m 0d -12H 0M 0S
-"165","practice",NA,-3,"apple_1","skip",NA,13755,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"166","practice",NA,-2,"apple_2","skip",NA,3578,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"167","practice",NA,-1,"apple_3","skip",NA,3124,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"168","practice",NA,0,"apple_1","skip",NA,7944,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"169","study","Do you think this one is an animal?",1,"BI2A00039","skip",NA,6007,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"170","study","Do you think this one is an animal?",2,"BI2A00001","YES",NA,15449,"k07",5.465753425,"13:31","set4","male","often","","limited English",-1994y 0m -181d -12H 0M 0S
-"171","study","Do you think this one is an animal?",3,"BI2A00042","skip",NA,12741,"k07",5.465753425,"13:31","set4","male","often","black","limited English",-1994y 0m -181d -12H 0M 0S
-"172","study","Do you think this one is an animal?",4,"BI2A00029","YES",NA,25879,"k07",5.465753425,"13:31","set4","male","often","white; sheep","limited English",-1994y 0m -181d -12H 0M 0S
-"173","study","Do you think this one is an animal?",5,"BI2A00048","YES",NA,8537,"k07",5.465753425,"13:31","set4","male","often","zebra","limited English",-1994y 0m -181d -12H 0M 0S
-"174","study","Do you think this one is an animal?",6,"BI2A00021","YES",NA,10776,"k07",5.465753425,"13:31","set4","male","often","bear","limited English",-1994y 0m -181d -12H 0M 0S
-"175","study","Do you think this one is an animal?",7,"BI2A00022","YES",NA,9145,"k07",5.465753425,"13:31","set4","male","often","owl","limited English",-1994y 0m -181d -12H 0M 0S
-"176","study","Do you think this one is an animal?",8,"BI2A00024","YES",NA,9588,"k07",5.465753425,"13:31","set4","male","often","porcupine","limited English",-1994y 0m -181d -12H 0M 0S
-"177","study","Do you think this one is an animal?",9,"BI2A00009","YES",NA,9498,"k07",5.465753425,"13:31","set4","male","often","dog","limited English",-1994y 0m -181d -12H 0M 0S
-"178","study","Do you think this one is an animal?",10,"BI2A00012","NO",NA,19915,"k07",5.465753425,"13:31","set4","male","often","not","limited English",-1994y 0m -181d -12H 0M 0S
-"179","study","Do you think this one is an animal?",11,"BI2A00023","YES",NA,9564,"k07",5.465753425,"13:31","set4","male","often","porcupine","limited English",-1994y 0m -181d -12H 0M 0S
-"180","study","Do you think this one is an animal?",12,"BI2A00011","YES",NA,8054,"k07",5.465753425,"13:31","set4","male","often","elephant","limited English",-1994y 0m -181d -12H 0M 0S
-"181","practice",NA,-3,"apple_1","skip",NA,13891,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"182","practice",NA,-2,"apple_2","skip",NA,3231,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"183","practice",NA,-1,"apple_3","skip",NA,5369,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"184","practice",NA,0,"apple_1","skip",NA,10423,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"185","study","Do you think this one is an animal?",1,"BI2A00031","maybe NO",-0.5,17447,"k08",4.18630137,"14:15","set1","female","always","carpet",NA,-1995y 0m -283d -6H 0M 0S
-"186","study","Do you think this one is an animal?",2,"BI2A00030","maybe YES",0.5,24926,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"187","study","Do you think this one is an animal?",3,"BI2A00014","NO",NA,24404,"k08",4.18630137,"14:15","set1","female","always","no",NA,-1995y 0m -283d -6H 0M 0S
-"188","study","Do you think this one is an animal?",4,"BI2A00003","definitely YES",1.5,15998,"k08",4.18630137,"14:15","set1","female","always","kitty",NA,-1995y 0m -283d -6H 0M 0S
-"189","study","Do you think this one is an animal?",5,"BI2A00015","NO",NA,14823,"k08",4.18630137,"14:15","set1","female","always","no",NA,-1995y 0m -283d -6H 0M 0S
-"190","study","Do you think this one is an animal?",6,"BI2A00043","definitely NO",-1.5,13765,"k08",4.18630137,"14:15","set1","female","always","ocean",NA,-1995y 0m -283d -6H 0M 0S
-"191","study","Do you think this one is an animal?",7,"BI2A00033","definitely NO",-1.5,18447,"k08",4.18630137,"14:15","set1","female","always","mulch, sidewalk",NA,-1995y 0m -283d -6H 0M 0S
-"192","study","Do you think this one is an animal?",8,"BI2A00028","definitely NO",-1.5,20649,"k08",4.18630137,"14:15","set1","female","always","weird",NA,-1995y 0m -283d -6H 0M 0S
-"193","study","Do you think this one is an animal?",9,"BI2A00046","maybe NO",-0.5,16193,"k08",4.18630137,"14:15","set1","female","always","picnic basket",NA,-1995y 0m -283d -6H 0M 0S
-"194","study","Do you think this one is an animal?",10,"BI2A00047","definitely NO",-1.5,13093,"k08",4.18630137,"14:15","set1","female","always","carpet",NA,-1995y 0m -283d -6H 0M 0S
-"195","study","Do you think this one is an animal?",11,"BI2A00020","definitely YES",1.5,14720,"k08",4.18630137,"14:15","set1","female","always","dog",NA,-1995y 0m -283d -6H 0M 0S
-"196","study","Do you think this one is an animal?",12,"BI2A00008","definitely YES",1.5,13082,"k08",4.18630137,"14:15","set1","female","always","cat",NA,-1995y 0m -283d -6H 0M 0S
-"197","bonus","Do you think this one can feel hungry?",13,"BI2A00026","YES",NA,16476,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"198","bonus","Do you think this one has feelings?",14,"BI2A00011","NO",NA,13492,"k08",4.18630137,"14:15","set1","female","always","elephants",NA,-1995y 0m -283d -6H 0M 0S
-"199","bonus","Do you think this one can sense things close by?",15,"BI2A00046","NO",NA,12130,"k08",4.18630137,"14:15","set1","female","always","",NA,-1995y 0m -283d -6H 0M 0S
-"200","practice",NA,-3,"apple_1","skip",NA,11855,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"201","practice",NA,-2,"apple_2","skip",NA,2956,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"202","practice",NA,-1,"apple_3","skip",NA,3408,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"203","practice",NA,0,"apple_1","skip",NA,10591,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"204","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,13824,"k09",6.345205479,"14:44","set2","male",NA,"basket","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"205","study","Do you think this one is an animal?",2,"BI2A00006","definitely YES",1.5,15206,"k09",6.345205479,"14:44","set2","male",NA,"hamster","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"206","study","Do you think this one is an animal?",3,"BI2A00040","definitely NO",-1.5,10062,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"207","study","Do you think this one is an animal?",4,"BI2A00041","definitely NO",-1.5,16326,"k09",6.345205479,"14:44","set2","male",NA,"plastic","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"208","study","Do you think this one is an animal?",5,"BI2A00034","definitely NO",-1.5,19656,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"209","study","Do you think this one is an animal?",6,"BI2A00037","definitely NO",-1.5,18324,"k09",6.345205479,"14:44","set2","male",NA,"hay","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"210","study","Do you think this one is an animal?",7,"BI2A00032","definitely NO",-1.5,19160,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"211","study","Do you think this one is an animal?",8,"BI2A00038","definitely NO",-1.5,15997,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"212","study","Do you think this one is an animal?",9,"BI2A00016","definitely NO",-1.5,16314,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"213","study","Do you think this one is an animal?",10,"BI2A00004","maybe YES",0.5,17960,"k09",6.345205479,"14:44","set2","male",NA,"maybe it's a rat","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"214","study","Do you think this one is an animal?",11,"BI2A00002","definitely YES",1.5,31946,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"215","study","Do you think this one is an animal?",12,"BI2A00013","definitely YES",1.5,22326,"k09",6.345205479,"14:44","set2","male",NA,"hamster","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"216","bonus","Do you think this one has feelings?",13,"BI2A00037","definitely YES",1.5,18585,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"217","bonus","Do you think this one can hear?",14,"BI2A00021","definitely NO",-1.5,14737,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"218","bonus","Do you think this one can remember things?",15,"BI2A00044","definitely NO",-1.5,9820,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"219","bonus","Do you think this one can think?",16,"BI2A00046","maybe NO",-0.5,11050,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"220","bonus","Do you think this one can sense things close by?",17,"BI2A00006","maybe YES",0.5,10762,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"221","bonus","Do you think this one can feel hungry?",18,"BI2A00011","maybe NO",-0.5,13731,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"222","bonus","Do you think this one can feel happy?",19,"BI2A00026","maybe YES",0.5,15438,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"223","bonus","Do you think this one can feel pain?",20,"BI2A00028","maybe YES",0.5,10795,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",-1993y 0m -225d -18H 0M 0S
-"224","practice",NA,-3,"apple_1","skip",NA,12091,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"225","practice",NA,-2,"apple_2","skip",NA,5919,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"226","practice",NA,-1,"apple_3","skip",NA,25634,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"227","practice",NA,0,"apple_1","skip",NA,11199,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"228","study","Do you think this one is an animal?",1,"BI2A00024","definitely YES",1.5,18491,"k10",6.430136986,"14:57","set4","female",NA,"procupine","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"229","study","Do you think this one is an animal?",2,"BI2A00012","maybe YES",0.5,20357,"k10",6.430136986,"14:57","set4","female",NA,"challenging","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"230","study","Do you think this one is an animal?",3,"BI2A00021","definitely NO",-1.5,13840,"k10",6.430136986,"14:57","set4","female",NA,"desert sand","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"231","study","Do you think this one is an animal?",4,"BI2A00039","definitely NO",-1.5,11798,"k10",6.430136986,"14:57","set4","female",NA,"wood chips","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"232","study","Do you think this one is an animal?",5,"BI2A00009","definitely YES",1.5,14893,"k10",6.430136986,"14:57","set4","female",NA,"animal; cuz I can see the fur","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"233","study","Do you think this one is an animal?",6,"BI2A00023","maybe NO",-0.5,24471,"k10",6.430136986,"14:57","set4","female",NA,"challenging","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"234","study","Do you think this one is an animal?",7,"BI2A00042","definitely NO",-1.5,25831,"k10",6.430136986,"14:57","set4","female",NA,"painted picture; cuz it doesn't have fur or just bare skin","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"235","study","Do you think this one is an animal?",8,"BI2A00029","definitely NO",-1.5,11259,"k10",6.430136986,"14:57","set4","female",NA,"carpet","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"236","study","Do you think this one is an animal?",9,"BI2A00048","definitely NO",-1.5,10465,"k10",6.430136986,"14:57","set4","female",NA,"carpet","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"237","study","Do you think this one is an animal?",10,"BI2A00022","definitely YES",1.5,16034,"k10",6.430136986,"14:57","set4","female",NA,"animal, cuz I can see the fur","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"238","study","Do you think this one is an animal?",11,"BI2A00001","definitely YES",1.5,6617,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"239","study","Do you think this one is an animal?",12,"BI2A00011","definitely YES",1.5,9549,"k10",6.430136986,"14:57","set4","female",NA,"elephant, can tell","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"240","bonus","Do you think this one can feel happy?",13,"BI2A00011","definitely YES",1.5,11126,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"241","bonus","Do you think this one has feelings?",14,"BI2A00044","definitely NO",-1.5,9378,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"242","bonus","Do you think this one can think?",15,"BI2A00028","maybe NO",-0.5,18497,"k10",6.430136986,"14:57","set4","female",NA,"carpet; actually maybe an animal","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"243","bonus","Do you think this one can sense things close by?",16,"BI2A00026","maybe YES",0.5,14434,"k10",6.430136986,"14:57","set4","female",NA,"animal","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"244","bonus","Do you think this one can feel pain?",17,"BI2A00037","maybe YES",0.5,13248,"k10",6.430136986,"14:57","set4","female",NA,"I guess so","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"245","bonus","Do you think this one can feel hungry?",18,"BI2A00021","definitely NO",-1.5,10912,"k10",6.430136986,"14:57","set4","female",NA,"desert sand","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"246","bonus","Do you think this one can hear?",19,"BI2A00046","definitely NO",-1.5,7634,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"247","bonus","Do you think this one can remember things?",20,"BI2A00006","definitely YES",1.5,10974,"k10",6.430136986,"14:57","set4","female",NA,"guinea pig","no year on consent form; both said 6yo",-1993y 0m -194d -18H 0M 0S
-"248","practice",NA,-3,"apple_1","skip",NA,13675,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"249","practice",NA,-2,"apple_2","skip",NA,2823,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"250","practice",NA,-1,"apple_3","skip",NA,4634,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"251","practice",NA,0,"apple_1","skip",NA,11961,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"252","study","Do you think this one is an animal?",1,"BI2A00014","maybe YES",0.5,17969,"k11",5.123287671,"15:06","set1","female","always","mouse",NA,-1994y 0m -306d -12H 0M 0S
-"253","study","Do you think this one is an animal?",2,"BI2A00046","definitely NO",-1.5,27988,"k11",5.123287671,"15:06","set1","female","always","basket; because it has diamonds and animals don't have diamonds",NA,-1994y 0m -306d -12H 0M 0S
-"254","study","Do you think this one is an animal?",3,"BI2A00028","maybe YES",0.5,18353,"k11",5.123287671,"15:06","set1","female","always","mole",NA,-1994y 0m -306d -12H 0M 0S
-"255","study","Do you think this one is an animal?",4,"BI2A00033","definitely NO",-1.5,28086,"k11",5.123287671,"15:06","set1","female","always","brown rock, because it looks kind of hard and animals are not",NA,-1994y 0m -306d -12H 0M 0S
-"256","study","Do you think this one is an animal?",5,"BI2A00008","definitely YES",1.5,22362,"k11",5.123287671,"15:06","set1","female","always","part of a lion's mane, because it has fur",NA,-1994y 0m -306d -12H 0M 0S
-"257","study","Do you think this one is an animal?",6,"BI2A00031","definitely NO",-1.5,13374,"k11",5.123287671,"15:06","set1","female","always","carpet",NA,-1994y 0m -306d -12H 0M 0S
-"258","study","Do you think this one is an animal?",7,"BI2A00047","skip",NA,39184,"k11",5.123287671,"15:06","set1","female","always","carpet at home, maybe a sheep wool, I don't know, maybe",NA,-1994y 0m -306d -12H 0M 0S
-"259","study","Do you think this one is an animal?",8,"BI2A00020","definitely YES",1.5,11914,"k11",5.123287671,"15:06","set1","female","always","bear's fur, because it has fur",NA,-1994y 0m -306d -12H 0M 0S
-"260","study","Do you think this one is an animal?",9,"BI2A00043","definitely NO",-1.5,43735,"k11",5.123287671,"15:06","set1","female","always","looks like maybe a window that's silver, because it has reflection",NA,-1994y 0m -306d -12H 0M 0S
-"261","study","Do you think this one is an animal?",10,"BI2A00003","definitely YES",1.5,16154,"k11",5.123287671,"15:06","set1","female","always","soft type of porcupine",NA,-1994y 0m -306d -12H 0M 0S
-"262","study","Do you think this one is an animal?",11,"BI2A00030","definitely NO",-1.5,16276,"k11",5.123287671,"15:06","set1","female","always","type of carpet",NA,-1994y 0m -306d -12H 0M 0S
-"263","study","Do you think this one is an animal?",12,"BI2A00015","definitely YES",1.5,23548,"k11",5.123287671,"15:06","set1","female","always","animal - not",NA,-1994y 0m -306d -12H 0M 0S
-"264","bonus","Do you think this one can think?",13,"BI2A00011","maybe YES",0.5,34426,"k11",5.123287671,"15:06","set1","female","always","armadillo, smart animal",NA,-1994y 0m -306d -12H 0M 0S
-"265","bonus","Do you think this one can feel happy?",14,"BI2A00028","maybe YES",0.5,10155,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"266","bonus","Do you think this one has feelings?",15,"BI2A00006","definitely YES",1.5,31211,"k11",5.123287671,"15:06","set1","female","always","mad feelings, might be a porcupine, spikes",NA,-1994y 0m -306d -12H 0M 0S
-"267","bonus","Do you think this one can hear?",16,"BI2A00046","definitely NO",-1.5,9120,"k11",5.123287671,"15:06","set1","female","always","",NA,-1994y 0m -306d -12H 0M 0S
-"268","bonus","Do you think this one can remember things?",17,"BI2A00021","definitely NO",-1.5,22546,"k11",5.123287671,"15:06","set1","female","always","because it's not alive, because it looks like a rock",NA,-1994y 0m -306d -12H 0M 0S
-"269","bonus","Do you think this one can feel pain?",18,"BI2A00026","maybe NO",-0.5,35249,"k11",5.123287671,"15:06","set1","female","always","no if something eats it",NA,-1994y 0m -306d -12H 0M 0S
-"270","bonus","Do you think this one can sense things close by?",19,"BI2A00044","maybe NO",-0.5,28099,"k11",5.123287671,"15:06","set1","female","always","no",NA,-1994y 0m -306d -12H 0M 0S
-"271","bonus","Do you think this one can feel hungry?",20,"BI2A00037","definitely NO",-1.5,18315,"k11",5.123287671,"15:06","set1","female","always","maybe it's food, it's actually",NA,-1994y 0m -306d -12H 0M 0S
-"272","study","do you think this one is an animal?",1,"BI2A00014","probably NO",-1.5,25416,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"273","study","do you think this one is an animal?",2,"BI2A00046","maybe NO",-0.5,16723,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"274","study","do you think this one is an animal?",3,"BI2A00003","definitely YES",2.5,14635,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"275","study","do you think this one is an animal?",4,"BI2A00020","maybe YES",0.5,19117,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"276","study","do you think this one is an animal?",5,"BI2A00008","maybe YES",0.5,20500,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"277","study","do you think this one is an animal?",6,"BI2A00030","definitely NO",-2.5,10484,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"278","study","do you think this one is an animal?",7,"BI2A00043","definitely NO",-2.5,9153,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"279","study","do you think this one is an animal?",8,"BI2A00047","maybe NO",-0.5,10344,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"280","study","do you think this one is an animal?",9,"BI2A00028","probably YES",1.5,12612,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"281","study","do you think this one is an animal?",10,"BI2A00033","definitely NO",-2.5,18666,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"282","study","do you think this one is an animal?",11,"BI2A00031","definitely NO",-2.5,8887,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"283","study","do you think this one is an animal?",12,"BI2A00015","maybe YES",0.5,11994,"p01",4.879452055,NA,"set1","male",NA,NA,NA,-1995y 0m -30d -6H 0M 0S
-"284","study","do you think this one is an animal?",1,"BI2A00015","n",NA,14314,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"285","study","do you think this one is an animal?",2,"BI2A00008","y",NA,5331,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"286","study","do you think this one is an animal?",3,"BI2A00014","y",NA,4317,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"287","study","do you think this one is an animal?",4,"BI2A00033","n",NA,11763,"p02",3.082191781,NA,"set1","male","always","sand",NA,-1996y 0m -321d 0H 0M 0S
-"288","study","do you think this one is an animal?",5,"BI2A00031","n",NA,20431,"p02",3.082191781,NA,"set1","male","always","black thing carpet",NA,-1996y 0m -321d 0H 0M 0S
-"289","study","do you think this one is an animal?",6,"BI2A00030","n",NA,13259,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"290","study","do you think this one is an animal?",7,"BI2A00047","n",NA,6137,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"291","study","do you think this one is an animal?",8,"BI2A00046","n",NA,5069,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"292","study","do you think this one is an animal?",9,"BI2A00020","n",NA,7038,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"293","study","do you think this one is an animal?",10,"BI2A00003","y",NA,5266,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"294","study","do you think this one is an animal?",11,"BI2A00043","y",NA,24703,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"295","study","do you think this one is an animal?",12,"BI2A00028","n",NA,6251,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"296","bonus","do you think this can feel happy?",13,"BI2A00043","n",NA,12049,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"297","bonus","do you think this one has feelings",14,"BI2A00008","y",NA,6863,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"298","bonus","do you think this one can think?",15,"BI2A00031","n",NA,6581,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"299","bonus","do you think this one can sense things nearby",16,"BI2A00046","n",NA,7873,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"300","bonus","do you think this one can feel pain",17,"BI2A00003","n",NA,12623,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"301","bonus","do you think this one can feel hungry",18,"BI2A00020","y",NA,5750,"p02",3.082191781,NA,"set1","male","always","",NA,-1996y 0m -321d 0H 0M 0S
-"302","study","do you think this one is an animal?",1,"BI2A00045","n",NA,22880,"p03",3.621917808,NA,"set2","female","always","basket",NA,-1996y 0m -124d 0H 0M 0S
-"303","study","do you think this one is an animal?",2,"BI2A00034","n",NA,14199,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"304","study","do you think this one is an animal?",3,"BI2A00040","n",NA,9477,"p03",3.621917808,NA,"set2","female","always","carpet",NA,-1996y 0m -124d 0H 0M 0S
-"305","study","do you think this one is an animal?",4,"BI2A00032","n",NA,11427,"p03",3.621917808,NA,"set2","female","always","wallet",NA,-1996y 0m -124d 0H 0M 0S
-"306","study","do you think this one is an animal?",5,"BI2A00016","n",NA,10416,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"307","study","do you think this one is an animal?",6,"BI2A00038","n",NA,11422,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"308","study","do you think this one is an animal?",7,"BI2A00037","n",NA,7475,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"309","study","do you think this one is an animal?",8,"BI2A00002","y",NA,18446,"p03",3.621917808,NA,"set2","female","always","dinosaur",NA,-1996y 0m -124d 0H 0M 0S
-"310","study","do you think this one is an animal?",9,"BI2A00013","n",NA,8658,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"311","study","do you think this one is an animal?",10,"BI2A00041","n",NA,4475,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"312","study","do you think this one is an animal?",11,"BI2A00006","n",NA,7380,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"313","study","do you think this one is an animal?",12,"BI2A00004","n",NA,5334,"p03",3.621917808,NA,"set2","female","always","",NA,-1996y 0m -124d 0H 0M 0S
-"314","study","do you think this one is an animal?",1,"BI2A00029","maybe NO",-0.5,17443,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"315","study","do you think this one is an animal?",2,"BI2A00011","maybe NO",-0.5,22317,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"316","study","do you think this one is an animal?",3,"BI2A00021","maybe NO",-0.5,10965,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"317","study","do you think this one is an animal?",4,"BI2A00024","skip",NA,45856,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"318","study","do you think this one is an animal?",5,"BI2A00042","maybe NO",-0.5,42111,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"319","study","do you think this one is an animal?",6,"BI2A00012","maybe NO",-0.5,15506,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"320","study","do you think this one is an animal?",7,"BI2A00001","skip",NA,44761,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"321","study","do you think this one is an animal?",8,"BI2A00022","maybe NO",-0.5,7083,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"322","study","do you think this one is an animal?",9,"BI2A00039","maybe NO",-0.5,5312,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"323","study","do you think this one is an animal?",10,"BI2A00009","maybe NO",-0.5,11327,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"324","study","do you think this one is an animal?",11,"BI2A00023","skip",NA,17803,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"325","study","do you think this one is an animal?",12,"BI2A00048","skip",NA,569,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS",-1996y 0m -48d 0H 0M 0S
-"326","study","do you think this one is an animal?",1,"BI2A00026","definitely YES",2.5,22804,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"327","study","do you think this one is an animal?",2,"BI2A00036","maybe NO",-0.5,26745,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"328","study","do you think this one is an animal?",3,"BI2A00027","definitely YES",2.5,21958,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"329","study","do you think this one is an animal?",4,"BI2A00035","definitely NO",-2.5,18273,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"330","study","do you think this one is an animal?",5,"BI2A00007","maybe YES",0.5,21511,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"331","study","do you think this one is an animal?",6,"BI2A00019","definitely YES",2.5,29024,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"332","study","do you think this one is an animal?",7,"BI2A00025","probably NO",-1.5,25284,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"333","study","do you think this one is an animal?",8,"BI2A00017","definitely YES",2.5,21660,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"334","study","do you think this one is an animal?",9,"BI2A00010","definitely YES",2.5,17311,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"335","study","do you think this one is an animal?",10,"BI2A00005","maybe YES",0.5,14195,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"336","study","do you think this one is an animal?",11,"BI2A00018","definitely NO",-2.5,15235,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"337","study","do you think this one is an animal?",12,"BI2A00044","definitely NO",-2.5,8898,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"338","bonus","do you think this can feel happy?",13,"BI2A00007","definitely YES",2.5,17701,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"339","bonus","do you think this one has feelings?",14,"BI2A00018","definitely NO",-2.5,16660,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"340","bonus","do you think this one can feel hungry?",15,"BI2A00005","definitely YES",2.5,14068,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"341","bonus","do you think this one can think?",16,"BI2A00017","definitely YES",2.5,15843,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"342","bonus","do you think this one can feel pain?",17,"BI2A00044","maybe NO",-0.5,16631,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"343","bonus","do you think this one can sense things nearby?",18,"BI2A00035","definitely NO",-2.5,18694,"p05",4.693150685,NA,"set3","female","always",NA,NA,-1995y 0m -98d -6H 0M 0S
-"344","study","do you think this one is an animal?",1,"BI2A00008","y",NA,13834,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"345","study","do you think this one is an animal?",2,"BI2A00003","y",NA,6708,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"346","study","do you think this one is an animal?",3,"BI2A00047","y",NA,6074,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"347","study","do you think this one is an animal?",4,"BI2A00015","y",NA,4702,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"348","study","do you think this one is an animal?",5,"BI2A00033","y",NA,6277,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"349","study","do you think this one is an animal?",6,"BI2A00046","y",NA,8057,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"350","study","do you think this one is an animal?",7,"BI2A00014","y",NA,16725,"p06",3.287671233,NA,"set1","female","always","maybe a giraffe",NA,-1996y 0m -246d 0H 0M 0S
-"351","study","do you think this one is an animal?",8,"BI2A00031","y",NA,17155,"p06",3.287671233,NA,"set1","female","always","maybe a polkadot",NA,-1996y 0m -246d 0H 0M 0S
-"352","study","do you think this one is an animal?",9,"BI2A00043","y",NA,13347,"p06",3.287671233,NA,"set1","female","always","maybe a panda",NA,-1996y 0m -246d 0H 0M 0S
-"353","study","do you think this one is an animal?",10,"BI2A00020","y",NA,8274,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"354","study","do you think this one is an animal?",11,"BI2A00028","y",NA,9639,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"355","study","do you think this one is an animal?",12,"BI2A00030","y",NA,15524,"p06",3.287671233,NA,"set1","female","always","a baby panda",NA,-1996y 0m -246d 0H 0M 0S
-"356","bonus","do you think this can feel happy?",13,"BI2A00043","y",NA,11193,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"357","bonus","do you think this one can think?",14,"BI2A00046","y",NA,7455,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"358","bonus","do you think this one has feelings?",15,"BI2A00020","y",NA,9240,"p06",3.287671233,NA,"set1","female","always","",NA,-1996y 0m -246d 0H 0M 0S
-"359","bonus","do you think this one can feel hungry?",16,"BI2A00003","skip",NA,17981,"p06",3.287671233,NA,"set1","female","always","baby giraffe",NA,-1996y 0m -246d 0H 0M 0S
-"360","bonus","do you think this one can feel pain?",17,"BI2A00008","skip",NA,20844,"p06",3.287671233,NA,"set1","female","always","a brother giraffe",NA,-1996y 0m -246d 0H 0M 0S
-"361","bonus","do you think this one can sense things nearby?",18,"BI2A00031","skip",NA,15234,"p06",3.287671233,NA,"set1","female","always","a baby giraffe",NA,-1996y 0m -246d 0H 0M 0S
-"362","study","do you think this one is an animal?",1,"BI2A00006","n",NA,17843,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH",-1996y 0m -224d 0H 0M 0S
-"363","study","do you think this one is an animal?",2,"BI2A00045","n",NA,7673,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH",-1996y 0m -224d 0H 0M 0S
-"364","study","do you think this one is an animal?",3,"BI2A00032","n",NA,9039,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH",-1996y 0m -224d 0H 0M 0S
-"365","study","do you think this one is an animal?",4,"BI2A00013","n",NA,7869,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH",-1996y 0m -224d 0H 0M 0S
-"366","study","do you think this one is an animal?",5,"BI2A00013","n",NA,NA,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH",-1996y 0m -224d 0H 0M 0S
-"367","study","do you think this one is an animal?",1,"BI2A00005","y",NA,39040,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"368","study","do you think this one is an animal?",2,"BI2A00010","n",NA,13442,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"369","study","do you think this one is an animal?",3,"BI2A00017","n",NA,20082,"p08",5.323287671,NA,"set3","female",NA,"brown wall",NA,-1994y 0m -233d -12H 0M 0S
-"370","study","do you think this one is an animal?",4,"BI2A00035","n",NA,10121,"p08",5.323287671,NA,"set3","female",NA,"rug",NA,-1994y 0m -233d -12H 0M 0S
-"371","study","do you think this one is an animal?",5,"BI2A00025","n",NA,16557,"p08",5.323287671,NA,"set3","female",NA,"carpet",NA,-1994y 0m -233d -12H 0M 0S
-"372","study","do you think this one is an animal?",6,"BI2A00007","y",NA,11654,"p08",5.323287671,NA,"set3","female",NA,"chick",NA,-1994y 0m -233d -12H 0M 0S
-"373","study","do you think this one is an animal?",7,"BI2A00019","skip",NA,27121,"p08",5.323287671,NA,"set3","female",NA,"IDK",NA,-1994y 0m -233d -12H 0M 0S
-"374","study","do you think this one is an animal?",8,"BI2A00036","n",NA,12594,"p08",5.323287671,NA,"set3","female",NA,"carpet",NA,-1994y 0m -233d -12H 0M 0S
-"375","study","do you think this one is an animal?",9,"BI2A00044","n",NA,26550,"p08",5.323287671,NA,"set3","female",NA,"on the ground when you walking",NA,-1994y 0m -233d -12H 0M 0S
-"376","study","do you think this one is an animal?",10,"BI2A00026","n",NA,23910,"p08",5.323287671,NA,"set3","female",NA,"a pokey thing",NA,-1994y 0m -233d -12H 0M 0S
-"377","study","do you think this one is an animal?",11,"BI2A00027","n",NA,13992,"p08",5.323287671,NA,"set3","female",NA,"a white and dirty wall",NA,-1994y 0m -233d -12H 0M 0S
-"378","study","do you think this one is an animal?",12,"BI2A00018","n",NA,8123,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"379","bonus","do you think this one can feel hungry?",13,"BI2A00007","n",NA,10646,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"380","bonus","do you think this one can think?",14,"BI2A00017","n",NA,8386,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"381","bonus","do you think this can feel happy?",15,"BI2A00035","n",NA,29856,"p08",5.323287671,NA,"set3","female",NA,"not a living thing",NA,-1994y 0m -233d -12H 0M 0S
-"382","bonus","do you think this one can see?",16,"BI2A00018","n",NA,14958,"p08",5.323287671,NA,"set3","female",NA,"no eyes",NA,-1994y 0m -233d -12H 0M 0S
-"383","bonus","do you think this one can feel pain",17,"BI2A00044","n",-2.5,9623,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"384","bonus","do you think this one can feel sad?",18,"BI2A00005","y",NA,11020,"p08",5.323287671,NA,"set3","female",NA,"",NA,-1994y 0m -233d -12H 0M 0S
-"385","practice",NA,1,"apple_1","skip",NA,12140,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"386","practice",NA,2,"apple_2","skip",NA,4135,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"387","practice",NA,3,"apple_3","skip",NA,3763,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"388","practice",NA,4,"apple_1","skip",NA,19523,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"389","study","do you think this one is an animal?",5,"BI2A00024","definitely YES",2.5,13629,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"390","study","do you think this one is an animal?",6,"BI2A00022","skip",NA,43900,"p09",6.378082192,"14:42","set4","male","always","both",NA,-1993y 0m -213d -18H 0M 0S
-"391","study","do you think this one is an animal?",7,"BI2A00001","probably YES",1.5,15461,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"392","study","do you think this one is an animal?",8,"BI2A00042","probably YES",1.5,15693,"p09",6.378082192,"14:42","set4","male","always","dolphin",NA,-1993y 0m -213d -18H 0M 0S
-"393","study","do you think this one is an animal?",9,"BI2A00029","definitely YES",2.5,25634,"p09",6.378082192,"14:42","set4","male","always","koalas",NA,-1993y 0m -213d -18H 0M 0S
-"394","study","do you think this one is an animal?",10,"BI2A00011","definitely YES",2.5,20660,"p09",6.378082192,"14:42","set4","male","always","elephant",NA,-1993y 0m -213d -18H 0M 0S
-"395","study","do you think this one is an animal?",11,"BI2A00048","definitely YES",2.5,11089,"p09",6.378082192,"14:42","set4","male","always","zebra",NA,-1993y 0m -213d -18H 0M 0S
-"396","study","do you think this one is an animal?",12,"BI2A00012","probably NO",-1.5,32815,"p09",6.378082192,"14:42","set4","male","always","IDK maybe",NA,-1993y 0m -213d -18H 0M 0S
-"397","study","do you think this one is an animal?",13,"BI2A00039","definitely NO",-2.5,14817,"p09",6.378082192,"14:42","set4","male","always","rocks, cause animals don't have that",NA,-1993y 0m -213d -18H 0M 0S
-"398","study","do you think this one is an animal?",14,"BI2A00021","definitely NO",-2.5,23544,"p09",6.378082192,"14:42","set4","male","always","ground",NA,-1993y 0m -213d -18H 0M 0S
-"399","study","do you think this one is an animal?",15,"BI2A00009","maybe YES",0.5,28263,"p09",6.378082192,"14:42","set4","male","always","IDK what kind",NA,-1993y 0m -213d -18H 0M 0S
-"400","study","do you think this one is an animal?",16,"BI2A00023","maybe NO",-0.5,28520,"p09",6.378082192,"14:42","set4","male","always","sometimes",NA,-1993y 0m -213d -18H 0M 0S
-"401","bonus","Do you think this one has feelings?",17,"BI2A00048","skip",NA,17745,"p09",6.378082192,"14:42","set4","male","always","IDK maybe",NA,-1993y 0m -213d -18H 0M 0S
-"402","bonus","Do you think this one can feel hungry?",18,"BI2A00011","definitely YES",2.5,11896,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"403","bonus","Do you think this one can sense things nearby?",19,"BI2A00022","definitely NO",-2.5,12330,"p09",6.378082192,"14:42","set4","male","always","",NA,-1993y 0m -213d -18H 0M 0S
-"404","bonus","Do you think this one can think?",20,"BI2A00009","maybe YES",0.5,13267,"p09",6.378082192,"14:42","set4","male","always","all animals can think",NA,-1993y 0m -213d -18H 0M 0S
-"405","bonus","Do you think this one can feel pain?",21,"BI2A00023","skip",NA,14201,"p09",6.378082192,"14:42","set4","male","always","maybe both",NA,-1993y 0m -213d -18H 0M 0S
-"406","bonus","Do you think this can feel happy?",22,"BI2A00039","definitely NO",-2.5,18446,"p09",6.378082192,"14:42","set4","male","always","does not",NA,-1993y 0m -213d -18H 0M 0S
-"407","practice",NA,1,"apple_1","skip",NA,19075,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"408","practice",NA,2,"apple_2","skip",NA,3398,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"409","practice",NA,3,"apple_3","skip",NA,20107,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"410","practice",NA,4,"apple_1","skip",NA,9592,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"411","study","do you think this one is an animal?",5,"BI2A00005","definitely YES",2.5,17821,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"412","study","do you think this one is an animal?",6,"BI2A00019","definitely YES",2.5,12970,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"413","study","do you think this one is an animal?",7,"BI2A00027","definitely NO",-2.5,19251,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"414","study","do you think this one is an animal?",8,"BI2A00035","definitely NO",-2.5,5438,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"415","study","do you think this one is an animal?",9,"BI2A00036","definitely NO",-2.5,24439,"p10",6.668493151,"15:00","set3","male","always","kind of looks like wool",NA,-1993y 0m -107d -18H 0M 0S
-"416","study","do you think this one is an animal?",10,"BI2A00026","maybe NO",-0.5,31973,"p10",6.668493151,"15:00","set3","male","always","kind of looks like hay",NA,-1993y 0m -107d -18H 0M 0S
-"417","study","do you think this one is an animal?",11,"BI2A00044","definitely NO",-2.5,3801,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"418","study","do you think this one is an animal?",12,"BI2A00010","probably YES",1.5,10225,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"419","study","do you think this one is an animal?",13,"BI2A00018","definitely NO",-2.5,10680,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"420","study","do you think this one is an animal?",14,"BI2A00017","definitely NO",-2.5,6129,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"421","study","do you think this one is an animal?",15,"BI2A00025","definitely NO",-2.5,5450,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"422","study","do you think this one is an animal?",16,"BI2A00007","definitely YES",2.5,5318,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"423","bonus","Do you think this one can think?",17,"BI2A00018","probably NO",-1.5,27021,"p10",6.668493151,"15:00","set3","male","always","if it's not an animal",NA,-1993y 0m -107d -18H 0M 0S
-"424","bonus","Do you think this one has feelings?",18,"BI2A00044","definitely NO",-2.5,19611,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"425","bonus","Do you think this can feel happy?",19,"BI2A00007","probably YES",1.5,17309,"p10",6.668493151,"15:00","set3","male","always","it's an animal so it can",NA,-1993y 0m -107d -18H 0M 0S
-"426","bonus","Do you think this one can feel pain?",20,"BI2A00005","definitely YES",2.5,20302,"p10",6.668493151,"15:00","set3","male","always","if it's an animal",NA,-1993y 0m -107d -18H 0M 0S
-"427","bonus","Do you think this one can see?",21,"BI2A00017","probably NO",-1.5,12303,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"428","bonus","Do you think this one can feel hungry?",22,"BI2A00035","definitely NO",-2.5,10169,"p10",6.668493151,"15:00","set3","male","always","",NA,-1993y 0m -107d -18H 0M 0S
-"429","practice",NA,1,"apple_1","skip",NA,11918,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"430","practice",NA,2,"apple_2","skip",NA,4508,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"431","practice",NA,3,"apple_3","skip",NA,3408,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"432","practice",NA,4,"apple_1","skip",NA,11092,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"433","study","do you think this one is an animal?",5,"BI2A00032","YES",NA,27410,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"434","study","do you think this one is an animal?",6,"BI2A00034","YES",NA,17933,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"435","study","do you think this one is an animal?",7,"BI2A00006","definitely YES",2.5,14619,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"436","study","do you think this one is an animal?",8,"BI2A00038","maybe YES",0.5,27188,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"437","study","do you think this one is an animal?",9,"BI2A00037","YES",NA,18202,"p11",5.115068493,"15:15","set2","male",NA,"looks like wood or tree",NA,-1994y 0m -309d -12H 0M 0S
-"438","study","do you think this one is an animal?",10,"BI2A00045","NO",NA,33623,"p11",5.115068493,"15:15","set2","male",NA,"sheep",NA,-1994y 0m -309d -12H 0M 0S
-"439","study","do you think this one is an animal?",11,"BI2A00004","YES",NA,15892,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"440","study","do you think this one is an animal?",12,"BI2A00040","NO",NA,11471,"p11",5.115068493,"15:15","set2","male",NA,"hair of animal",NA,-1994y 0m -309d -12H 0M 0S
-"441","study","do you think this one is an animal?",13,"BI2A00013","YES",NA,15879,"p11",5.115068493,"15:15","set2","male",NA,"floor",NA,-1994y 0m -309d -12H 0M 0S
-"442","study","do you think this one is an animal?",14,"BI2A00016","YES",NA,27435,"p11",5.115068493,"15:15","set2","male",NA,"dog fur",NA,-1994y 0m -309d -12H 0M 0S
-"443","study","do you think this one is an animal?",15,"BI2A00002","YES",NA,8024,"p11",5.115068493,"15:15","set2","male",NA,"camel",NA,-1994y 0m -309d -12H 0M 0S
-"444","study","do you think this one is an animal?",16,"BI2A00041","NO",NA,18384,"p11",5.115068493,"15:15","set2","male",NA,"fur of zebras",NA,-1994y 0m -309d -12H 0M 0S
-"445","bonus","Do you think this one can feel pain?",17,"BI2A00002","NO",NA,9639,"p11",5.115068493,"15:15","set2","male",NA,"a part of a wood of a É",NA,-1994y 0m -309d -12H 0M 0S
-"446","bonus","Do you think this one can feel hurt?",18,"BI2A00034","YES",NA,10109,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"447","bonus","Do you think this one has feelings?",19,"BI2A00045","YES",NA,9727,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"448","bonus","Do you think this one can think?",20,"BI2A00040","YES",NA,8128,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"449","bonus","Do you think this can feel happy?",21,"BI2A00032","YES",NA,4710,"p11",5.115068493,"15:15","set2","male",NA,"",NA,-1994y 0m -309d -12H 0M 0S
-"450","bonus","Do you think this one can feel hungry?",22,"BI2A00006","skip",NA,10987,"p11",5.115068493,"15:15","set2","male",NA,"maybe",NA,-1994y 0m -309d -12H 0M 0S
-"451","practice",NA,1,"apple_1","skip",NA,13417,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"452","practice",NA,2,"apple_2","skip",NA,4035,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"453","practice",NA,3,"apple_3","skip",NA,2978,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"454","practice",NA,4,"apple_1","skip",NA,11790,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"455","study","do you think this one is an animal?",5,"BI2A00009","YES",NA,15903,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"456","study","do you think this one is an animal?",6,"BI2A00039","NO",NA,30861,"p12",5.736986301,"16:45","set4","female",NA,"definitely st very hard",NA,-1994y 0m -82d -12H 0M 0S
-"457","study","do you think this one is an animal?",7,"BI2A00048","NO",NA,15260,"p12",5.736986301,"16:45","set4","female",NA,"sweater",NA,-1994y 0m -82d -12H 0M 0S
-"458","study","do you think this one is an animal?",8,"BI2A00001","YES",NA,11940,"p12",5.736986301,"16:45","set4","female",NA,"raccooon",NA,-1994y 0m -82d -12H 0M 0S
-"459","study","do you think this one is an animal?",9,"BI2A00023","NO",NA,17932,"p12",5.736986301,"16:45","set4","female",NA,"yarn",NA,-1994y 0m -82d -12H 0M 0S
-"460","study","do you think this one is an animal?",10,"BI2A00021","NO",NA,18930,"p12",5.736986301,"16:45","set4","female",NA,"bread",NA,-1994y 0m -82d -12H 0M 0S
-"461","study","do you think this one is an animal?",11,"BI2A00029","NO",NA,14280,"p12",5.736986301,"16:45","set4","female",NA,"carpet",NA,-1994y 0m -82d -12H 0M 0S
-"462","study","do you think this one is an animal?",12,"BI2A00011","YES",NA,11170,"p12",5.736986301,"16:45","set4","female",NA,"elephant",NA,-1994y 0m -82d -12H 0M 0S
-"463","study","do you think this one is an animal?",13,"BI2A00012","definitely NO",-2.5,24615,"p12",5.736986301,"16:45","set4","female",NA,"lots of hair on it",NA,-1994y 0m -82d -12H 0M 0S
-"464","study","do you think this one is an animal?",14,"BI2A00024","YES",NA,14562,"p12",5.736986301,"16:45","set4","female",NA,"porcupine",NA,-1994y 0m -82d -12H 0M 0S
-"465","study","do you think this one is an animal?",15,"BI2A00042","definitely NO",-2.5,14215,"p12",5.736986301,"16:45","set4","female",NA,"water",NA,-1994y 0m -82d -12H 0M 0S
-"466","study","do you think this one is an animal?",16,"BI2A00022","NO",NA,14316,"p12",5.736986301,"16:45","set4","female",NA,"not really",NA,-1994y 0m -82d -12H 0M 0S
-"467","bonus","Do you think this can feel happy?",17,"BI2A00048","NO",NA,12507,"p12",5.736986301,"16:45","set4","female",NA,"because it",NA,-1994y 0m -82d -12H 0M 0S
-"468","bonus","Do you think this one can feel hungry?",18,"BI2A00023","NO",NA,6066,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"469","bonus","Do you think this one can sense things nearby?",19,"BI2A00009","YES",NA,11653,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"470","bonus","Do you think this one can feel hurt?",20,"BI2A00022","skip",NA,23161,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"471","bonus","Do you think this one has feelings?",21,"BI2A00039","NO",NA,7074,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"472","bonus","Do you think this one can think?",22,"BI2A00011","YES",NA,8480,"p12",5.736986301,"16:45","set4","female",NA,"",NA,-1994y 0m -82d -12H 0M 0S
-"473","practice",NA,1,"apple_1","skip",NA,12171,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"474","practice",NA,2,"apple_2","skip",NA,5484,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"475","practice",NA,3,"apple_3","skip",NA,2965,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"476","practice",NA,4,"apple_1","skip",NA,12151,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"477","study","do you think this one is an animal?",5,"BI2A00048","NO",NA,18341,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"478","study","do you think this one is an animal?",6,"BI2A00039","maybe NO",-0.5,9283,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"479","study","do you think this one is an animal?",7,"BI2A00022","definitely NO",-2.5,20879,"p13",5.504109589,"14:28","set4","female",NA,"rock","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"480","study","do you think this one is an animal?",8,"BI2A00024","definitely YES",2.5,21936,"p13",5.504109589,"14:28","set4","female",NA,"bear","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"481","study","do you think this one is an animal?",9,"BI2A00011","definitely YES",2.5,14263,"p13",5.504109589,"14:28","set4","female",NA,"elephant","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"482","study","do you think this one is an animal?",10,"BI2A00001","maybe YES",0.5,16511,"p13",5.504109589,"14:28","set4","female",NA,"raccooon","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"483","study","do you think this one is an animal?",11,"BI2A00009","maybe NO",-0.5,37689,"p13",5.504109589,"14:28","set4","female",NA,"looks like a monkey","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"484","study","do you think this one is an animal?",12,"BI2A00042","definitely NO",-2.5,15139,"p13",5.504109589,"14:28","set4","female",NA,"definitely water","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"485","study","do you think this one is an animal?",13,"BI2A00023","definitely NO",-2.5,20950,"p13",5.504109589,"14:28","set4","female",NA,"IDK","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"486","study","do you think this one is an animal?",14,"BI2A00029","maybe YES",0.5,15525,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"487","study","do you think this one is an animal?",15,"BI2A00012","definitely NO",-2.5,23889,"p13",5.504109589,"14:28","set4","female",NA,"hard for me","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"488","study","do you think this one is an animal?",16,"BI2A00021","definitely NO",-2.5,10658,"p13",5.504109589,"14:28","set4","female",NA,"dirt","SPOKE SPANISH WITH DAD",-1994y 0m -167d -12H 0M 0S
-"489","practice",NA,1,"apple_1","skip",NA,16860,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"490","practice",NA,2,"apple_2","skip",NA,3402,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"491","practice",NA,3,"apple_3","skip",NA,2253,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"492","practice",NA,4,"apple_1","skip",NA,10515,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"493","study","do you think this one is an animal?",5,"BI2A00003","definitely YES",2.5,29663,"p14",7.021917808,"14:43","set1","male",NA,"raccoon","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"494","study","do you think this one is an animal?",6,"BI2A00014","probably NO",-1.5,32607,"p14",7.021917808,"14:43","set1","male",NA,"hard","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"495","study","do you think this one is an animal?",7,"BI2A00043","definitely NO",-2.5,17671,"p14",7.021917808,"14:43","set1","male",NA,"water","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"496","study","do you think this one is an animal?",8,"BI2A00020","probably YES",1.5,43087,"p14",7.021917808,"14:43","set1","male",NA,"dog hair","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"497","study","do you think this one is an animal?",9,"BI2A00028","definitely NO",-2.5,31884,"p14",7.021917808,"14:43","set1","male",NA,"saw already, a trunk","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"498","study","do you think this one is an animal?",10,"BI2A00033","maybe NO",-0.5,30022,"p14",7.021917808,"14:43","set1","male",NA,"feathers","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"499","study","do you think this one is an animal?",11,"BI2A00031","definitely NO",-2.5,33192,"p14",7.021917808,"14:43","set1","male",NA,"rug - I have one that's exactly like that","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"500","study","do you think this one is an animal?",12,"BI2A00047","maybe NO",-0.5,26689,"p14",7.021917808,"14:43","set1","male",NA,"not animal","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"501","study","do you think this one is an animal?",13,"BI2A00030","maybe NO",-0.5,27103,"p14",7.021917808,"14:43","set1","male",NA,"blanket for sleeping, might be wrong","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"502","study","do you think this one is an animal?",14,"BI2A00008","definitely YES",2.5,19490,"p14",7.021917808,"14:43","set1","male",NA,"monkey","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"503","study","do you think this one is an animal?",15,"BI2A00046","definitely NO",-2.5,15285,"p14",7.021917808,"14:43","set1","male",NA,"basket","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"504","study","do you think this one is an animal?",16,"BI2A00015","probably YES",1.5,20356,"p14",7.021917808,"14:43","set1","male",NA,"fur cat","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"505","bonus","Do you think this one can sense things nearby?",17,"BI2A00043","NO",NA,12054,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"506","bonus","Do you think this one can feel pain?",18,"BI2A00031","skip",NA,11573,"p14",7.021917808,"14:43","set1","male",NA,"not sure","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"507","bonus","Do you think this one can think?",19,"BI2A00046","NO",NA,8024,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"508","bonus","Do you think this can feel happy?",20,"BI2A00020","NO",NA,9140,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"509","bonus","Do you think this one can feel hungry?",21,"BI2A00008","YES",NA,14944,"p14",7.021917808,"14:43","set1","male",NA,"cuz I said monkey","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"510","bonus","Do you think this one has feelings?",22,"BI2A00003","NO",NA,14849,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",-1992y 0m -344d 0H 0M 0S
-"511","practice",NA,1,"apple_1","skip",NA,11144,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"512","practice",NA,2,"apple_2","skip",NA,3383,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"513","practice",NA,3,"apple_3","skip",NA,3255,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"514","practice",NA,4,"apple_1","skip",NA,11251,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"515","study","do you think this one is an animal?",5,"BI2A00028","maybe YES",0.5,12521,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"516","study","do you think this one is an animal?",6,"BI2A00043","maybe NO",-0.5,10852,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"517","study","do you think this one is an animal?",7,"BI2A00030","maybe NO",-0.5,9439,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"518","study","do you think this one is an animal?",8,"BI2A00046","maybe NO",-0.5,6304,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"519","study","do you think this one is an animal?",9,"BI2A00015","maybe YES",0.5,8341,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"520","study","do you think this one is an animal?",10,"BI2A00014","maybe YES",0.5,6268,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"521","study","do you think this one is an animal?",11,"BI2A00020","definitely YES",2.5,6236,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"522","study","do you think this one is an animal?",12,"BI2A00003","definitely YES",2.5,9303,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"523","study","do you think this one is an animal?",13,"BI2A00033","maybe NO",-0.5,6378,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"524","study","do you think this one is an animal?",14,"BI2A00008","definitely YES",2.5,5984,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"525","study","do you think this one is an animal?",15,"BI2A00031","definitely NO",-2.5,7611,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"526","study","do you think this one is an animal?",16,"BI2A00047","maybe YES",0.5,7237,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"527","bonus","Do you think this one can feel hungry?",17,"BI2A00003","maybe YES",0.5,28062,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"528","bonus","Do you think this one can think?",18,"BI2A00020","maybe NO",-0.5,14461,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"529","bonus","Do you think this one can feel hurt?",19,"BI2A00043","YES",NA,6771,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"530","bonus","Do you think this one has feelings?",20,"BI2A00008","NO",NA,10545,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"531","bonus","Do you think this can feel happy?",21,"BI2A00031","YES",NA,8488,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"532","bonus","Do you think this one can sense things nearby?",22,"BI2A00046","YES",NA,7436,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,-1994y 0m -183d -12H 0M 0S
-"533","practice",NA,1,"apple_1","skip",NA,11916,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"534","practice",NA,2,"apple_2","skip",NA,4764,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"535","practice",NA,3,"apple_3","skip",NA,2726,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"536","practice",NA,4,"apple_1","skip",NA,10668,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"537","study","do you think this one is an animal?",5,"BI2A00018","definitely YES",2.5,17341,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"538","study","do you think this one is an animal?",6,"BI2A00027","maybe NO",-0.5,30409,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"539","study","do you think this one is an animal?",7,"BI2A00019","definitely YES",2.5,7971,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"540","study","do you think this one is an animal?",8,"BI2A00005","definitely YES",2.5,4285,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"541","study","do you think this one is an animal?",9,"BI2A00007","definitely YES",2.5,3910,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"542","study","do you think this one is an animal?",10,"BI2A00017","definitely YES",2.5,4918,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"543","study","do you think this one is an animal?",11,"BI2A00035","maybe NO",-0.5,12925,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"544","study","do you think this one is an animal?",12,"BI2A00026","definitely YES",2.5,15340,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"545","study","do you think this one is an animal?",13,"BI2A00025","maybe YES",0.5,7642,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"546","study","do you think this one is an animal?",14,"BI2A00036","definitely YES",2.5,46843,"p17",6.619178082,"15:19","set3","female",NA,"rug",NA,-1993y 0m -125d -18H 0M 0S
-"547","study","do you think this one is an animal?",15,"BI2A00010","probably YES",1.5,24334,"p17",6.619178082,"15:19","set3","female",NA,"dog",NA,-1993y 0m -125d -18H 0M 0S
-"548","study","do you think this one is an animal?",16,"BI2A00044","definitely NO",-2.5,14928,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"549","bonus","Do you think this one can think?",17,"BI2A00035","NO",NA,19480,"p17",6.619178082,"15:19","set3","female",NA,"paper",NA,-1993y 0m -125d -18H 0M 0S
-"550","bonus","Do you think this one can sense things nearby?",18,"BI2A00044","NO",NA,6469,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"551","bonus","Do you think this one has feelings?",19,"BI2A00007","YES",NA,5930,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"552","bonus","Do you think this one can feel pain?",20,"BI2A00005","YES",NA,6860,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"553","bonus","Do you think this can feel happy?",21,"BI2A00018","maybe YES",0.5,17635,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"554","bonus","Do you think this one can feel hungry?",22,"BI2A00017","YES",NA,6808,"p17",6.619178082,"15:19","set3","female",NA,"",NA,-1993y 0m -125d -18H 0M 0S
-"555","practice",NA,1,"apple_1","skip",NA,13842,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"556","practice",NA,2,"apple_2","skip",NA,3388,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"557","practice",NA,3,"apple_3","skip",NA,3393,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"558","practice",NA,4,"apple_1","skip",NA,11068,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"559","study","do you think this one is an animal?",5,"BI2A00042","maybe NO",-0.5,17162,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"560","study","do you think this one is an animal?",6,"BI2A00029","maybe NO",-0.5,12335,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"561","study","do you think this one is an animal?",7,"BI2A00022","maybe YES",0.5,12792,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"562","study","do you think this one is an animal?",8,"BI2A00024","probably YES",1.5,16133,"p18",5.342465753,"15:44","set4","male","often","porcupine",NA,-1994y 0m -226d -12H 0M 0S
-"563","study","do you think this one is an animal?",9,"BI2A00012","maybe YES",0.5,11909,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"564","study","do you think this one is an animal?",10,"BI2A00039","probably NO",-1.5,9413,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"565","study","do you think this one is an animal?",11,"BI2A00021","probably NO",-1.5,5207,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"566","study","do you think this one is an animal?",12,"BI2A00011","probably YES",1.5,6849,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"567","study","do you think this one is an animal?",13,"BI2A00048","probably NO",-1.5,9590,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"568","study","do you think this one is an animal?",14,"BI2A00023","maybe YES",0.5,8137,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"569","study","do you think this one is an animal?",15,"BI2A00001","probably YES",1.5,7563,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"570","study","do you think this one is an animal?",16,"BI2A00009","probably YES",1.5,7710,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"571","bonus","Do you think this one can feel pain?",17,"BI2A00048","maybe NO",-0.5,13445,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"572","bonus","Do you think this one has feelings?",18,"BI2A00023","probably NO",-1.5,9357,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"573","bonus","Do you think this can feel happy?",19,"BI2A00011","probably YES",1.5,9590,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"574","bonus","Do you think this one can sense things nearby?",20,"BI2A00022","probably NO",-1.5,10901,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"575","bonus","Do you think this one can feel hungry?",21,"BI2A00039","probably NO",-1.5,8564,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
-"576","bonus","Do you think this one can think?",22,"BI2A00009","probably NO",-1.5,5471,"p18",5.342465753,"15:44","set4","male","often","",NA,-1994y 0m -226d -12H 0M 0S
+"1","practice",NA,1,"apple_1","skip",NA,12813,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"2","practice",NA,2,"apple_2","skip",NA,4114,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"3","practice",NA,3,"apple_3","skip",NA,3110,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"4","practice",NA,4,"apple_1","skip",NA,11865,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"5","study","do you think this one is an animal?",5,"BI2A00001","YES",NA,11588,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"6","study","do you think this one is an animal?",6,"BI2A00039","maybe NO",-0.5,41065,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"7","study","do you think this one is an animal?",7,"BI2A00048","maybe YES",0.5,34409,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"8","study","do you think this one is an animal?",8,"BI2A00029","maybe NO",-0.5,18231,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"9","study","do you think this one is an animal?",9,"BI2A00023","skip",NA,22794,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"10","study","do you think this one is an animal?",10,"BI2A00021","NO",NA,15953,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"11","study","do you think this one is an animal?",11,"BI2A00024","definitely YES",2.5,23170,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"12","study","do you think this one is an animal?",12,"BI2A00011","definitely YES",2.5,7751,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"13","study","do you think this one is an animal?",13,"BI2A00009","maybe YES",0.5,12075,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"14","study","do you think this one is an animal?",14,"BI2A00022","maybe YES",0.5,42225,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"15","study","do you think this one is an animal?",15,"BI2A00042","skip",NA,21574,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"16","study","do you think this one is an animal?",16,"BI2A00012","skip",NA,9107,"blank",NA,"15:12","set4",NA,NA,NA,"NO PARENT - drop",NA
+"17","practice",NA,-3,"apple_1","skip",NA,792,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"18","practice",NA,-2,"apple_2","skip",NA,5031,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"19","practice",NA,-1,"apple_3","skip",NA,2842,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"20","practice",NA,0,"apple_1","skip",NA,622,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"21","study","Do you think this one is an animal?",1,"BI2A00003","skip",NA,9606,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"22","study","Do you think this one is an animal?",2,"BI2A00014","skip",NA,10562,"test",NA,"11:51","set1",NA,NA,NA,"too young - drop",NA
+"23","practice",NA,-3,"apple_1","skip",NA,13621,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"24","practice",NA,-2,"apple_2","skip",NA,2822,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"25","practice",NA,-1,"apple_3","skip",NA,2609,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"26","practice",NA,0,"apple_1","skip",NA,11441,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"27","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,16425,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"28","study","Do you think this one is an animal?",2,"BI2A00004","maybe YES",0.5,14951,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"29","study","Do you think this one is an animal?",3,"BI2A00032","definitely NO",-1.5,12966,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"30","study","Do you think this one is an animal?",4,"BI2A00041","maybe NO",-0.5,11479,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"31","study","Do you think this one is an animal?",5,"BI2A00002","definitely YES",1.5,8954,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"32","study","Do you think this one is an animal?",6,"BI2A00038","maybe NO",-0.5,15333,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"33","study","Do you think this one is an animal?",7,"BI2A00006","definitely YES",1.5,21458,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"34","study","Do you think this one is an animal?",8,"BI2A00016","maybe YES",0.5,9503,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"35","study","Do you think this one is an animal?",9,"BI2A00034","definitely NO",-1.5,10350,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"36","study","Do you think this one is an animal?",10,"BI2A00037","definitely NO",-1.5,11851,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"37","study","Do you think this one is an animal?",11,"BI2A00013","definitely YES",1.5,15111,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"38","study","Do you think this one is an animal?",12,"BI2A00040","definitely NO",-1.5,7435,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"39","bonus","Do you think this one can feel hungry?",13,"BI2A00028","maybe YES",0.5,13682,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"40","bonus","Do you think this one can remember things?",14,"BI2A00006","maybe YES",0.5,11505,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"41","bonus","Do you think this one can sense things close by?",15,"BI2A00011","maybe NO",-0.5,12967,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"42","bonus","Do you think this one can think?",16,"BI2A00026","definitely YES",1.5,12815,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"43","bonus","Do you think this one can feel happy?",17,"BI2A00046","maybe YES",0.5,8851,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"44","bonus","Do you think this one can hear?",18,"BI2A00044","definitely NO",-1.5,9418,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"45","bonus","Do you think this one can feel pain?",19,"BI2A00021","maybe YES",0.5,12050,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"46","bonus","Do you think this one has feelings?",20,"BI2A00037","definitely YES",1.5,11473,"k01",4.353424658,"9:44","set2","female",NA,NA,"missing year of birth on consent form; guessed because said she was 4",4y 0m 128d 0H 0M 0S
+"47","practice",NA,-3,"apple_1","skip",NA,11122,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"48","practice",NA,-2,"apple_2","skip",NA,3405,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"49","practice",NA,-1,"apple_3","skip",NA,3085,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"50","practice",NA,0,"apple_1","skip",NA,10506,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"51","study","Do you think this one is an animal?",1,"BI2A00041","definitely NO",-1.5,15140,"k02",5.868493151,"11:03","set2","female",NA,"bag",NA,5y 0m 315d 18H 0M 0S
+"52","study","Do you think this one is an animal?",2,"BI2A00013","definitely YES",1.5,15637,"k02",5.868493151,"11:03","set2","female",NA,"I could tell - fur",NA,5y 0m 315d 18H 0M 0S
+"53","study","Do you think this one is an animal?",3,"BI2A00045","definitely NO",-1.5,15805,"k02",5.868493151,"11:03","set2","female",NA,"bag",NA,5y 0m 315d 18H 0M 0S
+"54","study","Do you think this one is an animal?",4,"BI2A00016","maybe YES",0.5,17124,"k02",5.868493151,"11:03","set2","female",NA,"more like wool",NA,5y 0m 315d 18H 0M 0S
+"55","study","Do you think this one is an animal?",5,"BI2A00004","definitely YES",1.5,8131,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"56","study","Do you think this one is an animal?",6,"BI2A00032","maybe YES",0.5,19816,"k02",5.868493151,"11:03","set2","female",NA,"kind of looks…",NA,5y 0m 315d 18H 0M 0S
+"57","study","Do you think this one is an animal?",7,"BI2A00006","definitely YES",1.5,10161,"k02",5.868493151,"11:03","set2","female",NA,"cat fur, I could tell",NA,5y 0m 315d 18H 0M 0S
+"58","study","Do you think this one is an animal?",8,"BI2A00038","definitely NO",-1.5,10228,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"59","study","Do you think this one is an animal?",9,"BI2A00037","maybe YES",0.5,15929,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"60","study","Do you think this one is an animal?",10,"BI2A00040","definitely NO",-1.5,11786,"k02",5.868493151,"11:03","set2","female",NA,"rug",NA,5y 0m 315d 18H 0M 0S
+"61","study","Do you think this one is an animal?",11,"BI2A00002","definitely YES",1.5,20500,"k02",5.868493151,"11:03","set2","female",NA,"cat fur",NA,5y 0m 315d 18H 0M 0S
+"62","study","Do you think this one is an animal?",12,"BI2A00034","definitely NO",-1.5,10485,"k02",5.868493151,"11:03","set2","female",NA,"rug",NA,5y 0m 315d 18H 0M 0S
+"63","bonus","Do you think this one can feel hungry?",13,"BI2A00044","definitely NO",-1.5,10437,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"64","bonus","Do you think this one can feel pain?",14,"BI2A00006","definitely YES",1.5,8332,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"65","bonus","Do you think this one can hear?",15,"BI2A00046","definitely NO",-1.5,7722,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"66","bonus","Do you think this one can feel happy?",16,"BI2A00021","maybe YES",0.5,6859,"k02",5.868493151,"11:03","set2","female",NA,"maybe",NA,5y 0m 315d 18H 0M 0S
+"67","bonus","Do you think this one can think?",17,"BI2A00026","maybe YES",0.5,6583,"k02",5.868493151,"11:03","set2","female",NA,"maybe",NA,5y 0m 315d 18H 0M 0S
+"68","bonus","Do you think this one can remember things?",18,"BI2A00037","definitely NO",-1.5,8091,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"69","bonus","Do you think this one has feelings?",19,"BI2A00011","definitely YES",1.5,8735,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"70","bonus","Do you think this one can sense things close by?",20,"BI2A00028","maybe YES",0.5,8262,"k02",5.868493151,"11:03","set2","female",NA,"",NA,5y 0m 315d 18H 0M 0S
+"71","practice",NA,-3,"apple_1","skip",NA,11656,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"72","practice",NA,-2,"apple_2","skip",NA,5104,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"73","practice",NA,-1,"apple_3","skip",NA,3394,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"74","practice",NA,0,"apple_1","skip",NA,11077,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"75","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,13915,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"76","study","Do you think this one is an animal?",2,"BI2A00006","definitely YES",1.5,13854,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"77","study","Do you think this one is an animal?",3,"BI2A00040","maybe YES",0.5,16399,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"78","study","Do you think this one is an animal?",4,"BI2A00004","definitely YES",1.5,14758,"k03",6.605479452,"11:30","set2","female","often","real",NA,6y 0m 219d 12H 0M 0S
+"79","study","Do you think this one is an animal?",5,"BI2A00041","maybe NO",-0.5,11782,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"80","study","Do you think this one is an animal?",6,"BI2A00038","maybe YES",0.5,14258,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"81","study","Do you think this one is an animal?",7,"BI2A00032","definitely NO",-1.5,10885,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"82","study","Do you think this one is an animal?",8,"BI2A00002","maybe YES",0.5,9027,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"83","study","Do you think this one is an animal?",9,"BI2A00013","maybe NO",-0.5,16869,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"84","study","Do you think this one is an animal?",10,"BI2A00037","maybe NO",-0.5,12556,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"85","study","Do you think this one is an animal?",11,"BI2A00034","definitely NO",-1.5,14883,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"86","study","Do you think this one is an animal?",12,"BI2A00016","maybe YES",0.5,10260,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"87","bonus","Do you think this one can feel hungry?",13,"BI2A00026","maybe NO",-0.5,19874,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"88","bonus","Do you think this one can hear?",14,"BI2A00046","definitely NO",-1.5,10961,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"89","bonus","Do you think this one has feelings?",15,"BI2A00037","definitely YES",1.5,17082,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"90","bonus","Do you think this one can remember things?",16,"BI2A00011","maybe YES",0.5,10602,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"91","bonus","Do you think this one can feel happy?",17,"BI2A00028","maybe NO",-0.5,13269,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"92","bonus","Do you think this one can think?",18,"BI2A00006","maybe YES",0.5,10475,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"93","bonus","Do you think this one can sense things close by?",19,"BI2A00044","maybe NO",-0.5,14913,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"94","bonus","Do you think this one can feel pain?",20,"BI2A00021","maybe NO",-0.5,12174,"k03",6.605479452,"11:30","set2","female","often","",NA,6y 0m 219d 12H 0M 0S
+"95","practice",NA,-3,"apple_1","skip",NA,23645,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"96","practice",NA,-2,"apple_2","skip",NA,3304,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"97","practice",NA,-1,"apple_3","skip",NA,6759,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"98","practice",NA,0,"apple_1","skip",NA,20936,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"99","study","Do you think this one is an animal?",1,"BI2A00033","maybe YES",0.5,17855,"k04",5.350684932,"11:55","set1","male","always","it might be",NA,5y 0m 126d 18H 0M 0S
+"100","study","Do you think this one is an animal?",2,"BI2A00047","maybe NO",-0.5,25612,"k04",5.350684932,"11:55","set1","male","always","it might be a carpet",NA,5y 0m 126d 18H 0M 0S
+"101","study","Do you think this one is an animal?",3,"BI2A00031","maybe NO",-0.5,32104,"k04",5.350684932,"11:55","set1","male","always","another carpet",NA,5y 0m 126d 18H 0M 0S
+"102","study","Do you think this one is an animal?",4,"BI2A00030","maybe NO",-0.5,46248,"k04",5.350684932,"11:55","set1","male","always","could be an animal but maybe not",NA,5y 0m 126d 18H 0M 0S
+"103","study","Do you think this one is an animal?",5,"BI2A00003","definitely YES",1.5,17777,"k04",5.350684932,"11:55","set1","male","always","raccooon",NA,5y 0m 126d 18H 0M 0S
+"104","study","Do you think this one is an animal?",6,"BI2A00046","definitely NO",-1.5,16986,"k04",5.350684932,"11:55","set1","male","always","just a basket",NA,5y 0m 126d 18H 0M 0S
+"105","study","Do you think this one is an animal?",7,"BI2A00014","maybe NO",-0.5,25490,"k04",5.350684932,"11:55","set1","male","always","I can't tell - it's maybe",NA,5y 0m 126d 18H 0M 0S
+"106","study","Do you think this one is an animal?",8,"BI2A00020","maybe NO",-0.5,14203,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"107","study","Do you think this one is an animal?",9,"BI2A00015","maybe YES",0.5,13564,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"108","study","Do you think this one is an animal?",10,"BI2A00028","maybe YES",0.5,50585,"k04",5.350684932,"11:55","set1","male","always","I have no idea, I'm really not sure",NA,5y 0m 126d 18H 0M 0S
+"109","study","Do you think this one is an animal?",11,"BI2A00043","definitely NO",-1.5,23962,"k04",5.350684932,"11:55","set1","male","always","ocean",NA,5y 0m 126d 18H 0M 0S
+"110","study","Do you think this one is an animal?",12,"BI2A00008","definitely YES",1.5,11931,"k04",5.350684932,"11:55","set1","male","always","really",NA,5y 0m 126d 18H 0M 0S
+"111","bonus","Do you think this one can feel hungry?",13,"BI2A00026","maybe NO",-0.5,41857,"k04",5.350684932,"11:55","set1","male","always","yeah, then no",NA,5y 0m 126d 18H 0M 0S
+"112","bonus","Do you think this one has feelings?",14,"BI2A00046","definitely NO",-1.5,21659,"k04",5.350684932,"11:55","set1","male","always","because it's a wooden",NA,5y 0m 126d 18H 0M 0S
+"113","bonus","Do you think this one can sense things close by?",15,"BI2A00011","maybe NO",-0.5,29050,"k04",5.350684932,"11:55","set1","male","always","because it has no eyes and it has no sense of things",NA,5y 0m 126d 18H 0M 0S
+"114","bonus","Do you think this one can think?",16,"BI2A00037","maybe NO",-0.5,15087,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"115","bonus","Do you think this one can remember things?",17,"BI2A00044","definitely NO",-1.5,10797,"k04",5.350684932,"11:55","set1","male","always","",NA,5y 0m 126d 18H 0M 0S
+"116","bonus","Do you think this one can feel happy?",18,"BI2A00006","maybe NO",-0.5,12103,"k04",5.350684932,"11:55","set1","male","always","[wanted to stop]",NA,5y 0m 126d 18H 0M 0S
+"117","practice",NA,-3,"apple_1","skip",NA,15211,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"118","practice",NA,-2,"apple_2","skip",NA,4887,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"119","practice",NA,-1,"apple_3","skip",NA,6398,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"120","practice",NA,0,"apple_1","skip",NA,12063,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"121","study","Do you think this one is an animal?",1,"BI2A00037","maybe NO",-0.5,28038,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","hay",NA,4y 0m 34d 0H 0M 0S
+"122","study","Do you think this one is an animal?",2,"BI2A00038","NO",NA,28202,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","wood to build a house",NA,4y 0m 34d 0H 0M 0S
+"123","study","Do you think this one is an animal?",3,"BI2A00004","maybe YES",0.5,27898,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","goat",NA,4y 0m 34d 0H 0M 0S
+"124","study","Do you think this one is an animal?",4,"BI2A00041","NO",NA,14905,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's a bag",NA,4y 0m 34d 0H 0M 0S
+"125","study","Do you think this one is an animal?",5,"BI2A00045","NO",NA,25086,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","fans are not animals; build a carpet",NA,4y 0m 34d 0H 0M 0S
+"126","study","Do you think this one is an animal?",6,"BI2A00040","NO",NA,8064,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","different",NA,4y 0m 34d 0H 0M 0S
+"127","study","Do you think this one is an animal?",7,"BI2A00032","NO",NA,21220,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","carpets always",NA,4y 0m 34d 0H 0M 0S
+"128","study","Do you think this one is an animal?",8,"BI2A00013","YES",NA,16401,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's because… another goat",NA,4y 0m 34d 0H 0M 0S
+"129","study","Do you think this one is an animal?",9,"BI2A00002","YES",NA,16765,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","porcupine",NA,4y 0m 34d 0H 0M 0S
+"130","study","Do you think this one is an animal?",10,"BI2A00016","YES",NA,38883,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"131","study","Do you think this one is an animal?",11,"BI2A00006","YES",NA,21967,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","from an eagle",NA,4y 0m 34d 0H 0M 0S
+"132","study","Do you think this one is an animal?",12,"BI2A00034","NO",NA,6940,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"133","bonus","Do you think this one has feelings?",13,"BI2A00046","NO",NA,8819,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"134","bonus","Do you think this one can feel pain?",14,"BI2A00044","YES",NA,19872,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","it's a robot [explained what ""hurt"" means]",NA,4y 0m 34d 0H 0M 0S
+"135","bonus","Do you think this one can feel hungry?",15,"BI2A00026","YES",NA,17381,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","its' a giraffe and giraffes eat apples, and leaves",NA,4y 0m 34d 0H 0M 0S
+"136","bonus","Do you think this one can hear?",16,"BI2A00011","YES",NA,15770,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","cow",NA,4y 0m 34d 0H 0M 0S
+"137","bonus","Do you think this one can sense things close by?",17,"BI2A00021","skip",NA,32883,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","turtle, no, turtles are shy",NA,4y 0m 34d 0H 0M 0S
+"138","bonus","Do you think this one can think?",18,"BI2A00037","YES",NA,7063,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"139","bonus","Do you think this one can feel happy?",19,"BI2A00006","NO",NA,18284,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","no it feels mad (first said yes, then no)",NA,4y 0m 34d 0H 0M 0S
+"140","bonus","Do you think this one can remember things?",20,"BI2A00028","NO",NA,10470,"k05",4.095890411,"12:34","set2","female","English always, Spanish often","",NA,4y 0m 34d 0H 0M 0S
+"141","practice",NA,-3,"apple_1","skip",NA,13592,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"142","practice",NA,-2,"apple_2","skip",NA,3023,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"143","practice",NA,-1,"apple_3","skip",NA,3370,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"144","practice",NA,0,"apple_1","skip",NA,11078,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"145","study","Do you think this one is an animal?",1,"BI2A00044","definitely NO",-1.5,13720,"k06",5.961643836,"13:18","set3","female","always","not. I can tell",NA,5y 0m 349d 18H 0M 0S
+"146","study","Do you think this one is an animal?",2,"BI2A00010","maybe YES",0.5,15401,"k06",5.961643836,"13:18","set3","female","always","animal fur",NA,5y 0m 349d 18H 0M 0S
+"147","study","Do you think this one is an animal?",3,"BI2A00017","maybe YES",0.5,8210,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"148","study","Do you think this one is an animal?",4,"BI2A00018","definitely YES",1.5,10992,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"149","study","Do you think this one is an animal?",5,"BI2A00007","definitely YES",1.5,15874,"k06",5.961643836,"13:18","set3","female","always","animal, cuz I see fur",NA,5y 0m 349d 18H 0M 0S
+"150","study","Do you think this one is an animal?",6,"BI2A00025","definitely NO",-1.5,13299,"k06",5.961643836,"13:18","set3","female","always","carpet",NA,5y 0m 349d 18H 0M 0S
+"151","study","Do you think this one is an animal?",7,"BI2A00019","definitely YES",1.5,7829,"k06",5.961643836,"13:18","set3","female","always","animal",NA,5y 0m 349d 18H 0M 0S
+"152","study","Do you think this one is an animal?",8,"BI2A00035","definitely NO",-1.5,9203,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"153","study","Do you think this one is an animal?",9,"BI2A00036","maybe NO",-0.5,37219,"k06",5.961643836,"13:18","set3","female","always","animals don't have those little fuzzes, rugs are square",NA,5y 0m 349d 18H 0M 0S
+"154","study","Do you think this one is an animal?",10,"BI2A00005","definitely YES",1.5,7827,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"155","study","Do you think this one is an animal?",11,"BI2A00026","maybe NO",-0.5,6248,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"156","study","Do you think this one is an animal?",12,"BI2A00027","definitely NO",-1.5,9624,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"157","bonus","Do you think this one can remember things?",13,"BI2A00011","maybe NO",-0.5,47134,"k06",5.961643836,"13:18","set3","female","always","I cannot",NA,5y 0m 349d 18H 0M 0S
+"158","bonus","Do you think this one can feel hungry?",14,"BI2A00006","maybe YES",0.5,11728,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"159","bonus","Do you think this one can feel pain?",15,"BI2A00044","maybe NO",-0.5,25126,"k06",5.961643836,"13:18","set3","female","always","cuz it's not an animal",NA,5y 0m 349d 18H 0M 0S
+"160","bonus","Do you think this one can sense things close by?",16,"BI2A00028","maybe NO",-0.5,10113,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"161","bonus","Do you think this one can hear?",17,"BI2A00026","NO",NA,9951,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"162","bonus","Do you think this one has feelings?",18,"BI2A00046","maybe NO",-0.5,8220,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"163","bonus","Do you think this one can feel happy?",19,"BI2A00021","definitely NO",-1.5,8645,"k06",5.961643836,"13:18","set3","female","always","",NA,5y 0m 349d 18H 0M 0S
+"164","bonus","Do you think this one can think?",20,"BI2A00037","definitely NO",-1.5,16878,"k06",5.961643836,"13:18","set3","female","always","because it looks",NA,5y 0m 349d 18H 0M 0S
+"165","practice",NA,-3,"apple_1","skip",NA,13755,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"166","practice",NA,-2,"apple_2","skip",NA,3578,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"167","practice",NA,-1,"apple_3","skip",NA,3124,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"168","practice",NA,0,"apple_1","skip",NA,7944,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"169","study","Do you think this one is an animal?",1,"BI2A00039","skip",NA,6007,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"170","study","Do you think this one is an animal?",2,"BI2A00001","YES",NA,15449,"k07",5.465753425,"13:31","set4","male","often","","limited English - drop",5y 0m 168d 18H 0M 0S
+"171","study","Do you think this one is an animal?",3,"BI2A00042","skip",NA,12741,"k07",5.465753425,"13:31","set4","male","often","black","limited English - drop",5y 0m 168d 18H 0M 0S
+"172","study","Do you think this one is an animal?",4,"BI2A00029","YES",NA,25879,"k07",5.465753425,"13:31","set4","male","often","white; sheep","limited English - drop",5y 0m 168d 18H 0M 0S
+"173","study","Do you think this one is an animal?",5,"BI2A00048","YES",NA,8537,"k07",5.465753425,"13:31","set4","male","often","zebra","limited English - drop",5y 0m 168d 18H 0M 0S
+"174","study","Do you think this one is an animal?",6,"BI2A00021","YES",NA,10776,"k07",5.465753425,"13:31","set4","male","often","bear","limited English - drop",5y 0m 168d 18H 0M 0S
+"175","study","Do you think this one is an animal?",7,"BI2A00022","YES",NA,9145,"k07",5.465753425,"13:31","set4","male","often","owl","limited English - drop",5y 0m 168d 18H 0M 0S
+"176","study","Do you think this one is an animal?",8,"BI2A00024","YES",NA,9588,"k07",5.465753425,"13:31","set4","male","often","porcupine","limited English - drop",5y 0m 168d 18H 0M 0S
+"177","study","Do you think this one is an animal?",9,"BI2A00009","YES",NA,9498,"k07",5.465753425,"13:31","set4","male","often","dog","limited English - drop",5y 0m 168d 18H 0M 0S
+"178","study","Do you think this one is an animal?",10,"BI2A00012","NO",NA,19915,"k07",5.465753425,"13:31","set4","male","often","not","limited English - drop",5y 0m 168d 18H 0M 0S
+"179","study","Do you think this one is an animal?",11,"BI2A00023","YES",NA,9564,"k07",5.465753425,"13:31","set4","male","often","porcupine","limited English - drop",5y 0m 168d 18H 0M 0S
+"180","study","Do you think this one is an animal?",12,"BI2A00011","YES",NA,8054,"k07",5.465753425,"13:31","set4","male","often","elephant","limited English - drop",5y 0m 168d 18H 0M 0S
+"181","practice",NA,-3,"apple_1","skip",NA,13891,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"182","practice",NA,-2,"apple_2","skip",NA,3231,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"183","practice",NA,-1,"apple_3","skip",NA,5369,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"184","practice",NA,0,"apple_1","skip",NA,10423,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"185","study","Do you think this one is an animal?",1,"BI2A00031","maybe NO",-0.5,17447,"k08",4.18630137,"14:15","set1","female","always","carpet",NA,4y 0m 67d 0H 0M 0S
+"186","study","Do you think this one is an animal?",2,"BI2A00030","maybe YES",0.5,24926,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"187","study","Do you think this one is an animal?",3,"BI2A00014","NO",NA,24404,"k08",4.18630137,"14:15","set1","female","always","no",NA,4y 0m 67d 0H 0M 0S
+"188","study","Do you think this one is an animal?",4,"BI2A00003","definitely YES",1.5,15998,"k08",4.18630137,"14:15","set1","female","always","kitty",NA,4y 0m 67d 0H 0M 0S
+"189","study","Do you think this one is an animal?",5,"BI2A00015","NO",NA,14823,"k08",4.18630137,"14:15","set1","female","always","no",NA,4y 0m 67d 0H 0M 0S
+"190","study","Do you think this one is an animal?",6,"BI2A00043","definitely NO",-1.5,13765,"k08",4.18630137,"14:15","set1","female","always","ocean",NA,4y 0m 67d 0H 0M 0S
+"191","study","Do you think this one is an animal?",7,"BI2A00033","definitely NO",-1.5,18447,"k08",4.18630137,"14:15","set1","female","always","mulch, sidewalk",NA,4y 0m 67d 0H 0M 0S
+"192","study","Do you think this one is an animal?",8,"BI2A00028","definitely NO",-1.5,20649,"k08",4.18630137,"14:15","set1","female","always","weird",NA,4y 0m 67d 0H 0M 0S
+"193","study","Do you think this one is an animal?",9,"BI2A00046","maybe NO",-0.5,16193,"k08",4.18630137,"14:15","set1","female","always","picnic basket",NA,4y 0m 67d 0H 0M 0S
+"194","study","Do you think this one is an animal?",10,"BI2A00047","definitely NO",-1.5,13093,"k08",4.18630137,"14:15","set1","female","always","carpet",NA,4y 0m 67d 0H 0M 0S
+"195","study","Do you think this one is an animal?",11,"BI2A00020","definitely YES",1.5,14720,"k08",4.18630137,"14:15","set1","female","always","dog",NA,4y 0m 67d 0H 0M 0S
+"196","study","Do you think this one is an animal?",12,"BI2A00008","definitely YES",1.5,13082,"k08",4.18630137,"14:15","set1","female","always","cat",NA,4y 0m 67d 0H 0M 0S
+"197","bonus","Do you think this one can feel hungry?",13,"BI2A00026","YES",NA,16476,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"198","bonus","Do you think this one has feelings?",14,"BI2A00011","NO",NA,13492,"k08",4.18630137,"14:15","set1","female","always","elephants",NA,4y 0m 67d 0H 0M 0S
+"199","bonus","Do you think this one can sense things close by?",15,"BI2A00046","NO",NA,12130,"k08",4.18630137,"14:15","set1","female","always","",NA,4y 0m 67d 0H 0M 0S
+"200","practice",NA,-3,"apple_1","skip",NA,11855,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"201","practice",NA,-2,"apple_2","skip",NA,2956,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"202","practice",NA,-1,"apple_3","skip",NA,3408,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"203","practice",NA,0,"apple_1","skip",NA,10591,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"204","study","Do you think this one is an animal?",1,"BI2A00045","definitely NO",-1.5,13824,"k09",6.345205479,"14:44","set2","male",NA,"basket","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"205","study","Do you think this one is an animal?",2,"BI2A00006","definitely YES",1.5,15206,"k09",6.345205479,"14:44","set2","male",NA,"hamster","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"206","study","Do you think this one is an animal?",3,"BI2A00040","definitely NO",-1.5,10062,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"207","study","Do you think this one is an animal?",4,"BI2A00041","definitely NO",-1.5,16326,"k09",6.345205479,"14:44","set2","male",NA,"plastic","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"208","study","Do you think this one is an animal?",5,"BI2A00034","definitely NO",-1.5,19656,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"209","study","Do you think this one is an animal?",6,"BI2A00037","definitely NO",-1.5,18324,"k09",6.345205479,"14:44","set2","male",NA,"hay","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"210","study","Do you think this one is an animal?",7,"BI2A00032","definitely NO",-1.5,19160,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"211","study","Do you think this one is an animal?",8,"BI2A00038","definitely NO",-1.5,15997,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"212","study","Do you think this one is an animal?",9,"BI2A00016","definitely NO",-1.5,16314,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"213","study","Do you think this one is an animal?",10,"BI2A00004","maybe YES",0.5,17960,"k09",6.345205479,"14:44","set2","male",NA,"maybe it's a rat","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"214","study","Do you think this one is an animal?",11,"BI2A00002","definitely YES",1.5,31946,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"215","study","Do you think this one is an animal?",12,"BI2A00013","definitely YES",1.5,22326,"k09",6.345205479,"14:44","set2","male",NA,"hamster","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"216","bonus","Do you think this one has feelings?",13,"BI2A00037","definitely YES",1.5,18585,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"217","bonus","Do you think this one can hear?",14,"BI2A00021","definitely NO",-1.5,14737,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"218","bonus","Do you think this one can remember things?",15,"BI2A00044","definitely NO",-1.5,9820,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"219","bonus","Do you think this one can think?",16,"BI2A00046","maybe NO",-0.5,11050,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"220","bonus","Do you think this one can sense things close by?",17,"BI2A00006","maybe YES",0.5,10762,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"221","bonus","Do you think this one can feel hungry?",18,"BI2A00011","maybe NO",-0.5,13731,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"222","bonus","Do you think this one can feel happy?",19,"BI2A00026","maybe YES",0.5,15438,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"223","bonus","Do you think this one can feel pain?",20,"BI2A00028","maybe YES",0.5,10795,"k09",6.345205479,"14:44","set2","male",NA,"","no year on consent form; both said 6yo",6y 0m 124d 12H 0M 0S
+"224","practice",NA,-3,"apple_1","skip",NA,12091,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"225","practice",NA,-2,"apple_2","skip",NA,5919,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"226","practice",NA,-1,"apple_3","skip",NA,25634,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"227","practice",NA,0,"apple_1","skip",NA,11199,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"228","study","Do you think this one is an animal?",1,"BI2A00024","definitely YES",1.5,18491,"k10",6.430136986,"14:57","set4","female",NA,"procupine","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"229","study","Do you think this one is an animal?",2,"BI2A00012","maybe YES",0.5,20357,"k10",6.430136986,"14:57","set4","female",NA,"challenging","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"230","study","Do you think this one is an animal?",3,"BI2A00021","definitely NO",-1.5,13840,"k10",6.430136986,"14:57","set4","female",NA,"desert sand","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"231","study","Do you think this one is an animal?",4,"BI2A00039","definitely NO",-1.5,11798,"k10",6.430136986,"14:57","set4","female",NA,"wood chips","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"232","study","Do you think this one is an animal?",5,"BI2A00009","definitely YES",1.5,14893,"k10",6.430136986,"14:57","set4","female",NA,"animal; cuz I can see the fur","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"233","study","Do you think this one is an animal?",6,"BI2A00023","maybe NO",-0.5,24471,"k10",6.430136986,"14:57","set4","female",NA,"challenging","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"234","study","Do you think this one is an animal?",7,"BI2A00042","definitely NO",-1.5,25831,"k10",6.430136986,"14:57","set4","female",NA,"painted picture; cuz it doesn't have fur or just bare skin","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"235","study","Do you think this one is an animal?",8,"BI2A00029","definitely NO",-1.5,11259,"k10",6.430136986,"14:57","set4","female",NA,"carpet","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"236","study","Do you think this one is an animal?",9,"BI2A00048","definitely NO",-1.5,10465,"k10",6.430136986,"14:57","set4","female",NA,"carpet","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"237","study","Do you think this one is an animal?",10,"BI2A00022","definitely YES",1.5,16034,"k10",6.430136986,"14:57","set4","female",NA,"animal, cuz I can see the fur","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"238","study","Do you think this one is an animal?",11,"BI2A00001","definitely YES",1.5,6617,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"239","study","Do you think this one is an animal?",12,"BI2A00011","definitely YES",1.5,9549,"k10",6.430136986,"14:57","set4","female",NA,"elephant, can tell","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"240","bonus","Do you think this one can feel happy?",13,"BI2A00011","definitely YES",1.5,11126,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"241","bonus","Do you think this one has feelings?",14,"BI2A00044","definitely NO",-1.5,9378,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"242","bonus","Do you think this one can think?",15,"BI2A00028","maybe NO",-0.5,18497,"k10",6.430136986,"14:57","set4","female",NA,"carpet; actually maybe an animal","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"243","bonus","Do you think this one can sense things close by?",16,"BI2A00026","maybe YES",0.5,14434,"k10",6.430136986,"14:57","set4","female",NA,"animal","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"244","bonus","Do you think this one can feel pain?",17,"BI2A00037","maybe YES",0.5,13248,"k10",6.430136986,"14:57","set4","female",NA,"I guess so","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"245","bonus","Do you think this one can feel hungry?",18,"BI2A00021","definitely NO",-1.5,10912,"k10",6.430136986,"14:57","set4","female",NA,"desert sand","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"246","bonus","Do you think this one can hear?",19,"BI2A00046","definitely NO",-1.5,7634,"k10",6.430136986,"14:57","set4","female",NA,"","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"247","bonus","Do you think this one can remember things?",20,"BI2A00006","definitely YES",1.5,10974,"k10",6.430136986,"14:57","set4","female",NA,"guinea pig","no year on consent form; both said 6yo",6y 0m 155d 12H 0M 0S
+"248","practice",NA,-3,"apple_1","skip",NA,13675,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"249","practice",NA,-2,"apple_2","skip",NA,2823,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"250","practice",NA,-1,"apple_3","skip",NA,4634,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"251","practice",NA,0,"apple_1","skip",NA,11961,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"252","study","Do you think this one is an animal?",1,"BI2A00014","maybe YES",0.5,17969,"k11",5.123287671,"15:06","set1","female","always","mouse",NA,5y 0m 43d 18H 0M 0S
+"253","study","Do you think this one is an animal?",2,"BI2A00046","definitely NO",-1.5,27988,"k11",5.123287671,"15:06","set1","female","always","basket; because it has diamonds and animals don't have diamonds",NA,5y 0m 43d 18H 0M 0S
+"254","study","Do you think this one is an animal?",3,"BI2A00028","maybe YES",0.5,18353,"k11",5.123287671,"15:06","set1","female","always","mole",NA,5y 0m 43d 18H 0M 0S
+"255","study","Do you think this one is an animal?",4,"BI2A00033","definitely NO",-1.5,28086,"k11",5.123287671,"15:06","set1","female","always","brown rock, because it looks kind of hard and animals are not",NA,5y 0m 43d 18H 0M 0S
+"256","study","Do you think this one is an animal?",5,"BI2A00008","definitely YES",1.5,22362,"k11",5.123287671,"15:06","set1","female","always","part of a lion's mane, because it has fur",NA,5y 0m 43d 18H 0M 0S
+"257","study","Do you think this one is an animal?",6,"BI2A00031","definitely NO",-1.5,13374,"k11",5.123287671,"15:06","set1","female","always","carpet",NA,5y 0m 43d 18H 0M 0S
+"258","study","Do you think this one is an animal?",7,"BI2A00047","skip",NA,39184,"k11",5.123287671,"15:06","set1","female","always","carpet at home, maybe a sheep wool, I don't know, maybe",NA,5y 0m 43d 18H 0M 0S
+"259","study","Do you think this one is an animal?",8,"BI2A00020","definitely YES",1.5,11914,"k11",5.123287671,"15:06","set1","female","always","bear's fur, because it has fur",NA,5y 0m 43d 18H 0M 0S
+"260","study","Do you think this one is an animal?",9,"BI2A00043","definitely NO",-1.5,43735,"k11",5.123287671,"15:06","set1","female","always","looks like maybe a window that's silver, because it has reflection",NA,5y 0m 43d 18H 0M 0S
+"261","study","Do you think this one is an animal?",10,"BI2A00003","definitely YES",1.5,16154,"k11",5.123287671,"15:06","set1","female","always","soft type of porcupine",NA,5y 0m 43d 18H 0M 0S
+"262","study","Do you think this one is an animal?",11,"BI2A00030","definitely NO",-1.5,16276,"k11",5.123287671,"15:06","set1","female","always","type of carpet",NA,5y 0m 43d 18H 0M 0S
+"263","study","Do you think this one is an animal?",12,"BI2A00015","definitely YES",1.5,23548,"k11",5.123287671,"15:06","set1","female","always","animal - not",NA,5y 0m 43d 18H 0M 0S
+"264","bonus","Do you think this one can think?",13,"BI2A00011","maybe YES",0.5,34426,"k11",5.123287671,"15:06","set1","female","always","armadillo, smart animal",NA,5y 0m 43d 18H 0M 0S
+"265","bonus","Do you think this one can feel happy?",14,"BI2A00028","maybe YES",0.5,10155,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"266","bonus","Do you think this one has feelings?",15,"BI2A00006","definitely YES",1.5,31211,"k11",5.123287671,"15:06","set1","female","always","mad feelings, might be a porcupine, spikes",NA,5y 0m 43d 18H 0M 0S
+"267","bonus","Do you think this one can hear?",16,"BI2A00046","definitely NO",-1.5,9120,"k11",5.123287671,"15:06","set1","female","always","",NA,5y 0m 43d 18H 0M 0S
+"268","bonus","Do you think this one can remember things?",17,"BI2A00021","definitely NO",-1.5,22546,"k11",5.123287671,"15:06","set1","female","always","because it's not alive, because it looks like a rock",NA,5y 0m 43d 18H 0M 0S
+"269","bonus","Do you think this one can feel pain?",18,"BI2A00026","maybe NO",-0.5,35249,"k11",5.123287671,"15:06","set1","female","always","no if something eats it",NA,5y 0m 43d 18H 0M 0S
+"270","bonus","Do you think this one can sense things close by?",19,"BI2A00044","maybe NO",-0.5,28099,"k11",5.123287671,"15:06","set1","female","always","no",NA,5y 0m 43d 18H 0M 0S
+"271","bonus","Do you think this one can feel hungry?",20,"BI2A00037","definitely NO",-1.5,18315,"k11",5.123287671,"15:06","set1","female","always","maybe it's food, it's actually",NA,5y 0m 43d 18H 0M 0S
+"272","study","do you think this one is an animal?",1,"BI2A00014","probably NO",-1.5,25416,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"273","study","do you think this one is an animal?",2,"BI2A00046","maybe NO",-0.5,16723,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"274","study","do you think this one is an animal?",3,"BI2A00003","definitely YES",2.5,14635,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"275","study","do you think this one is an animal?",4,"BI2A00020","maybe YES",0.5,19117,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"276","study","do you think this one is an animal?",5,"BI2A00008","maybe YES",0.5,20500,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"277","study","do you think this one is an animal?",6,"BI2A00030","definitely NO",-2.5,10484,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"278","study","do you think this one is an animal?",7,"BI2A00043","definitely NO",-2.5,9153,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"279","study","do you think this one is an animal?",8,"BI2A00047","maybe NO",-0.5,10344,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"280","study","do you think this one is an animal?",9,"BI2A00028","probably YES",1.5,12612,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"281","study","do you think this one is an animal?",10,"BI2A00033","definitely NO",-2.5,18666,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"282","study","do you think this one is an animal?",11,"BI2A00031","definitely NO",-2.5,8887,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"283","study","do you think this one is an animal?",12,"BI2A00015","maybe YES",0.5,11994,"p01",4.879452055,NA,"set1","male",NA,NA,NA,4y 0m 320d 0H 0M 0S
+"284","study","do you think this one is an animal?",1,"BI2A00015","n",NA,14314,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"285","study","do you think this one is an animal?",2,"BI2A00008","y",NA,5331,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"286","study","do you think this one is an animal?",3,"BI2A00014","y",NA,4317,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"287","study","do you think this one is an animal?",4,"BI2A00033","n",NA,11763,"p02",3.082191781,NA,"set1","male","always","sand",NA,3y 0m 29d 6H 0M 0S
+"288","study","do you think this one is an animal?",5,"BI2A00031","n",NA,20431,"p02",3.082191781,NA,"set1","male","always","black thing carpet",NA,3y 0m 29d 6H 0M 0S
+"289","study","do you think this one is an animal?",6,"BI2A00030","n",NA,13259,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"290","study","do you think this one is an animal?",7,"BI2A00047","n",NA,6137,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"291","study","do you think this one is an animal?",8,"BI2A00046","n",NA,5069,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"292","study","do you think this one is an animal?",9,"BI2A00020","n",NA,7038,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"293","study","do you think this one is an animal?",10,"BI2A00003","y",NA,5266,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"294","study","do you think this one is an animal?",11,"BI2A00043","y",NA,24703,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"295","study","do you think this one is an animal?",12,"BI2A00028","n",NA,6251,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"296","bonus","do you think this can feel happy?",13,"BI2A00043","n",NA,12049,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"297","bonus","do you think this one has feelings",14,"BI2A00008","y",NA,6863,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"298","bonus","do you think this one can think?",15,"BI2A00031","n",NA,6581,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"299","bonus","do you think this one can sense things nearby",16,"BI2A00046","n",NA,7873,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"300","bonus","do you think this one can feel pain",17,"BI2A00003","n",NA,12623,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"301","bonus","do you think this one can feel hungry",18,"BI2A00020","y",NA,5750,"p02",3.082191781,NA,"set1","male","always","",NA,3y 0m 29d 6H 0M 0S
+"302","study","do you think this one is an animal?",1,"BI2A00045","n",NA,22880,"p03",3.621917808,NA,"set2","female","always","basket",NA,3y 0m 226d 6H 0M 0S
+"303","study","do you think this one is an animal?",2,"BI2A00034","n",NA,14199,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"304","study","do you think this one is an animal?",3,"BI2A00040","n",NA,9477,"p03",3.621917808,NA,"set2","female","always","carpet",NA,3y 0m 226d 6H 0M 0S
+"305","study","do you think this one is an animal?",4,"BI2A00032","n",NA,11427,"p03",3.621917808,NA,"set2","female","always","wallet",NA,3y 0m 226d 6H 0M 0S
+"306","study","do you think this one is an animal?",5,"BI2A00016","n",NA,10416,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"307","study","do you think this one is an animal?",6,"BI2A00038","n",NA,11422,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"308","study","do you think this one is an animal?",7,"BI2A00037","n",NA,7475,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"309","study","do you think this one is an animal?",8,"BI2A00002","y",NA,18446,"p03",3.621917808,NA,"set2","female","always","dinosaur",NA,3y 0m 226d 6H 0M 0S
+"310","study","do you think this one is an animal?",9,"BI2A00013","n",NA,8658,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"311","study","do you think this one is an animal?",10,"BI2A00041","n",NA,4475,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"312","study","do you think this one is an animal?",11,"BI2A00006","n",NA,7380,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"313","study","do you think this one is an animal?",12,"BI2A00004","n",NA,5334,"p03",3.621917808,NA,"set2","female","always","",NA,3y 0m 226d 6H 0M 0S
+"314","study","do you think this one is an animal?",1,"BI2A00029","maybe NO",-0.5,17443,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"315","study","do you think this one is an animal?",2,"BI2A00011","maybe NO",-0.5,22317,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"316","study","do you think this one is an animal?",3,"BI2A00021","maybe NO",-0.5,10965,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"317","study","do you think this one is an animal?",4,"BI2A00024","skip",NA,45856,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"318","study","do you think this one is an animal?",5,"BI2A00042","maybe NO",-0.5,42111,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"319","study","do you think this one is an animal?",6,"BI2A00012","maybe NO",-0.5,15506,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"320","study","do you think this one is an animal?",7,"BI2A00001","skip",NA,44761,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"321","study","do you think this one is an animal?",8,"BI2A00022","maybe NO",-0.5,7083,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"322","study","do you think this one is an animal?",9,"BI2A00039","maybe NO",-0.5,5312,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"323","study","do you think this one is an animal?",10,"BI2A00009","maybe NO",-0.5,11327,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"324","study","do you think this one is an animal?",11,"BI2A00023","skip",NA,17803,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"325","study","do you think this one is an animal?",12,"BI2A00048","skip",NA,569,"p04",3.830136986,NA,"set4","female",NA,NA,"PARENTS TALKING DURING SESSION, GIVING ANSWERS - drop",3y 0m 302d 6H 0M 0S
+"326","study","do you think this one is an animal?",1,"BI2A00026","definitely YES",2.5,22804,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"327","study","do you think this one is an animal?",2,"BI2A00036","maybe NO",-0.5,26745,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"328","study","do you think this one is an animal?",3,"BI2A00027","definitely YES",2.5,21958,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"329","study","do you think this one is an animal?",4,"BI2A00035","definitely NO",-2.5,18273,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"330","study","do you think this one is an animal?",5,"BI2A00007","maybe YES",0.5,21511,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"331","study","do you think this one is an animal?",6,"BI2A00019","definitely YES",2.5,29024,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"332","study","do you think this one is an animal?",7,"BI2A00025","probably NO",-1.5,25284,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"333","study","do you think this one is an animal?",8,"BI2A00017","definitely YES",2.5,21660,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"334","study","do you think this one is an animal?",9,"BI2A00010","definitely YES",2.5,17311,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"335","study","do you think this one is an animal?",10,"BI2A00005","maybe YES",0.5,14195,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"336","study","do you think this one is an animal?",11,"BI2A00018","definitely NO",-2.5,15235,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"337","study","do you think this one is an animal?",12,"BI2A00044","definitely NO",-2.5,8898,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"338","bonus","do you think this can feel happy?",13,"BI2A00007","definitely YES",2.5,17701,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"339","bonus","do you think this one has feelings?",14,"BI2A00018","definitely NO",-2.5,16660,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"340","bonus","do you think this one can feel hungry?",15,"BI2A00005","definitely YES",2.5,14068,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"341","bonus","do you think this one can think?",16,"BI2A00017","definitely YES",2.5,15843,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"342","bonus","do you think this one can feel pain?",17,"BI2A00044","maybe NO",-0.5,16631,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"343","bonus","do you think this one can sense things nearby?",18,"BI2A00035","definitely NO",-2.5,18694,"p05",4.693150685,NA,"set3","female","always",NA,NA,4y 0m 252d 0H 0M 0S
+"344","study","do you think this one is an animal?",1,"BI2A00008","y",NA,13834,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"345","study","do you think this one is an animal?",2,"BI2A00003","y",NA,6708,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"346","study","do you think this one is an animal?",3,"BI2A00047","y",NA,6074,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"347","study","do you think this one is an animal?",4,"BI2A00015","y",NA,4702,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"348","study","do you think this one is an animal?",5,"BI2A00033","y",NA,6277,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"349","study","do you think this one is an animal?",6,"BI2A00046","y",NA,8057,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"350","study","do you think this one is an animal?",7,"BI2A00014","y",NA,16725,"p06",3.287671233,NA,"set1","female","always","maybe a giraffe",NA,3y 0m 104d 6H 0M 0S
+"351","study","do you think this one is an animal?",8,"BI2A00031","y",NA,17155,"p06",3.287671233,NA,"set1","female","always","maybe a polkadot",NA,3y 0m 104d 6H 0M 0S
+"352","study","do you think this one is an animal?",9,"BI2A00043","y",NA,13347,"p06",3.287671233,NA,"set1","female","always","maybe a panda",NA,3y 0m 104d 6H 0M 0S
+"353","study","do you think this one is an animal?",10,"BI2A00020","y",NA,8274,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"354","study","do you think this one is an animal?",11,"BI2A00028","y",NA,9639,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"355","study","do you think this one is an animal?",12,"BI2A00030","y",NA,15524,"p06",3.287671233,NA,"set1","female","always","a baby panda",NA,3y 0m 104d 6H 0M 0S
+"356","bonus","do you think this can feel happy?",13,"BI2A00043","y",NA,11193,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"357","bonus","do you think this one can think?",14,"BI2A00046","y",NA,7455,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"358","bonus","do you think this one has feelings?",15,"BI2A00020","y",NA,9240,"p06",3.287671233,NA,"set1","female","always","",NA,3y 0m 104d 6H 0M 0S
+"359","bonus","do you think this one can feel hungry?",16,"BI2A00003","skip",NA,17981,"p06",3.287671233,NA,"set1","female","always","baby giraffe",NA,3y 0m 104d 6H 0M 0S
+"360","bonus","do you think this one can feel pain?",17,"BI2A00008","skip",NA,20844,"p06",3.287671233,NA,"set1","female","always","a brother giraffe",NA,3y 0m 104d 6H 0M 0S
+"361","bonus","do you think this one can sense things nearby?",18,"BI2A00031","skip",NA,15234,"p06",3.287671233,NA,"set1","female","always","a baby giraffe",NA,3y 0m 104d 6H 0M 0S
+"362","study","do you think this one is an animal?",1,"BI2A00006","n",NA,17843,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH - drop",3y 0m 126d 6H 0M 0S
+"363","study","do you think this one is an animal?",2,"BI2A00045","n",NA,7673,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH - drop",3y 0m 126d 6H 0M 0S
+"364","study","do you think this one is an animal?",3,"BI2A00032","n",NA,9039,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH - drop",3y 0m 126d 6H 0M 0S
+"365","study","do you think this one is an animal?",4,"BI2A00013","n",NA,7869,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH - drop",3y 0m 126d 6H 0M 0S
+"366","study","do you think this one is an animal?",5,"BI2A00013","n",NA,NA,"p07",3.347945205,NA,"set2","female",NA,NA,"LIMITED ENGLISH - drop",3y 0m 126d 6H 0M 0S
+"367","study","do you think this one is an animal?",1,"BI2A00005","y",NA,39040,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"368","study","do you think this one is an animal?",2,"BI2A00010","n",NA,13442,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"369","study","do you think this one is an animal?",3,"BI2A00017","n",NA,20082,"p08",5.323287671,NA,"set3","female",NA,"brown wall",NA,5y 0m 116d 18H 0M 0S
+"370","study","do you think this one is an animal?",4,"BI2A00035","n",NA,10121,"p08",5.323287671,NA,"set3","female",NA,"rug",NA,5y 0m 116d 18H 0M 0S
+"371","study","do you think this one is an animal?",5,"BI2A00025","n",NA,16557,"p08",5.323287671,NA,"set3","female",NA,"carpet",NA,5y 0m 116d 18H 0M 0S
+"372","study","do you think this one is an animal?",6,"BI2A00007","y",NA,11654,"p08",5.323287671,NA,"set3","female",NA,"chick",NA,5y 0m 116d 18H 0M 0S
+"373","study","do you think this one is an animal?",7,"BI2A00019","skip",NA,27121,"p08",5.323287671,NA,"set3","female",NA,"IDK",NA,5y 0m 116d 18H 0M 0S
+"374","study","do you think this one is an animal?",8,"BI2A00036","n",NA,12594,"p08",5.323287671,NA,"set3","female",NA,"carpet",NA,5y 0m 116d 18H 0M 0S
+"375","study","do you think this one is an animal?",9,"BI2A00044","n",NA,26550,"p08",5.323287671,NA,"set3","female",NA,"on the ground when you walking",NA,5y 0m 116d 18H 0M 0S
+"376","study","do you think this one is an animal?",10,"BI2A00026","n",NA,23910,"p08",5.323287671,NA,"set3","female",NA,"a pokey thing",NA,5y 0m 116d 18H 0M 0S
+"377","study","do you think this one is an animal?",11,"BI2A00027","n",NA,13992,"p08",5.323287671,NA,"set3","female",NA,"a white and dirty wall",NA,5y 0m 116d 18H 0M 0S
+"378","study","do you think this one is an animal?",12,"BI2A00018","n",NA,8123,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"379","bonus","do you think this one can feel hungry?",13,"BI2A00007","n",NA,10646,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"380","bonus","do you think this one can think?",14,"BI2A00017","n",NA,8386,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"381","bonus","do you think this can feel happy?",15,"BI2A00035","n",NA,29856,"p08",5.323287671,NA,"set3","female",NA,"not a living thing",NA,5y 0m 116d 18H 0M 0S
+"382","bonus","do you think this one can see?",16,"BI2A00018","n",NA,14958,"p08",5.323287671,NA,"set3","female",NA,"no eyes",NA,5y 0m 116d 18H 0M 0S
+"383","bonus","do you think this one can feel pain",17,"BI2A00044","n",-2.5,9623,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"384","bonus","do you think this one can feel sad?",18,"BI2A00005","y",NA,11020,"p08",5.323287671,NA,"set3","female",NA,"",NA,5y 0m 116d 18H 0M 0S
+"385","practice",NA,1,"apple_1","skip",NA,12140,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"386","practice",NA,2,"apple_2","skip",NA,4135,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"387","practice",NA,3,"apple_3","skip",NA,3763,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"388","practice",NA,4,"apple_1","skip",NA,19523,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"389","study","do you think this one is an animal?",5,"BI2A00024","definitely YES",2.5,13629,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"390","study","do you think this one is an animal?",6,"BI2A00022","skip",NA,43900,"p09",6.378082192,"14:42","set4","male","always","both",NA,6y 0m 136d 12H 0M 0S
+"391","study","do you think this one is an animal?",7,"BI2A00001","probably YES",1.5,15461,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"392","study","do you think this one is an animal?",8,"BI2A00042","probably YES",1.5,15693,"p09",6.378082192,"14:42","set4","male","always","dolphin",NA,6y 0m 136d 12H 0M 0S
+"393","study","do you think this one is an animal?",9,"BI2A00029","definitely YES",2.5,25634,"p09",6.378082192,"14:42","set4","male","always","koalas",NA,6y 0m 136d 12H 0M 0S
+"394","study","do you think this one is an animal?",10,"BI2A00011","definitely YES",2.5,20660,"p09",6.378082192,"14:42","set4","male","always","elephant",NA,6y 0m 136d 12H 0M 0S
+"395","study","do you think this one is an animal?",11,"BI2A00048","definitely YES",2.5,11089,"p09",6.378082192,"14:42","set4","male","always","zebra",NA,6y 0m 136d 12H 0M 0S
+"396","study","do you think this one is an animal?",12,"BI2A00012","probably NO",-1.5,32815,"p09",6.378082192,"14:42","set4","male","always","IDK maybe",NA,6y 0m 136d 12H 0M 0S
+"397","study","do you think this one is an animal?",13,"BI2A00039","definitely NO",-2.5,14817,"p09",6.378082192,"14:42","set4","male","always","rocks, cause animals don't have that",NA,6y 0m 136d 12H 0M 0S
+"398","study","do you think this one is an animal?",14,"BI2A00021","definitely NO",-2.5,23544,"p09",6.378082192,"14:42","set4","male","always","ground",NA,6y 0m 136d 12H 0M 0S
+"399","study","do you think this one is an animal?",15,"BI2A00009","maybe YES",0.5,28263,"p09",6.378082192,"14:42","set4","male","always","IDK what kind",NA,6y 0m 136d 12H 0M 0S
+"400","study","do you think this one is an animal?",16,"BI2A00023","maybe NO",-0.5,28520,"p09",6.378082192,"14:42","set4","male","always","sometimes",NA,6y 0m 136d 12H 0M 0S
+"401","bonus","Do you think this one has feelings?",17,"BI2A00048","skip",NA,17745,"p09",6.378082192,"14:42","set4","male","always","IDK maybe",NA,6y 0m 136d 12H 0M 0S
+"402","bonus","Do you think this one can feel hungry?",18,"BI2A00011","definitely YES",2.5,11896,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"403","bonus","Do you think this one can sense things nearby?",19,"BI2A00022","definitely NO",-2.5,12330,"p09",6.378082192,"14:42","set4","male","always","",NA,6y 0m 136d 12H 0M 0S
+"404","bonus","Do you think this one can think?",20,"BI2A00009","maybe YES",0.5,13267,"p09",6.378082192,"14:42","set4","male","always","all animals can think",NA,6y 0m 136d 12H 0M 0S
+"405","bonus","Do you think this one can feel pain?",21,"BI2A00023","skip",NA,14201,"p09",6.378082192,"14:42","set4","male","always","maybe both",NA,6y 0m 136d 12H 0M 0S
+"406","bonus","Do you think this can feel happy?",22,"BI2A00039","definitely NO",-2.5,18446,"p09",6.378082192,"14:42","set4","male","always","does not",NA,6y 0m 136d 12H 0M 0S
+"407","practice",NA,1,"apple_1","skip",NA,19075,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"408","practice",NA,2,"apple_2","skip",NA,3398,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"409","practice",NA,3,"apple_3","skip",NA,20107,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"410","practice",NA,4,"apple_1","skip",NA,9592,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"411","study","do you think this one is an animal?",5,"BI2A00005","definitely YES",2.5,17821,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"412","study","do you think this one is an animal?",6,"BI2A00019","definitely YES",2.5,12970,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"413","study","do you think this one is an animal?",7,"BI2A00027","definitely NO",-2.5,19251,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"414","study","do you think this one is an animal?",8,"BI2A00035","definitely NO",-2.5,5438,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"415","study","do you think this one is an animal?",9,"BI2A00036","definitely NO",-2.5,24439,"p10",6.668493151,"15:00","set3","male","always","kind of looks like wool",NA,6y 0m 242d 12H 0M 0S
+"416","study","do you think this one is an animal?",10,"BI2A00026","maybe NO",-0.5,31973,"p10",6.668493151,"15:00","set3","male","always","kind of looks like hay",NA,6y 0m 242d 12H 0M 0S
+"417","study","do you think this one is an animal?",11,"BI2A00044","definitely NO",-2.5,3801,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"418","study","do you think this one is an animal?",12,"BI2A00010","probably YES",1.5,10225,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"419","study","do you think this one is an animal?",13,"BI2A00018","definitely NO",-2.5,10680,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"420","study","do you think this one is an animal?",14,"BI2A00017","definitely NO",-2.5,6129,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"421","study","do you think this one is an animal?",15,"BI2A00025","definitely NO",-2.5,5450,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"422","study","do you think this one is an animal?",16,"BI2A00007","definitely YES",2.5,5318,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"423","bonus","Do you think this one can think?",17,"BI2A00018","probably NO",-1.5,27021,"p10",6.668493151,"15:00","set3","male","always","if it's not an animal",NA,6y 0m 242d 12H 0M 0S
+"424","bonus","Do you think this one has feelings?",18,"BI2A00044","definitely NO",-2.5,19611,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"425","bonus","Do you think this can feel happy?",19,"BI2A00007","probably YES",1.5,17309,"p10",6.668493151,"15:00","set3","male","always","it's an animal so it can",NA,6y 0m 242d 12H 0M 0S
+"426","bonus","Do you think this one can feel pain?",20,"BI2A00005","definitely YES",2.5,20302,"p10",6.668493151,"15:00","set3","male","always","if it's an animal",NA,6y 0m 242d 12H 0M 0S
+"427","bonus","Do you think this one can see?",21,"BI2A00017","probably NO",-1.5,12303,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"428","bonus","Do you think this one can feel hungry?",22,"BI2A00035","definitely NO",-2.5,10169,"p10",6.668493151,"15:00","set3","male","always","",NA,6y 0m 242d 12H 0M 0S
+"429","practice",NA,1,"apple_1","skip",NA,11918,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"430","practice",NA,2,"apple_2","skip",NA,4508,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"431","practice",NA,3,"apple_3","skip",NA,3408,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"432","practice",NA,4,"apple_1","skip",NA,11092,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"433","study","do you think this one is an animal?",5,"BI2A00032","YES",NA,27410,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"434","study","do you think this one is an animal?",6,"BI2A00034","YES",NA,17933,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"435","study","do you think this one is an animal?",7,"BI2A00006","definitely YES",2.5,14619,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"436","study","do you think this one is an animal?",8,"BI2A00038","maybe YES",0.5,27188,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"437","study","do you think this one is an animal?",9,"BI2A00037","YES",NA,18202,"p11",5.115068493,"15:15","set2","male",NA,"looks like wood or tree",NA,5y 0m 40d 18H 0M 0S
+"438","study","do you think this one is an animal?",10,"BI2A00045","NO",NA,33623,"p11",5.115068493,"15:15","set2","male",NA,"sheep",NA,5y 0m 40d 18H 0M 0S
+"439","study","do you think this one is an animal?",11,"BI2A00004","YES",NA,15892,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"440","study","do you think this one is an animal?",12,"BI2A00040","NO",NA,11471,"p11",5.115068493,"15:15","set2","male",NA,"hair of animal",NA,5y 0m 40d 18H 0M 0S
+"441","study","do you think this one is an animal?",13,"BI2A00013","YES",NA,15879,"p11",5.115068493,"15:15","set2","male",NA,"floor",NA,5y 0m 40d 18H 0M 0S
+"442","study","do you think this one is an animal?",14,"BI2A00016","YES",NA,27435,"p11",5.115068493,"15:15","set2","male",NA,"dog fur",NA,5y 0m 40d 18H 0M 0S
+"443","study","do you think this one is an animal?",15,"BI2A00002","YES",NA,8024,"p11",5.115068493,"15:15","set2","male",NA,"camel",NA,5y 0m 40d 18H 0M 0S
+"444","study","do you think this one is an animal?",16,"BI2A00041","NO",NA,18384,"p11",5.115068493,"15:15","set2","male",NA,"fur of zebras",NA,5y 0m 40d 18H 0M 0S
+"445","bonus","Do you think this one can feel pain?",17,"BI2A00002","NO",NA,9639,"p11",5.115068493,"15:15","set2","male",NA,"a part of a wood of a É",NA,5y 0m 40d 18H 0M 0S
+"446","bonus","Do you think this one can feel hurt?",18,"BI2A00034","YES",NA,10109,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"447","bonus","Do you think this one has feelings?",19,"BI2A00045","YES",NA,9727,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"448","bonus","Do you think this one can think?",20,"BI2A00040","YES",NA,8128,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"449","bonus","Do you think this can feel happy?",21,"BI2A00032","YES",NA,4710,"p11",5.115068493,"15:15","set2","male",NA,"",NA,5y 0m 40d 18H 0M 0S
+"450","bonus","Do you think this one can feel hungry?",22,"BI2A00006","skip",NA,10987,"p11",5.115068493,"15:15","set2","male",NA,"maybe",NA,5y 0m 40d 18H 0M 0S
+"451","practice",NA,1,"apple_1","skip",NA,13417,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"452","practice",NA,2,"apple_2","skip",NA,4035,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"453","practice",NA,3,"apple_3","skip",NA,2978,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"454","practice",NA,4,"apple_1","skip",NA,11790,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"455","study","do you think this one is an animal?",5,"BI2A00009","YES",NA,15903,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"456","study","do you think this one is an animal?",6,"BI2A00039","NO",NA,30861,"p12",5.736986301,"16:45","set4","female",NA,"definitely st very hard",NA,5y 0m 267d 18H 0M 0S
+"457","study","do you think this one is an animal?",7,"BI2A00048","NO",NA,15260,"p12",5.736986301,"16:45","set4","female",NA,"sweater",NA,5y 0m 267d 18H 0M 0S
+"458","study","do you think this one is an animal?",8,"BI2A00001","YES",NA,11940,"p12",5.736986301,"16:45","set4","female",NA,"raccooon",NA,5y 0m 267d 18H 0M 0S
+"459","study","do you think this one is an animal?",9,"BI2A00023","NO",NA,17932,"p12",5.736986301,"16:45","set4","female",NA,"yarn",NA,5y 0m 267d 18H 0M 0S
+"460","study","do you think this one is an animal?",10,"BI2A00021","NO",NA,18930,"p12",5.736986301,"16:45","set4","female",NA,"bread",NA,5y 0m 267d 18H 0M 0S
+"461","study","do you think this one is an animal?",11,"BI2A00029","NO",NA,14280,"p12",5.736986301,"16:45","set4","female",NA,"carpet",NA,5y 0m 267d 18H 0M 0S
+"462","study","do you think this one is an animal?",12,"BI2A00011","YES",NA,11170,"p12",5.736986301,"16:45","set4","female",NA,"elephant",NA,5y 0m 267d 18H 0M 0S
+"463","study","do you think this one is an animal?",13,"BI2A00012","definitely NO",-2.5,24615,"p12",5.736986301,"16:45","set4","female",NA,"lots of hair on it",NA,5y 0m 267d 18H 0M 0S
+"464","study","do you think this one is an animal?",14,"BI2A00024","YES",NA,14562,"p12",5.736986301,"16:45","set4","female",NA,"porcupine",NA,5y 0m 267d 18H 0M 0S
+"465","study","do you think this one is an animal?",15,"BI2A00042","definitely NO",-2.5,14215,"p12",5.736986301,"16:45","set4","female",NA,"water",NA,5y 0m 267d 18H 0M 0S
+"466","study","do you think this one is an animal?",16,"BI2A00022","NO",NA,14316,"p12",5.736986301,"16:45","set4","female",NA,"not really",NA,5y 0m 267d 18H 0M 0S
+"467","bonus","Do you think this can feel happy?",17,"BI2A00048","NO",NA,12507,"p12",5.736986301,"16:45","set4","female",NA,"because it",NA,5y 0m 267d 18H 0M 0S
+"468","bonus","Do you think this one can feel hungry?",18,"BI2A00023","NO",NA,6066,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"469","bonus","Do you think this one can sense things nearby?",19,"BI2A00009","YES",NA,11653,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"470","bonus","Do you think this one can feel hurt?",20,"BI2A00022","skip",NA,23161,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"471","bonus","Do you think this one has feelings?",21,"BI2A00039","NO",NA,7074,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"472","bonus","Do you think this one can think?",22,"BI2A00011","YES",NA,8480,"p12",5.736986301,"16:45","set4","female",NA,"",NA,5y 0m 267d 18H 0M 0S
+"473","practice",NA,1,"apple_1","skip",NA,12171,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"474","practice",NA,2,"apple_2","skip",NA,5484,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"475","practice",NA,3,"apple_3","skip",NA,2965,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"476","practice",NA,4,"apple_1","skip",NA,12151,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"477","study","do you think this one is an animal?",5,"BI2A00048","NO",NA,18341,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"478","study","do you think this one is an animal?",6,"BI2A00039","maybe NO",-0.5,9283,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"479","study","do you think this one is an animal?",7,"BI2A00022","definitely NO",-2.5,20879,"p13",5.504109589,"14:28","set4","female",NA,"rock","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"480","study","do you think this one is an animal?",8,"BI2A00024","definitely YES",2.5,21936,"p13",5.504109589,"14:28","set4","female",NA,"bear","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"481","study","do you think this one is an animal?",9,"BI2A00011","definitely YES",2.5,14263,"p13",5.504109589,"14:28","set4","female",NA,"elephant","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"482","study","do you think this one is an animal?",10,"BI2A00001","maybe YES",0.5,16511,"p13",5.504109589,"14:28","set4","female",NA,"raccooon","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"483","study","do you think this one is an animal?",11,"BI2A00009","maybe NO",-0.5,37689,"p13",5.504109589,"14:28","set4","female",NA,"looks like a monkey","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"484","study","do you think this one is an animal?",12,"BI2A00042","definitely NO",-2.5,15139,"p13",5.504109589,"14:28","set4","female",NA,"definitely water","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"485","study","do you think this one is an animal?",13,"BI2A00023","definitely NO",-2.5,20950,"p13",5.504109589,"14:28","set4","female",NA,"IDK","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"486","study","do you think this one is an animal?",14,"BI2A00029","maybe YES",0.5,15525,"p13",5.504109589,"14:28","set4","female",NA,"","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"487","study","do you think this one is an animal?",15,"BI2A00012","definitely NO",-2.5,23889,"p13",5.504109589,"14:28","set4","female",NA,"hard for me","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"488","study","do you think this one is an animal?",16,"BI2A00021","definitely NO",-2.5,10658,"p13",5.504109589,"14:28","set4","female",NA,"dirt","SPOKE SPANISH WITH DAD",5y 0m 182d 18H 0M 0S
+"489","practice",NA,1,"apple_1","skip",NA,16860,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"490","practice",NA,2,"apple_2","skip",NA,3402,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"491","practice",NA,3,"apple_3","skip",NA,2253,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"492","practice",NA,4,"apple_1","skip",NA,10515,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"493","study","do you think this one is an animal?",5,"BI2A00003","definitely YES",2.5,29663,"p14",7.021917808,"14:43","set1","male",NA,"raccoon","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"494","study","do you think this one is an animal?",6,"BI2A00014","probably NO",-1.5,32607,"p14",7.021917808,"14:43","set1","male",NA,"hard","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"495","study","do you think this one is an animal?",7,"BI2A00043","definitely NO",-2.5,17671,"p14",7.021917808,"14:43","set1","male",NA,"water","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"496","study","do you think this one is an animal?",8,"BI2A00020","probably YES",1.5,43087,"p14",7.021917808,"14:43","set1","male",NA,"dog hair","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"497","study","do you think this one is an animal?",9,"BI2A00028","definitely NO",-2.5,31884,"p14",7.021917808,"14:43","set1","male",NA,"saw already, a trunk","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"498","study","do you think this one is an animal?",10,"BI2A00033","maybe NO",-0.5,30022,"p14",7.021917808,"14:43","set1","male",NA,"feathers","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"499","study","do you think this one is an animal?",11,"BI2A00031","definitely NO",-2.5,33192,"p14",7.021917808,"14:43","set1","male",NA,"rug - I have one that's exactly like that","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"500","study","do you think this one is an animal?",12,"BI2A00047","maybe NO",-0.5,26689,"p14",7.021917808,"14:43","set1","male",NA,"not animal","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"501","study","do you think this one is an animal?",13,"BI2A00030","maybe NO",-0.5,27103,"p14",7.021917808,"14:43","set1","male",NA,"blanket for sleeping, might be wrong","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"502","study","do you think this one is an animal?",14,"BI2A00008","definitely YES",2.5,19490,"p14",7.021917808,"14:43","set1","male",NA,"monkey","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"503","study","do you think this one is an animal?",15,"BI2A00046","definitely NO",-2.5,15285,"p14",7.021917808,"14:43","set1","male",NA,"basket","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"504","study","do you think this one is an animal?",16,"BI2A00015","probably YES",1.5,20356,"p14",7.021917808,"14:43","set1","male",NA,"fur cat","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"505","bonus","Do you think this one can sense things nearby?",17,"BI2A00043","NO",NA,12054,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"506","bonus","Do you think this one can feel pain?",18,"BI2A00031","skip",NA,11573,"p14",7.021917808,"14:43","set1","male",NA,"not sure","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"507","bonus","Do you think this one can think?",19,"BI2A00046","NO",NA,8024,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"508","bonus","Do you think this can feel happy?",20,"BI2A00020","NO",NA,9140,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"509","bonus","Do you think this one can feel hungry?",21,"BI2A00008","YES",NA,14944,"p14",7.021917808,"14:43","set1","male",NA,"cuz I said monkey","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"510","bonus","Do you think this one has feelings?",22,"BI2A00003","NO",NA,14849,"p14",7.021917808,"14:43","set1","male",NA,"","SPOKE SPANISH WITH DAD",7y 0m 6d 6H 0M 0S
+"511","practice",NA,1,"apple_1","skip",NA,11144,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"512","practice",NA,2,"apple_2","skip",NA,3383,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"513","practice",NA,3,"apple_3","skip",NA,3255,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"514","practice",NA,4,"apple_1","skip",NA,11251,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"515","study","do you think this one is an animal?",5,"BI2A00028","maybe YES",0.5,12521,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"516","study","do you think this one is an animal?",6,"BI2A00043","maybe NO",-0.5,10852,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"517","study","do you think this one is an animal?",7,"BI2A00030","maybe NO",-0.5,9439,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"518","study","do you think this one is an animal?",8,"BI2A00046","maybe NO",-0.5,6304,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"519","study","do you think this one is an animal?",9,"BI2A00015","maybe YES",0.5,8341,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"520","study","do you think this one is an animal?",10,"BI2A00014","maybe YES",0.5,6268,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"521","study","do you think this one is an animal?",11,"BI2A00020","definitely YES",2.5,6236,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"522","study","do you think this one is an animal?",12,"BI2A00003","definitely YES",2.5,9303,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"523","study","do you think this one is an animal?",13,"BI2A00033","maybe NO",-0.5,6378,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"524","study","do you think this one is an animal?",14,"BI2A00008","definitely YES",2.5,5984,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"525","study","do you think this one is an animal?",15,"BI2A00031","definitely NO",-2.5,7611,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"526","study","do you think this one is an animal?",16,"BI2A00047","maybe YES",0.5,7237,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"527","bonus","Do you think this one can feel hungry?",17,"BI2A00003","maybe YES",0.5,28062,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"528","bonus","Do you think this one can think?",18,"BI2A00020","maybe NO",-0.5,14461,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"529","bonus","Do you think this one can feel hurt?",19,"BI2A00043","YES",NA,6771,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"530","bonus","Do you think this one has feelings?",20,"BI2A00008","NO",NA,10545,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"531","bonus","Do you think this can feel happy?",21,"BI2A00031","YES",NA,8488,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"532","bonus","Do you think this one can sense things nearby?",22,"BI2A00046","YES",NA,7436,"p15",5.460273973,"14:56","set1","male",NA,NA,NA,5y 0m 166d 18H 0M 0S
+"533","practice",NA,1,"apple_1","skip",NA,11916,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"534","practice",NA,2,"apple_2","skip",NA,4764,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"535","practice",NA,3,"apple_3","skip",NA,2726,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"536","practice",NA,4,"apple_1","skip",NA,10668,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"537","study","do you think this one is an animal?",5,"BI2A00018","definitely YES",2.5,17341,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"538","study","do you think this one is an animal?",6,"BI2A00027","maybe NO",-0.5,30409,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"539","study","do you think this one is an animal?",7,"BI2A00019","definitely YES",2.5,7971,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"540","study","do you think this one is an animal?",8,"BI2A00005","definitely YES",2.5,4285,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"541","study","do you think this one is an animal?",9,"BI2A00007","definitely YES",2.5,3910,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"542","study","do you think this one is an animal?",10,"BI2A00017","definitely YES",2.5,4918,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"543","study","do you think this one is an animal?",11,"BI2A00035","maybe NO",-0.5,12925,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"544","study","do you think this one is an animal?",12,"BI2A00026","definitely YES",2.5,15340,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"545","study","do you think this one is an animal?",13,"BI2A00025","maybe YES",0.5,7642,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"546","study","do you think this one is an animal?",14,"BI2A00036","definitely YES",2.5,46843,"p17",6.619178082,"15:19","set3","female",NA,"rug",NA,6y 0m 224d 12H 0M 0S
+"547","study","do you think this one is an animal?",15,"BI2A00010","probably YES",1.5,24334,"p17",6.619178082,"15:19","set3","female",NA,"dog",NA,6y 0m 224d 12H 0M 0S
+"548","study","do you think this one is an animal?",16,"BI2A00044","definitely NO",-2.5,14928,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"549","bonus","Do you think this one can think?",17,"BI2A00035","NO",NA,19480,"p17",6.619178082,"15:19","set3","female",NA,"paper",NA,6y 0m 224d 12H 0M 0S
+"550","bonus","Do you think this one can sense things nearby?",18,"BI2A00044","NO",NA,6469,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"551","bonus","Do you think this one has feelings?",19,"BI2A00007","YES",NA,5930,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"552","bonus","Do you think this one can feel pain?",20,"BI2A00005","YES",NA,6860,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"553","bonus","Do you think this can feel happy?",21,"BI2A00018","maybe YES",0.5,17635,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"554","bonus","Do you think this one can feel hungry?",22,"BI2A00017","YES",NA,6808,"p17",6.619178082,"15:19","set3","female",NA,"",NA,6y 0m 224d 12H 0M 0S
+"555","practice",NA,1,"apple_1","skip",NA,13842,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"556","practice",NA,2,"apple_2","skip",NA,3388,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"557","practice",NA,3,"apple_3","skip",NA,3393,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"558","practice",NA,4,"apple_1","skip",NA,11068,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"559","study","do you think this one is an animal?",5,"BI2A00042","maybe NO",-0.5,17162,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"560","study","do you think this one is an animal?",6,"BI2A00029","maybe NO",-0.5,12335,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"561","study","do you think this one is an animal?",7,"BI2A00022","maybe YES",0.5,12792,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"562","study","do you think this one is an animal?",8,"BI2A00024","probably YES",1.5,16133,"p18",5.342465753,"15:44","set4","male","often","porcupine",NA,5y 0m 123d 18H 0M 0S
+"563","study","do you think this one is an animal?",9,"BI2A00012","maybe YES",0.5,11909,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"564","study","do you think this one is an animal?",10,"BI2A00039","probably NO",-1.5,9413,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"565","study","do you think this one is an animal?",11,"BI2A00021","probably NO",-1.5,5207,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"566","study","do you think this one is an animal?",12,"BI2A00011","probably YES",1.5,6849,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"567","study","do you think this one is an animal?",13,"BI2A00048","probably NO",-1.5,9590,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"568","study","do you think this one is an animal?",14,"BI2A00023","maybe YES",0.5,8137,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"569","study","do you think this one is an animal?",15,"BI2A00001","probably YES",1.5,7563,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"570","study","do you think this one is an animal?",16,"BI2A00009","probably YES",1.5,7710,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"571","bonus","Do you think this one can feel pain?",17,"BI2A00048","maybe NO",-0.5,13445,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"572","bonus","Do you think this one has feelings?",18,"BI2A00023","probably NO",-1.5,9357,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"573","bonus","Do you think this can feel happy?",19,"BI2A00011","probably YES",1.5,9590,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"574","bonus","Do you think this one can sense things nearby?",20,"BI2A00022","probably NO",-1.5,10901,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"575","bonus","Do you think this one can feel hungry?",21,"BI2A00039","probably NO",-1.5,8564,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
+"576","bonus","Do you think this one can think?",22,"BI2A00009","probably NO",-1.5,5471,"p18",5.342465753,"15:44","set4","male","often","",NA,5y 0m 123d 18H 0M 0S
