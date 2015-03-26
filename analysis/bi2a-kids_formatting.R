@@ -40,7 +40,9 @@ d_tidy = d_raw %>%
          dateOfTest = parse_date_time(dateOfTest, orders = "mdy"),
          ageCalc = as.period(dateOfTest - dateOfBirth, unit = "years"),
          condition = factor(condition),
-         gender = factor(gender),
+         gender = ifelse(tolower(substr(gender, 1, 1)) == "m", "male",
+                         ifelse(tolower(substr(gender, 1, 1)) == "f", "female", 
+                                NA)),
          englishExposure = factor(englishExposure)) %>%
   select(-dateOfBirth, -dateOfTest)
 
@@ -50,3 +52,4 @@ d_tidy = d_raw %>%
 write.csv(d_tidy, "./pilot&run1_data_anonymized.csv")
 
 d = read.csv("./pilot&run1_data_anonymized.csv")[-1] # get rid of column of obs numbers
+
