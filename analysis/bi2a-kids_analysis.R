@@ -11,7 +11,7 @@ library(lubridate)
 rm(list=ls())
 
 # read in data: character means
-d = read.csv("./pilot&day1_data_anonymized.csv", fileEncoding = "latin1")[-1] # get rid of column of obs numbers
+d = read.csv("./pilot&run1_data_anonymized.csv", fileEncoding = "latin1")[-1] # get rid of column of obs numbers
 
 # prepare data for analysis
 d1 = d %>%
