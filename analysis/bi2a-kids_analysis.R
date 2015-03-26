@@ -45,14 +45,36 @@ d1b = d1 %>%
   filter(grepl("drop", sessionComments, ignore.case = T) == FALSE)
 
 # optional: limit age range
-# # ... 4-year-olds:
-# d1b = d1b %>%
-#   filter(age <= 5) %>%
-#   filter(age >= 4)
-# ... 4- to 6-year-olds:
-d1b = d1b %>%
-  filter(age <= 7) %>%
+d1c = d1b %>%
+  filter(age <= 6) %>%
   filter(age >= 4)
+
+# optional: limit to test run 1 only (no pilot)
+d1d = d1b %>%
+  filter(substr(subid, 1, 1) == "k")
+
+# --- SUMMARIES ---------------------------------------------------------------
+
+# all ages
+d1b %>% distinct(subid) %>% summarise(n = length(subid))
+d1b %>% group_by(gender) %>% distinct(subid) %>% summarise(n = length(subid))
+d1b %>% mutate(ageGroup = factor(round(age, 0))) %>% 
+  group_by(ageGroup) %>% distinct(subid) %>% summarise(n = length(subid))
+d1b %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
+
+# 4-5 year olds, pilot and run1
+d1c %>% distinct(subid) %>% summarise(n = length(subid))
+d1c %>% group_by(gender) %>% distinct(subid) %>% summarise(n = length(subid))
+d1c %>% mutate(ageGroup = factor(round(age, 0))) %>% 
+  group_by(ageGroup) %>% distinct(subid) %>% summarise(n = length(subid))
+d1c %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
+
+# run1 only
+d1d %>% distinct(subid) %>% summarise(n = length(subid))
+d1d %>% group_by(gender) %>% distinct(subid) %>% summarise(n = length(subid))
+d1d %>% mutate(ageGroup = factor(round(age, 0))) %>% 
+  group_by(ageGroup) %>% distinct(subid) %>% summarise(n = length(subid))
+d1d %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
 
 # --- MEAN RATINGS ------------------------------------------------------------
 
