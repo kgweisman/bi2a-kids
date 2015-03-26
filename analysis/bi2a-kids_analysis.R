@@ -426,10 +426,6 @@ ratings2_pain_binary
 
 # -------------> OTHER: SCALED RESPONSES -------------------------------------
 
-# NOTE: not currently populated
-# NOTE: need to add geom_text
-# NOTE: need to adjust coord_cartesian?
-
 # plot, sorted by US adult ANIMAL ratings
 # ... feelings
 ratings2_feelings_scaled = d3_other_scaled %>%
@@ -562,4 +558,3 @@ ratings2_pain_scaled = d3_other_scaled %>%
   labs(title = "Mean scaled responses to PAIN, by picture: Children\n",
        x = "Pictures (sorted by mean US adult response to animal)")
 ratings2_pain_scaled
-
