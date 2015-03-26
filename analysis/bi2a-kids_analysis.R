@@ -558,3 +558,372 @@ ratings2_pain_scaled = d3_other_scaled %>%
   labs(title = "Mean scaled responses to PAIN, by picture: Children\n",
        x = "Pictures (sorted by mean US adult response to animal)")
 ratings2_pain_scaled
+
+# -------------> OTHER: RESPONSES ONLY TO SET ---------------------------------
+
+# ----------------------> binary ----------------------------------------------
+
+# plot, sorted by US adult ANIMAL ratings
+# ... feelings
+ratings2_feelings_binary = d3_other_binary %>%
+  filter(question == "feelings") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to FEELINGS, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_feelings_binary
+
+# ... happy
+ratings2_happy_binary = d3_other_binary %>%
+  filter(question == "happy") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to HAPPY, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_happy_binary
+
+# ... think
+ratings2_think_binary = d3_other_binary %>%
+  filter(question == "think") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to THINK, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_think_binary
+
+# ... sense
+ratings2_sense_binary = d3_other_binary %>%
+  filter(question == "sense") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to SENSE, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_sense_binary
+
+# ... hungry
+ratings2_hungry_binary = d3_other_binary %>%
+  filter(question == "hungry") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to HUNGRY, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_hungry_binary
+
+# ... pain
+ratings2_pain_binary = d3_other_binary %>%
+  filter(question == "pain") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to PAIN, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2_pain_binary
+
+# ----------------------> scaled ----------------------------------------------
+# plot, sorted by US adult ANIMAL ratings
+# ... feelings
+ratings2b_feelings_scaled = d3_other_scaled %>%
+  filter(question == "feelings") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to FEELINGS, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_feelings_scaled
+
+# ... happy
+ratings2b_happy_scaled = d3_other_scaled %>%
+  filter(question == "happy") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to HAPPY, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_happy_scaled
+
+# ... think
+ratings2b_think_scaled = d3_other_scaled %>%
+  filter(question == "think") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to THINK, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_think_scaled
+
+# ... sense
+ratings2b_sense_scaled = d3_other_scaled %>%
+  filter(question == "sense") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to SENSE, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_sense_scaled
+
+# ... hungry
+ratings2b_hungry_scaled = d3_other_scaled %>%
+  filter(question == "hungry") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to HUNGRY, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_hungry_scaled
+
+# ... pain
+ratings2b_pain_scaled = d3_other_scaled %>%
+  filter(question == "pain") %>%
+  filter(childMean != "NaN") %>%
+  filter(swatch == "BI2A00046" |
+           swatch == "BI2A00044" |
+           swatch == "BI2A00037" |
+           swatch == "BI2A00021" |
+           swatch == "BI2A00028" |
+           swatch == "BI2A00026" |
+           swatch == "BI2A00006" |
+           swatch == "BI2A00011") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
+                    ymax = childMean + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  coord_cartesian(ylim = c(-2, 2)) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean scaled responses to PAIN, by picture: Children\n",
+       x = "Pictures (sorted by mean US adult response to animal)")
+ratings2b_pain_scaled
+
+
