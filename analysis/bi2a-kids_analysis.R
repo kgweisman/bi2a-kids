@@ -81,7 +81,7 @@ d1d %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
 # -------------> ANIMAL: BINARY RESPONSES -------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_animal_binary = d1b %>%
+swatch_summary_animal_binary = d1c %>%
   filter(phase == "study") %>%
   group_by(swatch) %>%
   summarise(childMean = mean(responseBin, na.rm = T),
@@ -91,7 +91,7 @@ swatch_summary_animal_binary = d1b %>%
 # add mean child ratings, us and indian adult ratings to trial-by-trial data
 d2_animal_binary = swatch_summary_animal_binary %>%
   select(swatch, childMean) %>%
-  full_join(d1b) %>%
+  full_join(d1c) %>%
   full_join(rat_us) %>%
   full_join(rat_india) %>%
   rename(usMean = animal_rating_us,
@@ -112,7 +112,7 @@ d3_animal_binary = swatch_summary_animal_binary %>%
 # -------------> ANIMAL: SCALED RESPONSES -------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_animal_scaled = d1b %>%
+swatch_summary_animal_scaled = d1c %>%
   filter(phase == "study") %>%
   filter(responseCoded != "NA") %>%
   group_by(swatch) %>%
@@ -123,7 +123,7 @@ swatch_summary_animal_scaled = d1b %>%
 # add mean child ratings, us and indian adult ratings to trial-by-trial data
 d2_animal_scaled = swatch_summary_animal_scaled %>%
   select(swatch, childMean) %>%
-  left_join(d1b) %>%
+  left_join(d1c) %>%
   left_join(rat_us) %>%
   left_join(rat_india) %>%
   rename(usMean = animal_rating_us,
@@ -144,7 +144,7 @@ d3_animal_scaled = swatch_summary_animal_scaled %>%
 # -------------> OTHER: BINARY RESPONSES --------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_other_binary = d1b %>%
+swatch_summary_other_binary = d1c %>%
   filter(phase == "bonus") %>%
   group_by(question, swatch) %>%
   summarise(childMean = mean(responseBin, na.rm = T),
@@ -155,7 +155,7 @@ swatch_summary_other_binary = d1b %>%
 d2_other_binary = swatch_summary_other_binary %>%
   select(question, swatch, childMean) %>%
   spread(question, childMean) %>%
-  full_join(d1b) %>%
+  full_join(d1c) %>%
   full_join(rat_us) %>%
   full_join(rat_india) %>%
   rename(usMean = animal_rating_us,
@@ -176,7 +176,7 @@ d3_other_binary = swatch_summary_other_binary %>%
 # -------------> OTHER: SCALED RESPONSES --------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_other_scaled = d1b %>%
+swatch_summary_other_scaled = d1c %>%
   filter(phase == "bonus") %>%
   filter(responseCoded != "NA") %>%
   group_by(question, swatch) %>%
@@ -188,7 +188,7 @@ swatch_summary_other_scaled = d1b %>%
 d2_other_scaled = swatch_summary_other_scaled %>%
   select(question, swatch, childMean) %>%
   spread(question, childMean) %>%
-  left_join(d1b) %>%
+  left_join(d1c) %>%
   left_join(rat_us) %>%
   left_join(rat_india) %>%
   rename(usMean = animal_rating_us,
