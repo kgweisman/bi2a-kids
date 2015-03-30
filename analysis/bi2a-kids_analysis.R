@@ -72,6 +72,15 @@ d1c %>% mutate(ageGroup = factor(round(age, 0))) %>%
   group_by(ageGroup) %>% distinct(subid) %>% summarise(n = length(subid))
 d1c %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
 
+d1c %>% 
+  mutate(ageGroup = ifelse(age < 4.5, "young 4",
+                           ifelse(age < 5, "old 4",
+                                  ifelse(age < 5.5, "young 5",
+                                         ifelse(age < 6, "old 5",
+                                                ifelse(age< 6.5, "young 6", NA)))))) %>%
+  mutate(ageGroup = factor(ageGroup)) %>%
+  group_by(ageGroup) %>% distinct(subid) %>% summarise(n = length(subid))
+
 # run1 only
 d1d %>% distinct(subid) %>% summarise(n = length(subid))
 d1d %>% group_by(gender) %>% distinct(subid) %>% summarise(n = length(subid))
