@@ -451,7 +451,7 @@ ratings2_feelings_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
@@ -473,7 +473,7 @@ ratings2_happy_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
@@ -495,7 +495,7 @@ ratings2_think_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
@@ -517,7 +517,7 @@ ratings2_sense_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
@@ -539,7 +539,7 @@ ratings2_hungry_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
@@ -561,7 +561,7 @@ ratings2_pain_scaled = d3_other_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
-  coord_cartesian(ylim = c(-3, 3)) +
+  coord_cartesian(ylim = c(-2, 2)) +
   theme_bw() +
   theme(text = element_text(size = 20),
         legend.position = "none",
