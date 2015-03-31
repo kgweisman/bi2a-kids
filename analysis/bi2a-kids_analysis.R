@@ -163,27 +163,14 @@ swatch_summary_other_binary = d1c %>%
             childSd = sd(responseBin, na.rm = T),
             childN = length(responseBin))
 
-# add mean child ratings, us and indian adult ratings to trial-by-trial data
-d2_other_binary = swatch_summary_other_binary %>%
-  select(question, swatch, childMean) %>%
-  spread(question, childMean) %>%
-  full_join(d1c) %>%
-  full_join(rat_us) %>%
-  full_join(rat_india) %>%
-  rename(usMean = animal_rating_us,
-         indiaMean = animal_rating_ind) %>%
-  mutate(swatch = factor(swatch)) %>%
-  filter(phase != "practice")
-
-test_other_binary = d2_other_binary %>% filter(phase == "study")
-bonus_other_binary = d2_other_binary %>% filter(phase == "bonus")
-
 # add mean us and indian adult animal ratings to swatch_summary_other_binary
 d3_other_binary = swatch_summary_other_binary %>%
-  full_join(rat_us) %>%
-  full_join(rat_india) %>%
-  rename(usMean = animal_rating_us,
-         indiaMean = animal_rating_ind)
+  left_join(rat_us) %>%
+  left_join(rat_india) %>%
+  rename(childMeanBonus = childMean,
+         usMean = animal_rating_us,
+         indiaMean = animal_rating_ind) %>%
+  left_join(select(swatch_summary_animal_binary, swatch, childMean))
 
 # -------------> OTHER: SCALED RESPONSES --------------------------------------
 
@@ -195,17 +182,6 @@ swatch_summary_other_scaled = d1c %>%
   summarise(childMean = mean(responseCoded, na.rm = T),
             childSd = sd(responseCoded, na.rm = T),
             childN = length(responseCoded))
-
-# add mean child ratings, us and indian adult ratings to trial-by-trial data
-d2_other_scaled = swatch_summary_other_scaled %>%
-  select(question, swatch, childMean) %>%
-  spread(question, childMean) %>%
-  full_join(select(swatch_summary_animal_scaled, swatch, childMean)) %>%
-  left_join(rat_us) %>%
-  left_join(rat_india) %>%
-  rename(usMean = animal_rating_us,
-         indiaMean = animal_rating_ind) %>%
-  mutate(swatch = factor(swatch))
 
 # add mean us and indian adult animal ratings to swatch_summary_other_scaled
 d3_other_scaled = swatch_summary_other_scaled %>%
