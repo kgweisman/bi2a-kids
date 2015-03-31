@@ -1,4 +1,4 @@
 auth.json
-*individual_sessions/
+*individual_sessions*/
 .RData
 .Rhistory
