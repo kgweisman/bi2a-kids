@@ -271,7 +271,7 @@ ratings2_animal_scaled = d3_animal_scaled %>%
   geom_text(vjust = -1,
             colour = "red") +
   theme_bw() +
-  coord_cartesian(ylim = c(-3,3)) +
+  coord_cartesian(ylim = c(-2,2)) +
   theme(text = element_text(size = 20),
         legend.position = "none",
         axis.text.x = element_text(angle = 60,
@@ -290,7 +290,7 @@ ratings2_animal_scaled = d3_animal_scaled %>%
   geom_text(vjust = -1,
             colour = "red") +
   theme_bw() +
-  coord_cartesian(ylim = c(-3,3)) +
+  coord_cartesian(ylim = c(-2,2)) +
   theme(text = element_text(size = 20),
         legend.position = "none",
         axis.text.x = element_text(angle = 60,
