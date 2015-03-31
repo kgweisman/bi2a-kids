@@ -274,7 +274,7 @@ ratings2_animal_scaled = d3_animal_scaled %>%
        x = "Pictures (sorted by mean US adult response)")
 ratings2_animal_scaled
 
-# -------------> OTHER: BINARY RESPONSES -------------------------------------
+# -------------> OTHER: BINARY RESPONSES: sorted by US animal ratings ---------
 
 # NOTE: might need to add other questions as they get more populated
 
@@ -282,12 +282,12 @@ ratings2_animal_scaled
 # ... feelings
 ratings2_feelings_binary = d3_other_binary %>%
   filter(question == "feelings") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -304,12 +304,12 @@ ratings2_feelings_binary
 # ... happy
 ratings2_happy_binary = d3_other_binary %>%
   filter(question == "happy") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -326,12 +326,12 @@ ratings2_happy_binary
 # ... think
 ratings2_think_binary = d3_other_binary %>%
   filter(question == "think") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -348,12 +348,12 @@ ratings2_think_binary
 # ... sense
 ratings2_sense_binary = d3_other_binary %>%
   filter(question == "sense") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -370,12 +370,12 @@ ratings2_sense_binary
 # ... hungry
 ratings2_hungry_binary = d3_other_binary %>%
   filter(question == "hungry") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -392,12 +392,12 @@ ratings2_hungry_binary
 # ... pain
 ratings2_pain_binary = d3_other_binary %>%
   filter(question == "pain") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -411,18 +411,157 @@ ratings2_pain_binary = d3_other_binary %>%
        x = "Pictures (sorted by mean US adult response to animal)")
 ratings2_pain_binary
 
+# -------------> OTHER: BINARY RESPONSES: sorted by child animal ratings ------
+
+# NOTE: might need to add other questions as they get more populated
+
+# plot, sorted by child ANIMAL ratings
+# ... feelings
+ratings2_feelings_binary = d3_other_binary %>%
+  filter(question == "feelings") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to FEELINGS, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_feelings_binary
+
+# ... happy
+ratings2_happy_binary = d3_other_binary %>%
+  filter(question == "happy") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to HAPPY, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_happy_binary
+
+# ... think
+ratings2_think_binary = d3_other_binary %>%
+  filter(question == "think") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to THINK, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_think_binary
+
+# ... sense
+ratings2_sense_binary = d3_other_binary %>%
+  filter(question == "sense") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to SENSE, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_sense_binary
+
+# ... hungry
+ratings2_hungry_binary = d3_other_binary %>%
+  filter(question == "hungry") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to HUNGRY, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_hungry_binary
+
+# ... pain
+ratings2_pain_binary = d3_other_binary %>%
+  filter(question == "pain") %>%
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
+  #   facet_wrap(~ question) +
+  geom_bar(stat = "identity", position = "identity", width = 0.5) +
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
+                    width = 0.1)) +
+  geom_text(vjust = -1,
+            colour = "red") +
+  theme_bw() +
+  coord_cartesian(ylim = c(0,1.1)) +
+  theme(text = element_text(size = 20),
+        legend.position = "none",
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Mean binary responses to PAIN, by picture: Children\n",
+       x = "Pictures (sorted by mean child response to animal)")
+ratings2_pain_binary
+
+
+
 # -------------> OTHER: SCALED RESPONSES: sorted by US animal ratings ---------
 
 # plot, sorted by US adult ANIMAL ratings
 # ... feelings
 ratings2_feelings_scaled = d3_other_scaled %>%
   filter(question == "feelings") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -439,12 +578,12 @@ ratings2_feelings_scaled
 # ... happy
 ratings2_happy_scaled = d3_other_scaled %>%
   filter(question == "happy") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -461,12 +600,12 @@ ratings2_happy_scaled
 # ... think
 ratings2_think_scaled = d3_other_scaled %>%
   filter(question == "think") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -483,12 +622,12 @@ ratings2_think_scaled
 # ... sense
 ratings2_sense_scaled = d3_other_scaled %>%
   filter(question == "sense") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -505,12 +644,12 @@ ratings2_sense_scaled
 # ... hungry
 ratings2_hungry_scaled = d3_other_scaled %>%
   filter(question == "hungry") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -527,12 +666,12 @@ ratings2_hungry_scaled
 # ... pain
 ratings2_pain_scaled = d3_other_scaled %>%
   filter(question == "pain") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, usMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -548,16 +687,16 @@ ratings2_pain_scaled
 
 # -------------> OTHER: SCALED RESPONSES: sorted by kid animal ratings --------
 
-# plot, sorted by US adult ANIMAL ratings
+# plot, sorted by child ANIMAL ratings
 # ... feelings
 ratings2_feelings_scaled = d3_other_scaled %>%
   filter(question == "feelings") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -568,18 +707,18 @@ ratings2_feelings_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to FEELINGS, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_feelings_scaled
 
 # ... happy
 ratings2_happy_scaled = d3_other_scaled %>%
   filter(question == "happy") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -590,18 +729,18 @@ ratings2_happy_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to HAPPY, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_happy_scaled
 
 # ... think
 ratings2_think_scaled = d3_other_scaled %>%
   filter(question == "think") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -612,18 +751,18 @@ ratings2_think_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to THINK, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_think_scaled
 
 # ... sense
 ratings2_sense_scaled = d3_other_scaled %>%
   filter(question == "sense") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -634,18 +773,18 @@ ratings2_sense_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to SENSE, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_sense_scaled
 
 # ... hungry
 ratings2_hungry_scaled = d3_other_scaled %>%
   filter(question == "hungry") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -656,18 +795,18 @@ ratings2_hungry_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to HUNGRY, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_hungry_scaled
 
 # ... pain
 ratings2_pain_scaled = d3_other_scaled %>%
   filter(question == "pain") %>%
-  filter(childMean != "NaN") %>%
-  ggplot(aes(x = reorder(swatch, usMean), y = childMean, label = childN)) +
+  filter(childMeanBonus != "NaN") %>%
+  ggplot(aes(x = reorder(swatch, childMean), y = childMeanBonus, label = childN)) +
   #   facet_wrap(~ question) +
   geom_bar(stat = "identity", position = "identity", width = 0.5) +
-  geom_errorbar(aes(ymin = childMean - 2*childSd/sqrt(childN),
-                    ymax = childMean + 2*childSd/sqrt(childN),
+  geom_errorbar(aes(ymin = childMeanBonus - 2*childSd/sqrt(childN),
+                    ymax = childMeanBonus + 2*childSd/sqrt(childN),
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
@@ -678,10 +817,8 @@ ratings2_pain_scaled = d3_other_scaled %>%
         axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
   labs(title = "Mean scaled responses to PAIN, by picture: Children\n",
-       x = "Pictures (sorted by mean US adult response to animal)")
+       x = "Pictures (sorted by mean child response to animal)")
 ratings2_pain_scaled
-
-
 
 # -------------> OTHER: RESPONSES ONLY TO SET ---------------------------------
 
