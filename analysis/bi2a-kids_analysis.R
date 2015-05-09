@@ -93,7 +93,7 @@ d1d %>% group_by(condition) %>% distinct(subid) %>% summarise(n = length(subid))
 # -------------> ANIMAL: BINARY RESPONSES -------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_animal_binary = d1c %>%
+swatch_summary_animal_binary = d1d %>%
   filter(phase == "study") %>%
   group_by(swatch) %>%
   summarise(childMean = mean(responseBin, na.rm = T),
@@ -103,7 +103,7 @@ swatch_summary_animal_binary = d1c %>%
 # add mean child ratings, us and indian adult ratings to trial-by-trial data
 d2_animal_binary = swatch_summary_animal_binary %>%
   select(swatch, childMean) %>%
-  full_join(d1c) %>%
+  full_join(d1d) %>%
   full_join(rat_us) %>%
   full_join(rat_india) %>%
   rename(usMean = animal_rating_us,
@@ -124,7 +124,7 @@ d3_animal_binary = swatch_summary_animal_binary %>%
 # -------------> ANIMAL: SCALED RESPONSES -------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_animal_scaled = d1c %>%
+swatch_summary_animal_scaled = d1d %>%
   filter(phase == "study") %>%
   filter(responseCoded != "NA") %>%
   group_by(swatch) %>%
@@ -135,7 +135,7 @@ swatch_summary_animal_scaled = d1c %>%
 # add mean child ratings, us and indian adult ratings to trial-by-trial data
 d2_animal_scaled = swatch_summary_animal_scaled %>%
   select(swatch, childMean) %>%
-  left_join(d1c) %>%
+  left_join(d1d) %>%
   left_join(rat_us) %>%
   left_join(rat_india) %>%
   rename(usMean = animal_rating_us,
@@ -156,7 +156,7 @@ d3_animal_scaled = swatch_summary_animal_scaled %>%
 # -------------> OTHER: BINARY RESPONSES --------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_other_binary = d1c %>%
+swatch_summary_other_binary = d1d %>%
   filter(phase == "bonus") %>%
   group_by(question, swatch) %>%
   summarise(childMean = mean(responseBin, na.rm = T),
@@ -175,7 +175,7 @@ d3_other_binary = swatch_summary_other_binary %>%
 # -------------> OTHER: SCALED RESPONSES --------------------------------------
 
 # summarize by swatch and condition
-swatch_summary_other_scaled = d1c %>%
+swatch_summary_other_scaled = d1d %>%
   filter(phase == "bonus") %>%
   filter(responseCoded != "NA") %>%
   group_by(question, swatch) %>%
