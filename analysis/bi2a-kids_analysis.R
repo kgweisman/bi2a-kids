@@ -194,6 +194,32 @@ d3_other_scaled = swatch_summary_other_scaled %>%
 
 # --- PLOTS -------------------------------------------------------------------
 
+# -------------> HISTOGRAMS ---------------------------------------------------
+
+test.only = d1d %>% 
+  filter(phase == "study") %>%
+  mutate(response = factor(response, 
+                           levels = c("skip", "definitely NO", "NO", "maybe NO",
+                                         "maybe YES", "YES", "definitely YES")),
+  responseKind = factor(ifelse(response == "skip", "skip",
+                               ifelse(response == "NO", "binary",
+                                      ifelse(response == "YES", "binary",
+                                             "scaled")))),
+  ageRounded = ifelse(age == "NA", "unknown", round(age, 1)),
+  experimenter = factor(ifelse(grepl("J", subid) == TRUE, "Jorge", "Kara")))
+
+histograms_by_subid = qplot(x = response, 
+                            facets = ~ experimenter + subid + ageRounded, 
+                            data = test.only, 
+                            fill= responseKind) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  labs(title = "Histogram of responses across test trials",
+       x = "Response")
+histograms_by_subid
+
 # -------------> ANIMAL: BINARY RESPONSES -------------------------------------
 
 # plot, sorted by child ratings
@@ -547,8 +573,6 @@ ratings2_pain_binary = d3_other_binary %>%
   labs(title = "Mean binary responses to PAIN, by picture: Children\n",
        x = "Pictures (sorted by mean child response to animal)")
 ratings2_pain_binary
-
-
 
 # -------------> OTHER: SCALED RESPONSES: sorted by US animal ratings ---------
 
