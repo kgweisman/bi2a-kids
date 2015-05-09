@@ -54,7 +54,7 @@ d1c = d1b %>%
 
 # optional: limit to test run 1 only (no pilot)
 d1d = d1b %>%
-  filter(substr(subid, 1, 1) == "k")
+  filter(substr(subid, 1, 1) != "p")
 
 # --- SUMMARIES ---------------------------------------------------------------
 
