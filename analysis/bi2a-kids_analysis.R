@@ -271,6 +271,7 @@ ratings2_animal_scaled = d3_animal_scaled %>%
                     width = 0.1)) +
   geom_text(vjust = -1,
             colour = "red") +
+  geom_smooth(method = loess, aes(group = 1)) +
   theme_bw() +
   coord_cartesian(ylim = c(-2,2)) +
   theme(text = element_text(size = 20),
